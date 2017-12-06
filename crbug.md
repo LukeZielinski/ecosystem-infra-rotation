@@ -8,7 +8,7 @@ None
 None
 
 # Ecosystem Infra: P2 issues >60 days
-* [Document ready state and image onload may precede actual image load](https://crbug.com/708757)
+None
 
 # Blink Infra: unconfirmed and untriaged
 * [Enable LayoutNGPaintFragments on build bot linux_layout_tests_layout_ng](https://crbug.com/792329)
@@ -50,7 +50,6 @@ None
 * [CQ doesn't run webkit_layout_tests on v8 rolls](https://crbug.com/720623)
 * [[rebaseline-cl] Layout tests are not necessarily run on tryserver.blink try bots for all changes](https://crbug.com/713265)
 * [Simplify path resolution in webkitpy.](https://crbug.com/710535)
-* [Document ready state and image onload may precede actual image load](https://crbug.com/708757)
 * [Switch all LayoutTests to rely on image baselines first](https://crbug.com/703899)
 * [content_shell seems times out for automated wpt inputs](https://crbug.com/688468)
 * [Replace wdiff and PrettyPatch.rb with simple Python diff utilities.](https://crbug.com/672651)
