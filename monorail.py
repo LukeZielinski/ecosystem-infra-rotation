@@ -9,10 +9,14 @@ DISCOVERY_URL = (
     '{api}/{apiVersion}/rest')
 
 QUERIES = [
-    ('unconfirmed and untriaged', { 'q': 'component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged ' }),
-    ('P0 issues >2 days', { 'q': 'component:Blink>Infra>Ecosystem Pri=0 modified<today-2' }),
-    ('P1 issues >30 days', { 'q': 'component:Blink>Infra>Ecosystem Pri=1 modified<today-30' }),
-    ('P2 issues >60 days', { 'q': 'component:Blink>Infra>Ecosystem Pri=2 modified<today-60' }),
+    ('Ecosystem Infra: unconfirmed and untriaged', { 'q': 'component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged ' }),
+    ('Ecosystem Infra: P0 issues >2 days', { 'q': 'component:Blink>Infra>Ecosystem Pri=0 modified<today-2' }),
+    ('Ecosystem Infra: P1 issues >30 days', { 'q': 'component:Blink>Infra>Ecosystem Pri=1 modified<today-30' }),
+    ('Ecosystem Infra: P2 issues >60 days', { 'q': 'component:Blink>Infra>Ecosystem Pri=2 modified<today-60' }),
+    ('Blink Infra: unconfirmed and untriaged', { 'q': 'component:Blink>Infra status:Unconfirmed,Untriaged ' }),
+    ('Blink Infra: P0 issues >2 days', { 'q': 'component:Blink>Infra Pri=0 modified<today-2' }),
+    ('Blink Infra: P1 issues >30 days', { 'q': 'component:Blink>Infra Pri=1 modified<today-30' }),
+    ('Blink Infra: P2 issues >60 days', { 'q': 'component:Blink>Infra Pri=2 modified<today-60' }),
 ]
 
 if os.path.exists(CREDENTIALS_FILE):
