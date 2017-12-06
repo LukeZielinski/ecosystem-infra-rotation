@@ -26,12 +26,12 @@ monorail = googleapiclient.discovery.build(
     credentials=credentials)
 
 for label, args in QUERIES:
-    print '#', label
+    print('#', label)
     response = monorail.issues().list(projectId='chromium', can='open', **args).execute()
     if response['totalResults'] == 0:
-        print 'None'
-        print
+        print('None')
+        print()
         continue
     for issue in response['items']:
-        print '* [{}](https://crbug.com/{})'.format(issue['title'], issue['id'])
-    print
+        print('* [{}](https://crbug.com/{})'.format(issue['title'], issue['id']))
+    print()
