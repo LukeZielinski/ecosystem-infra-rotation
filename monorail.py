@@ -1,4 +1,8 @@
-import apiclient
+from oauth2client.client import GoogleCredentials
+import googleapiclient.discovery
+import os.path
+
+CREDENTIALS_FILE = 'monorail-key.json'
 
 DISCOVERY_URL = (
     'https://monorail-prod.appspot.com/_ah/api/discovery/v1/apis/'
@@ -11,9 +15,15 @@ QUERIES = [
     ('P2 issues >60 days', { 'q': 'component:Blink>Infra>Ecosystem Pri=2 modified<today-60' }),
 ]
 
-monorail = apiclient.discovery.build(
+if os.path.exists(CREDENTIALS_FILE):
+    credentials = GoogleCredentials.from_stream(CREDENTIALS_FILE)
+else:
+    credentials = GoogleCredentials.get_application_default()
+
+monorail = googleapiclient.discovery.build(
     'monorail', 'v1',
-    discoveryServiceUrl=DISCOVERY_URL)
+    discoveryServiceUrl=DISCOVERY_URL,
+    credentials=credentials)
 
 for label, args in QUERIES:
     print '#', label
