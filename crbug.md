@@ -35,6 +35,8 @@ None
 None
 
 # Blink Infra: P1 issues >30 days
+* [Null-dereference READ in content::BlinkTestController::OnDumpFrameLayoutResponse](https://crbug.com/765581)
+* [Null-dereference READ in base::Value::SetKey](https://crbug.com/764879)
 * [win_chromium_rel_ng timed out after 4 hours (in no-op "compile (without patch)" step)](https://crbug.com/745033)
 * [CQ for Blink CLs takes 1-2 hours, it should take ~30m (need to run layout tests faster).](https://crbug.com/485392)
 
