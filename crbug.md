@@ -12,7 +12,6 @@ None
 
 # Blink Infra: unconfirmed and untriaged
 * [[WPT Import] Importer sometimes says CQ fails when it does not](https://crbug.com/792652)
-* [Enable LayoutNGPaintFragments on build bot linux_layout_tests_layout_ng](https://crbug.com/792329)
 * [Some webkit_unit_tests always get retried in runs under Linux](https://crbug.com/791734)
 * [TestRunnerBindings::Install called twice without window object being cleared](https://crbug.com/772386)
 * [Enable threaded compositing by default in Web Platform Tests](https://crbug.com/770028)
