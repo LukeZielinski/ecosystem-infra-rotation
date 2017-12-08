@@ -28,6 +28,7 @@ None
 * [third_party/WebKit/PRESUBMIT.py failed when "ASSERT" replaced to "DCHECK".](https://crbug.com/711329)
 * [Layout tests in media/track fail when --num-retries=0](https://crbug.com/655831)
 * [Some crashes if there is no resources pack in content shell](https://crbug.com/625008)
+* [Should win_chromium_x64_rel_ng  also build Blink unit tests?](https://crbug.com/560435)
 * [run-webkit-tests image_diff fails if profiling=1 and component=shared_library](https://crbug.com/278596)
 
 # Blink Infra: P0 issues >2 days
