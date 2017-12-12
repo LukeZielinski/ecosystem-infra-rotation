@@ -11,7 +11,6 @@ None
 None
 
 # Blink Infra: unconfirmed and untriaged
-* [webkit_layout_tests is timing out on Mac (flaky)](https://crbug.com/794277)
 * [Some webkit_unit_tests always get retried in runs under Linux](https://crbug.com/791734)
 * [TestRunnerBindings::Install called twice without window object being cleared](https://crbug.com/772386)
 * [Enable threaded compositing by default in Web Platform Tests](https://crbug.com/770028)
