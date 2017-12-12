@@ -41,6 +41,7 @@ None
 * [CQ for Blink CLs takes 1-2 hours, it should take ~30m (need to run layout tests faster).](https://crbug.com/485392)
 
 # Blink Infra: P2 issues >60 days
+* [Run the layout tests on 10.13](https://crbug.com/774301)
 * [webkit-patch rebaseline-cl removes lines with [ Failure Pass ] or [ Skip ]](https://crbug.com/765273)
 * [Make Blink Python style consistent with Chromium](https://crbug.com/764368)
 * [run-webkit-tests may exit with zero (interrupted: false) when not all tests are run](https://crbug.com/763163)
