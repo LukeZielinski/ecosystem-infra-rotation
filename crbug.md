@@ -13,13 +13,9 @@ None
 # Blink Infra: unconfirmed and untriaged
 * [Some webkit_unit_tests always get retried in runs under Linux](https://crbug.com/791734)
 * [TestRunnerBindings::Install called twice without window object being cleared](https://crbug.com/772386)
-* [Enable threaded compositing by default in Web Platform Tests](https://crbug.com/770028)
 * [rebaseline-cl: When rebaselining a test with text diff but no image diff, only txt baseline should be downloaded](https://crbug.com/767264)
-* [platform/win expectation files overrides primary expectation files on Linux](https://crbug.com/752721)
-* [Three http tests failed on "WebKit Win10" after passing CQ](https://crbug.com/750734)
 * [win_chromium_rel_ng timed out after 4 hours (in no-op "compile (without patch)" step)](https://crbug.com/745033)
 * [Failure in some swarming tasks on WebKit Linux Trusty (failed system deps check)](https://crbug.com/741693)
-* [webkit python unittest "test_timeout_exceeded_exit_code" flaked](https://crbug.com/739721)
 * [Running WPT tests pops up dialogs asking for python network connection permissions](https://crbug.com/734422)
 * [Failing layout test results (layout-test-results/results.html) opens in Safari instead of Chrome](https://crbug.com/734419)
 * [Add website to message with process id when running with --renderer-startup-dialog](https://crbug.com/730065)
@@ -27,7 +23,6 @@ None
 * [Layout tests in media/track fail when --num-retries=0](https://crbug.com/655831)
 * [Some crashes if there is no resources pack in content shell](https://crbug.com/625008)
 * [Should win_chromium_x64_rel_ng  also build Blink unit tests?](https://crbug.com/560435)
-* [run-webkit-tests image_diff fails if profiling=1 and component=shared_library](https://crbug.com/278596)
 
 # Blink Infra: P0 issues >2 days
 None
