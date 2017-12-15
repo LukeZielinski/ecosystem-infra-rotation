@@ -22,7 +22,6 @@ None
 * [Add website to message with process id when running with --renderer-startup-dialog](https://crbug.com/730065)
 * [common layout test failure debugging workflow should be faster and easier](https://crbug.com/719995)
 * [Layout tests in media/track fail when --num-retries=0](https://crbug.com/655831)
-* [Some crashes if there is no resources pack in content shell](https://crbug.com/625008)
 * [Should win_chromium_x64_rel_ng  also build Blink unit tests?](https://crbug.com/560435)
 * [run-webkit-tests image_diff fails if profiling=1 and component=shared_library](https://crbug.com/278596)
 
@@ -55,7 +54,6 @@ None
 * [Layout test results archive from ASAN build run did not contain all files from the results.](https://crbug.com/671804)
 * [Layout test results.html shows pass/pass results under "failures"](https://crbug.com/664274)
 * [css3/filters/effect-contrast-hw.html fails when run alone](https://crbug.com/653709)
-* [Some crashes if there is no resources pack in content shell](https://crbug.com/625008)
 * [Move run-webkit-tests to src-side runtests.py, or stop using runtests.py.](https://crbug.com/605496)
 * [Write a script to list stale flaky or skipped tests](https://crbug.com/597797)
 * [Scroll offsets don't get reset between tests](https://crbug.com/594672)
