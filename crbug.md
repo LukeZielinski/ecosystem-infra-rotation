@@ -11,7 +11,6 @@ None
 None
 
 # Blink Infra: unconfirmed and untriaged
-* [platform/win expectation files overrides primary expectation files on Linux](https://crbug.com/752721)
 * [win_chromium_rel_ng timed out after 4 hours (in no-op "compile (without patch)" step)](https://crbug.com/745033)
 * [Failing layout test results (layout-test-results/results.html) opens in Safari instead of Chrome](https://crbug.com/734419)
 
