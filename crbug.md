@@ -22,6 +22,7 @@ None
 
 # Blink Infra: P2 issues >60 days
 * [Run the layout tests on 10.13](https://crbug.com/774301)
+* [git cl upload times out](https://crbug.com/769932)
 * [webkit-patch rebaseline-cl removes lines with [ Failure Pass ] or [ Skip ]](https://crbug.com/765273)
 * [Make Blink Python style consistent with Chromium](https://crbug.com/764368)
 * [run-webkit-tests may exit with zero (interrupted: false) when not all tests are run](https://crbug.com/763163)
