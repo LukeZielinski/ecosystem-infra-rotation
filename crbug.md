@@ -14,16 +14,12 @@ None
 * [platform/win expectation files overrides primary expectation files on Linux](https://crbug.com/752721)
 * [win_chromium_rel_ng timed out after 4 hours (in no-op "compile (without patch)" step)](https://crbug.com/745033)
 * [Failing layout test results (layout-test-results/results.html) opens in Safari instead of Chrome](https://crbug.com/734419)
-* [common layout test failure debugging workflow should be faster and easier](https://crbug.com/719995)
-* [Layout tests in media/track fail when --num-retries=0](https://crbug.com/655831)
 
 # Blink Infra: P0 issues >2 days
 None
 
 # Blink Infra: P1 issues >30 days
-* [Null-dereference READ in base::Value::SetKey](https://crbug.com/764879)
 * [Convert all Blink tests to run on swarming](https://crbug.com/524758)
-* [CQ for Blink CLs takes 1-2 hours, it should take ~30m (need to run layout tests faster).](https://crbug.com/485392)
 
 # Blink Infra: P2 issues >60 days
 * [Run the layout tests on 10.13](https://crbug.com/774301)
@@ -41,7 +37,6 @@ None
 * [Switch all LayoutTests to rely on image baselines first](https://crbug.com/703899)
 * [content_shell seems times out for automated wpt inputs](https://crbug.com/688468)
 * [Replace wdiff and PrettyPatch.rb with simple Python diff utilities.](https://crbug.com/672651)
-* [Layout test results archive from ASAN build run did not contain all files from the results.](https://crbug.com/671804)
 * [Layout test results.html shows pass/pass results under "failures"](https://crbug.com/664274)
 * [css3/filters/effect-contrast-hw.html fails when run alone](https://crbug.com/653709)
 * [Move run-webkit-tests to src-side runtests.py, or stop using runtests.py.](https://crbug.com/605496)
@@ -56,7 +51,6 @@ None
 * [Remove http/tests/w3c/, import corresponding web-platform-tests](https://crbug.com/498037)
 * [Make Blink layout tests work with --site-per-process](https://crbug.com/477150)
 * [Change test_runner defaults for mixed content.](https://crbug.com/462158)
-* [Split content shell's DRT functionality into subclasses of Shell*Client.](https://crbug.com/420994)
 * [Missing crash stack on reftest? Breakpad doesn’t support linux_use_debug_fission (-gsplit-dwarf).](https://crbug.com/369608)
 * [Layout test runner should not return num_regressions in the return code](https://crbug.com/357866)
 * [Move to wptserve instead of Apache.](https://crbug.com/347864)
