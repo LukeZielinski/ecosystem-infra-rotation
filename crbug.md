@@ -11,26 +11,19 @@ None
 None
 
 # Blink Infra: unconfirmed and untriaged
-* [Some webkit_unit_tests always get retried in runs under Linux](https://crbug.com/791734)
-* [TestRunnerBindings::Install called twice without window object being cleared](https://crbug.com/772386)
-* [rebaseline-cl: When rebaselining a test with text diff but no image diff, only txt baseline should be downloaded](https://crbug.com/767264)
 * [platform/win expectation files overrides primary expectation files on Linux](https://crbug.com/752721)
 * [win_chromium_rel_ng timed out after 4 hours (in no-op "compile (without patch)" step)](https://crbug.com/745033)
 * [Failure in some swarming tasks on WebKit Linux Trusty (failed system deps check)](https://crbug.com/741693)
-* [webkit python unittest "test_timeout_exceeded_exit_code" flaked](https://crbug.com/739721)
 * [Failing layout test results (layout-test-results/results.html) opens in Safari instead of Chrome](https://crbug.com/734419)
 * [Add website to message with process id when running with --renderer-startup-dialog](https://crbug.com/730065)
 * [common layout test failure debugging workflow should be faster and easier](https://crbug.com/719995)
 * [Layout tests in media/track fail when --num-retries=0](https://crbug.com/655831)
-* [Should win_chromium_x64_rel_ng  also build Blink unit tests?](https://crbug.com/560435)
-* [run-webkit-tests image_diff fails if profiling=1 and component=shared_library](https://crbug.com/278596)
 
 # Blink Infra: P0 issues >2 days
 None
 
 # Blink Infra: P1 issues >30 days
 * [Null-dereference READ in base::Value::SetKey](https://crbug.com/764879)
-* [win_chromium_rel_ng timed out after 4 hours (in no-op "compile (without patch)" step)](https://crbug.com/745033)
 * [Convert all Blink tests to run on swarming](https://crbug.com/524758)
 * [CQ for Blink CLs takes 1-2 hours, it should take ~30m (need to run layout tests faster).](https://crbug.com/485392)
 
@@ -39,7 +32,6 @@ None
 * [webkit-patch rebaseline-cl removes lines with [ Failure Pass ] or [ Skip ]](https://crbug.com/765273)
 * [Make Blink Python style consistent with Chromium](https://crbug.com/764368)
 * [run-webkit-tests may exit with zero (interrupted: false) when not all tests are run](https://crbug.com/763163)
-* [platform/win expectation files overrides primary expectation files on Linux](https://crbug.com/752721)
 * [Change "chromium_revision" in layout test json results to commit position number only](https://crbug.com/750347)
 * [Webkit Linux Trusty MSAN stacktraces do not have symbols](https://crbug.com/740277)
 * [Add builders to run layout tests on new versions of Android.](https://crbug.com/733860)
