@@ -13,9 +13,7 @@ None
 # Blink Infra: unconfirmed and untriaged
 * [platform/win expectation files overrides primary expectation files on Linux](https://crbug.com/752721)
 * [win_chromium_rel_ng timed out after 4 hours (in no-op "compile (without patch)" step)](https://crbug.com/745033)
-* [Failure in some swarming tasks on WebKit Linux Trusty (failed system deps check)](https://crbug.com/741693)
 * [Failing layout test results (layout-test-results/results.html) opens in Safari instead of Chrome](https://crbug.com/734419)
-* [Add website to message with process id when running with --renderer-startup-dialog](https://crbug.com/730065)
 * [common layout test failure debugging workflow should be faster and easier](https://crbug.com/719995)
 * [Layout tests in media/track fail when --num-retries=0](https://crbug.com/655831)
 
