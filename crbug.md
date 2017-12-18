@@ -11,9 +11,7 @@ None
 None
 
 # Blink Infra: unconfirmed and untriaged
-* [run-webkit-tests "Checking system dependencies" step takes a long time locally](https://crbug.com/795662)
 * [win_chromium_rel_ng timed out after 4 hours (in no-op "compile (without patch)" step)](https://crbug.com/745033)
-* [Failing layout test results (layout-test-results/results.html) opens in Safari instead of Chrome](https://crbug.com/734419)
 
 # Blink Infra: P0 issues >2 days
 None
@@ -22,12 +20,6 @@ None
 * [Convert all Blink tests to run on swarming](https://crbug.com/524758)
 
 # Blink Infra: P2 issues >60 days
-* [Run the layout tests on 10.13](https://crbug.com/774301)
-* [git cl upload times out](https://crbug.com/769932)
-* [webkit-patch rebaseline-cl removes lines with [ Failure Pass ] or [ Skip ]](https://crbug.com/765273)
-* [run-webkit-tests may exit with zero (interrupted: false) when not all tests are run](https://crbug.com/763163)
-* [Change "chromium_revision" in layout test json results to commit position number only](https://crbug.com/750347)
-* [Webkit Linux Trusty MSAN stacktraces do not have symbols](https://crbug.com/740277)
 * [Add builders to run layout tests on new versions of Android.](https://crbug.com/733860)
 * [Make a tool for automatically removing TestExpectations lines for unexpected passes](https://crbug.com/730704)
 * [Several builders failing to upload layout test results JSON](https://crbug.com/730048)
