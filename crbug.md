@@ -30,7 +30,6 @@ None
 * [content_shell seems times out for automated wpt inputs](https://crbug.com/688468)
 * [Replace wdiff and PrettyPatch.rb with simple Python diff utilities.](https://crbug.com/672651)
 * [Layout test results.html shows pass/pass results under "failures"](https://crbug.com/664274)
-* [css3/filters/effect-contrast-hw.html fails when run alone](https://crbug.com/653709)
 * [Move run-webkit-tests to src-side runtests.py, or stop using runtests.py.](https://crbug.com/605496)
 * [Write a script to list stale flaky or skipped tests](https://crbug.com/597797)
 * [Virtual layout tests should inherit SLOW expectations from their non-virtual counterparts.](https://crbug.com/594216)
