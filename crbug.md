@@ -8,7 +8,7 @@ None
 None
 
 # Ecosystem Infra: P2 issues >60 days
-None
+* [LayoutTests/virtual/stable/webexposed/global-interface-listing-expected.txt is gone; adding it back not working as expected](https://crbug.com/727287)
 
 # Blink Infra: unconfirmed and untriaged
 * [win_chromium_rel_ng timed out after 4 hours (in no-op "compile (without patch)" step)](https://crbug.com/745033)
@@ -23,6 +23,7 @@ None
 * [Add builders to run layout tests on new versions of Android.](https://crbug.com/733860)
 * [Make a tool for automatically removing TestExpectations lines for unexpected passes](https://crbug.com/730704)
 * [Several builders failing to upload layout test results JSON](https://crbug.com/730048)
+* [LayoutTests/virtual/stable/webexposed/global-interface-listing-expected.txt is gone; adding it back not working as expected](https://crbug.com/727287)
 * [CQ doesn't run webkit_layout_tests on v8 rolls](https://crbug.com/720623)
 * [[rebaseline-cl] Layout tests are not necessarily run on tryserver.blink try bots for all changes](https://crbug.com/713265)
 * [Simplify path resolution in webkitpy.](https://crbug.com/710535)
