@@ -17,7 +17,7 @@ None
 None
 
 # Blink Infra: P1 issues >30 days
-* [Convert all Blink tests to run on swarming](https://crbug.com/524758)
+None
 
 # Blink Infra: P2 issues >60 days
 * [Add builders to run layout tests on new versions of Android.](https://crbug.com/733860)
