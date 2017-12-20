@@ -11,6 +11,7 @@ None
 None
 
 # Blink Infra: unconfirmed and untriaged
+* [virtual/reporting suite not running on Windows bots](https://crbug.com/796424)
 * [win_chromium_rel_ng timed out after 4 hours (in no-op "compile (without patch)" step)](https://crbug.com/745033)
 
 # Blink Infra: P0 issues >2 days
