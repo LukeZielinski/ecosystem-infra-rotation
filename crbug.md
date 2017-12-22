@@ -11,7 +11,7 @@ None
 None
 
 # Blink Infra: unconfirmed and untriaged
-* [win_chromium_rel_ng timed out after 4 hours (in no-op "compile (without patch)" step)](https://crbug.com/745033)
+None
 
 # Blink Infra: P0 issues >2 days
 None
