@@ -20,7 +20,6 @@ None
 None
 
 # Blink Infra: P2 issues >60 days
-* [Build system should warn when there are duplicated-basename files](https://crbug.com/764662)
 * [Add builders to run layout tests on new versions of Android.](https://crbug.com/733860)
 * [Make a tool for automatically removing TestExpectations lines for unexpected passes](https://crbug.com/730704)
 * [Several builders failing to upload layout test results JSON](https://crbug.com/730048)
