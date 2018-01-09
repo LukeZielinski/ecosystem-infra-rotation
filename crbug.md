@@ -5,19 +5,19 @@ None
 None
 
 # Ecosystem Infra: P1 issues >30 days
-None
+* [W3C tests that require loading web fonts (@font-face rule) need to delay test completion](https://crbug.com/507054)
 
 # Ecosystem Infra: P2 issues >60 days
 None
 
 # Blink Infra: unconfirmed and untriaged
-None
+* [Exception steps failed archive_webkit_tests_results](https://crbug.com/799048)
 
 # Blink Infra: P0 issues >2 days
 None
 
 # Blink Infra: P1 issues >30 days
-None
+* [W3C tests that require loading web fonts (@font-face rule) need to delay test completion](https://crbug.com/507054)
 
 # Blink Infra: P2 issues >60 days
 * [Switch all LayoutTests to rely on image baselines first](https://crbug.com/703899)
