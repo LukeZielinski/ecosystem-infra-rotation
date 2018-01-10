@@ -22,6 +22,4 @@ None
 # Blink Infra: P2 issues >60 days
 * [Layout test results.html shows pass/pass results under "failures"](https://crbug.com/664274)
 * [Add more color profile test resources](https://crbug.com/537077)
-* [Feature Request: ASAN/MSAN/etc. CQ bots run webkit_tests.](https://crbug.com/526188)
-* [Archiving layout test results is slow.](https://crbug.com/310382)
 
