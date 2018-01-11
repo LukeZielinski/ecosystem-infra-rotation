@@ -11,6 +11,7 @@ None
 None
 
 # Blink Infra: unconfirmed and untriaged
+* [webkit-patch optimize-baselines should consider skipped platforms matching anything](https://crbug.com/801287)
 * [HTTP layout tests with headers not strictly conforming with spec are broken in Apache 2.4](https://crbug.com/801270)
 * [Exception steps failed archive_webkit_tests_results](https://crbug.com/799048)
 
