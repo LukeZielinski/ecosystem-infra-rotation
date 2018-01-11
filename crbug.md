@@ -1,5 +1,5 @@
 # Ecosystem Infra: unconfirmed and untriaged
-* [Audit Blink WPT Bot's privileges on Gerrit](https://crbug.com/801003)
+None
 
 # Ecosystem Infra: P0 issues >2 days
 None
@@ -11,7 +11,6 @@ None
 None
 
 # Blink Infra: unconfirmed and untriaged
-* [Audit Blink WPT Bot's privileges on Gerrit](https://crbug.com/801003)
 * [Exception steps failed archive_webkit_tests_results](https://crbug.com/799048)
 
 # Blink Infra: P0 issues >2 days
