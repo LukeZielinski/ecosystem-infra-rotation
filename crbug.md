@@ -18,6 +18,7 @@ None
 None
 
 # Blink Infra: P1 issues >30 days
+* [Some webkit_unit_tests always get retried in runs under Linux](https://crbug.com/791734)
 * [W3C tests that require loading web fonts (@font-face rule) need to delay test completion](https://crbug.com/507054)
 
 # Blink Infra: P2 issues >60 days
