@@ -11,6 +11,7 @@ None
 * [Imported tests that fail when run with --enable-wptserve](https://crbug.com/508734)
 
 # Blink Infra: unconfirmed and untriaged
+* [Timeout in web_icon_sizes_fuzzer](https://crbug.com/802134)
 * [webkit-patch optimize-baselines should consider skipped platforms matching anything](https://crbug.com/801287)
 * [Exception steps failed archive_webkit_tests_results](https://crbug.com/799048)
 
