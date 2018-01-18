@@ -11,6 +11,7 @@ None
 * [Imported tests that fail when run with --enable-wptserve](https://crbug.com/508734)
 
 # Blink Infra: unconfirmed and untriaged
+* [LayoutTests should not navigate after navigating to about:blank](https://crbug.com/802982)
 * [Timeout in origin_trial_token_fuzzer](https://crbug.com/802377)
 * [Timeout in web_icon_sizes_fuzzer](https://crbug.com/802134)
 * [webkit-patch optimize-baselines should consider skipped platforms matching anything](https://crbug.com/801287)
