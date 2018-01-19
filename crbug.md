@@ -22,6 +22,5 @@ None
 None
 
 # Blink Infra: P2 issues >60 days
-* [Layout test results.html shows pass/pass results under "failures"](https://crbug.com/664274)
-* [Add more color profile test resources](https://crbug.com/537077)
+None
 
