@@ -13,14 +13,13 @@ None
 # Blink Infra: unconfirmed and untriaged
 * [Timeout in origin_trial_token_fuzzer](https://crbug.com/802377)
 * [Timeout in web_icon_sizes_fuzzer](https://crbug.com/802134)
-* [webkit-patch optimize-baselines should consider skipped platforms matching anything](https://crbug.com/801287)
 * [Exception steps failed archive_webkit_tests_results](https://crbug.com/799048)
 
 # Blink Infra: P0 issues >2 days
 None
 
 # Blink Infra: P1 issues >30 days
-* [Some webkit_unit_tests always get retried in runs under Linux](https://crbug.com/791734)
+None
 
 # Blink Infra: P2 issues >60 days
 * [Layout test results.html shows pass/pass results under "failures"](https://crbug.com/664274)
