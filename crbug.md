@@ -5,13 +5,12 @@ None
 None
 
 # Ecosystem Infra: P1 issues >30 days
-* [W3C tests that require loading web fonts (@font-face rule) need to delay test completion](https://crbug.com/507054)
+None
 
 # Ecosystem Infra: P2 issues >60 days
-* [Imported tests that fail when run with --enable-wptserve](https://crbug.com/508734)
+None
 
 # Blink Infra: unconfirmed and untriaged
-* [LayoutTests should not navigate after navigating to about:blank](https://crbug.com/802982)
 * [Timeout in origin_trial_token_fuzzer](https://crbug.com/802377)
 * [Timeout in web_icon_sizes_fuzzer](https://crbug.com/802134)
 * [webkit-patch optimize-baselines should consider skipped platforms matching anything](https://crbug.com/801287)
@@ -22,10 +21,8 @@ None
 
 # Blink Infra: P1 issues >30 days
 * [Some webkit_unit_tests always get retried in runs under Linux](https://crbug.com/791734)
-* [W3C tests that require loading web fonts (@font-face rule) need to delay test completion](https://crbug.com/507054)
 
 # Blink Infra: P2 issues >60 days
 * [Layout test results.html shows pass/pass results under "failures"](https://crbug.com/664274)
 * [Add more color profile test resources](https://crbug.com/537077)
-* [Imported tests that fail when run with --enable-wptserve](https://crbug.com/508734)
 
