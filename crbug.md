@@ -8,7 +8,7 @@ None
 None
 
 # Ecosystem Infra: P2 issues >60 days
-None
+* [WPT-prescribed cross-origins are not cross-site](https://crbug.com/783416)
 
 # Blink Infra: unconfirmed and untriaged
 * [Timeout in origin_trial_token_fuzzer](https://crbug.com/802377)
@@ -21,5 +21,5 @@ None
 None
 
 # Blink Infra: P2 issues >60 days
-None
+* [WPT-prescribed cross-origins are not cross-site](https://crbug.com/783416)
 
