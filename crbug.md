@@ -12,6 +12,7 @@ None
 * [Single-test timeouts in wpt requires whole file's expectation to be timeout.](https://crbug.com/777526)
 
 # Blink Infra: unconfirmed and untriaged
+* [R and B channels are swapped in pixel layout tests output on Android.](https://crbug.com/804492)
 * [Timeout in origin_trial_token_fuzzer](https://crbug.com/802377)
 * [Timeout in web_icon_sizes_fuzzer](https://crbug.com/802134)
 
