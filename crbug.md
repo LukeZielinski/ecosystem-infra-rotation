@@ -23,4 +23,5 @@ None
 
 # Blink Infra: P2 issues >60 days
 * [Single-test timeouts in wpt requires whole file's expectation to be timeout.](https://crbug.com/777526)
+* [Make layout tests work on Android L+](https://crbug.com/567947)
 
