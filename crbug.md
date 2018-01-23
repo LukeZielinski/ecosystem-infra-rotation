@@ -8,7 +8,6 @@ None
 None
 
 # Ecosystem Infra: P2 issues >60 days
-* [WPT-prescribed cross-origins are not cross-site](https://crbug.com/783416)
 * [Single-test timeouts in wpt requires whole file's expectation to be timeout.](https://crbug.com/777526)
 
 # Blink Infra: unconfirmed and untriaged
@@ -23,6 +22,5 @@ None
 None
 
 # Blink Infra: P2 issues >60 days
-* [WPT-prescribed cross-origins are not cross-site](https://crbug.com/783416)
 * [Single-test timeouts in wpt requires whole file's expectation to be timeout.](https://crbug.com/777526)
 
