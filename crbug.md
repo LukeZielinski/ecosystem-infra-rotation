@@ -11,8 +11,7 @@ None
 None
 
 # Blink Infra: unconfirmed and untriaged
-* [Timeout in origin_trial_token_fuzzer](https://crbug.com/802377)
-* [Timeout in web_icon_sizes_fuzzer](https://crbug.com/802134)
+None
 
 # Blink Infra: P0 issues >2 days
 None
