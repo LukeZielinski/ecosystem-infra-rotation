@@ -11,8 +11,7 @@ None
 None
 
 # Blink Infra: unconfirmed and untriaged
-* [Try bot group optional_builders1 is full of linux_chromium_ozone_compile_only_ng jobs](https://crbug.com/805771)
-* [ParameterizedWebFrameTest.CallingPostPausableTaskWhilePaused flaked on Android](https://crbug.com/804892)
+None
 
 # Blink Infra: P0 issues >2 days
 None
