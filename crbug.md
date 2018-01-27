@@ -8,7 +8,7 @@ None
 None
 
 # Ecosystem Infra: P2 issues >60 days
-None
+* [Update testharness.js, testdriver.js, idlharness.js and webidl2.js separately (not in auto-imports)](https://crbug.com/685854)
 
 # Blink Infra: unconfirmed and untriaged
 None
@@ -20,5 +20,5 @@ None
 None
 
 # Blink Infra: P2 issues >60 days
-None
+* [Update testharness.js, testdriver.js, idlharness.js and webidl2.js separately (not in auto-imports)](https://crbug.com/685854)
 
