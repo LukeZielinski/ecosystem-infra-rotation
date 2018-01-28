@@ -20,5 +20,6 @@ None
 None
 
 # Blink Infra: P2 issues >60 days
+* [Implement try-flag, a tool for helping to run layout test try jobs with flags](https://crbug.com/755401)
 * [Update testharness.js, testdriver.js, idlharness.js and webidl2.js separately (not in auto-imports)](https://crbug.com/685854)
 
