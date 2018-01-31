@@ -12,7 +12,7 @@ None
 * [Update testharness.js, testdriver.js, idlharness.js and webidl2.js separately (not in auto-imports)](https://crbug.com/685854)
 
 # Blink Infra: unconfirmed and untriaged
-* [The Blink Intent Tracker should be owned by a central team](https://crbug.com/806680)
+None
 
 # Blink Infra: P0 issues >2 days
 None
