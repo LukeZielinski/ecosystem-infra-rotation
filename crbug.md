@@ -12,7 +12,7 @@ None
 * [Update testharness.js, testdriver.js, idlharness.js and webidl2.js separately (not in auto-imports)](https://crbug.com/685854)
 
 # Blink Infra: unconfirmed and untriaged
-None
+* [[WPT] jsharness tests being mistakenly interpreted as reftests](https://crbug.com/807627)
 
 # Blink Infra: P0 issues >2 days
 None
