@@ -12,6 +12,7 @@ None
 * [Update testharness.js, testdriver.js, idlharness.js and webidl2.js separately (not in auto-imports)](https://crbug.com/685854)
 
 # Blink Infra: unconfirmed and untriaged
+* [[rebaseline] update_expectations_files is very slow](https://crbug.com/808572)
 * [tryjob failure email stdio links are broken](https://crbug.com/808398)
 
 # Blink Infra: P0 issues >2 days
