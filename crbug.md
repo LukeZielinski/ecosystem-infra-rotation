@@ -10,7 +10,6 @@ None
 # Ecosystem Infra: P2 issues >60 days
 * [[WPT import] When removing expectation lines for deleted tests, virtual tests aren't removed](https://crbug.com/730047)
 * [Document ready state and image onload may precede actual image load](https://crbug.com/708757)
-* [Update testharness.js, testdriver.js, idlharness.js and webidl2.js separately (not in auto-imports)](https://crbug.com/685854)
 
 # Blink Infra: unconfirmed and untriaged
 * [webkit_unit_tests on tryserver.chromium.android android_blink_rel builder very flaky](https://crbug.com/808715)
@@ -26,6 +25,5 @@ None
 # Blink Infra: P2 issues >60 days
 * [[WPT import] When removing expectation lines for deleted tests, virtual tests aren't removed](https://crbug.com/730047)
 * [Document ready state and image onload may precede actual image load](https://crbug.com/708757)
-* [Update testharness.js, testdriver.js, idlharness.js and webidl2.js separately (not in auto-imports)](https://crbug.com/685854)
 * [Split content shell's DRT functionality into subclasses of Shell*Client.](https://crbug.com/420994)
 
