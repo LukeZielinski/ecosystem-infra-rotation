@@ -11,6 +11,7 @@ None
 None
 
 # Blink Infra: unconfirmed and untriaged
+* [content_shell startup timeout is handled as test timeout](https://crbug.com/812349)
 * [webkit_unit_tests on tryserver.chromium.android android_blink_rel builder very flaky](https://crbug.com/808715)
 
 # Blink Infra: P0 issues >2 days
