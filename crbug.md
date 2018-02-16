@@ -22,5 +22,6 @@ None
 
 # Blink Infra: P2 issues >60 days
 * [Webkit Linux Trusty MSAN stacktraces do not have symbols](https://crbug.com/740277)
+* [Write a script to list stale flaky or skipped tests](https://crbug.com/597797)
 * [Scroll offsets don't get reset between tests](https://crbug.com/594672)
 
