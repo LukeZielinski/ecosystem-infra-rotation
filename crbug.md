@@ -21,5 +21,5 @@ None
 None
 
 # Blink Infra: P2 issues >60 days
-None
+* [Scroll offsets don't get reset between tests](https://crbug.com/594672)
 
