@@ -18,7 +18,7 @@ None
 None
 
 # Blink Infra: P1 issues >30 days
-* [W3C tests that require loading web fonts (@font-face rule) need to delay test completion](https://crbug.com/507054)
+None
 
 # Blink Infra: P2 issues >60 days
 * [Webkit Linux Trusty MSAN stacktraces do not have symbols](https://crbug.com/740277)
