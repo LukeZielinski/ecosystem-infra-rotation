@@ -8,7 +8,7 @@ None
 * [W3C tests that require loading web fonts (@font-face rule) need to delay test completion](https://crbug.com/507054)
 
 # Ecosystem Infra: P2 issues >60 days
-None
+* [Imported tests that fail when run with wptserve due to "data: URL" usage](https://crbug.com/508730)
 
 # Blink Infra: unconfirmed and untriaged
 * [content_shell startup timeout is handled as test timeout](https://crbug.com/812349)
@@ -24,4 +24,5 @@ None
 * [Webkit Linux Trusty MSAN stacktraces do not have symbols](https://crbug.com/740277)
 * [Write a script to list stale flaky or skipped tests](https://crbug.com/597797)
 * [Scroll offsets don't get reset between tests](https://crbug.com/594672)
+* [Imported tests that fail when run with wptserve due to "data: URL" usage](https://crbug.com/508730)
 
