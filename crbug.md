@@ -21,7 +21,5 @@ None
 None
 
 # Blink Infra: P2 issues >60 days
-* [Webkit Linux Trusty MSAN stacktraces do not have symbols](https://crbug.com/740277)
-* [Scroll offsets don't get reset between tests](https://crbug.com/594672)
 * [Imported tests that fail when run with wptserve due to "data: URL" usage](https://crbug.com/508730)
 
