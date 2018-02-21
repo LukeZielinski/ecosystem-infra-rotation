@@ -8,7 +8,7 @@ None
 None
 
 # Ecosystem Infra: P2 issues >60 days
-* [Imported tests that fail when run with wptserve due to "data: URL" usage](https://crbug.com/508730)
+None
 
 # Blink Infra: unconfirmed and untriaged
 * [content_shell startup timeout is handled as test timeout](https://crbug.com/812349)
@@ -21,5 +21,5 @@ None
 None
 
 # Blink Infra: P2 issues >60 days
-* [Imported tests that fail when run with wptserve due to "data: URL" usage](https://crbug.com/508730)
+None
 
