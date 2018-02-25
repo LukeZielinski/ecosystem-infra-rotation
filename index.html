@@ -1,7 +1,7 @@
 <title>Ecosystem Infra rotation</title>
 <p>See <a href="https://bit.ly/ecosystem-infra-rotation">bit.ly/ecosystem-infra-rotation</a>
 for full rotation instructions.
-<p>web-platform-tests issue triage:
+<p>web-platform-tests triage:
 <ul></ul>
 <script>
 const ul = document.querySelector('ul');
@@ -12,7 +12,8 @@ function daysAgo(days) {
 }
 
 const queries = [
-  { desc: 'untriaged', q: 'is:issue is:open label:infra -label:priority:backlog -label:priority:roadmap -label:priority:urgent' },
+  { desc: 'pending export PRs', q: 'is:pr is:open label:chromium-export -label:"do not merge yet"' },
+  { desc: 'untriaged issues', q: 'is:issue is:open label:infra -label:priority:backlog -label:priority:roadmap -label:priority:urgent' },
   { desc: 'urgent issues >2 days', q: `is:issue is:open label:infra label:priority:urgent updated:<${daysAgo(2)} sort:updated-asc` },
   { desc: 'roadmap issues >60 days', q: `is:issue is:open label:infra label:priority:roadmap updated:<${daysAgo(60)} sort:updated-asc` },
 ];
