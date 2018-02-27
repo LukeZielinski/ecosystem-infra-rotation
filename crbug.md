@@ -1,17 +1,16 @@
 # Ecosystem Infra: unconfirmed and untriaged
-* [Edited and aborted "Port another set of sticky tests to JS rather than reftests" export still re-exported later](https://crbug.com/814617)
+None
 
 # Ecosystem Infra: P0 issues >2 days
 None
 
 # Ecosystem Infra: P1 issues >30 days
-None
+* [Audit Blink WPT Bot's privileges on Gerrit](https://crbug.com/801003)
 
 # Ecosystem Infra: P2 issues >60 days
 None
 
 # Blink Infra: unconfirmed and untriaged
-* [Edited and aborted "Port another set of sticky tests to JS rather than reftests" export still re-exported later](https://crbug.com/814617)
 * [content_shell startup timeout is handled as test timeout](https://crbug.com/812349)
 * [webkit_unit_tests on tryserver.chromium.android android_blink_rel builder very flaky](https://crbug.com/808715)
 
@@ -19,7 +18,7 @@ None
 None
 
 # Blink Infra: P1 issues >30 days
-None
+* [Audit Blink WPT Bot's privileges on Gerrit](https://crbug.com/801003)
 
 # Blink Infra: P2 issues >60 days
 None
