@@ -1,17 +1,20 @@
 <title>Ecosystem Infra rotation</title>
 <p>See <a href="https://bit.ly/ecosystem-infra-rotation">bit.ly/ecosystem-infra-rotation</a>
-for full rotation instructions.
-<p>web-platform-tests triage:
-<ul></ul>
+for full rotation instructions.</p>
+<p>web-platform-tests triage:</p>
+<ul id="wpt"></ul>
+<p>crbug triage:</p>
+<ul id="crbug"></ul>
 <script>
-const ul = document.querySelector('ul');
+const wpt_list = document.getElementById('wpt');
+const crbug_list = document.getElementById('crbug');
 
 function daysAgo(days) {
   const date = new Date(Date.now() - days * 24 * 3600 * 1000);
   return date.toISOString().substr(0, 10);
 }
 
-const queries = [
+const gh_queries = [
   { desc: 'pending export PRs', q: 'is:pr is:open label:chromium-export -label:"do not merge yet"' },
   { desc: 'untriaged issues', q: 'is:issue is:open label:infra -label:priority:backlog -label:priority:roadmap -label:priority:urgent' },
   { desc: 'urgent issues >2 days', q: `is:issue is:open label:infra label:priority:urgent updated:<${daysAgo(2)} sort:updated-asc` },
@@ -19,25 +22,55 @@ const queries = [
 ];
 
 // These two URLs for the API and the website should be in sync, different views of the same data.
-const API_BASE_URL = "https://api.github.com/search/issues?q=repo%3Aw3c%2Fweb-platform-tests%20";
-const WEB_BASE_URL = "https://github.com/w3c/web-platform-tests/issues?q=";
+const GH_API_BASE_URL = "https://api.github.com/search/issues?q=repo%3Aw3c%2Fweb-platform-tests%20";
+const GH_WEB_BASE_URL = "https://github.com/w3c/web-platform-tests/issues?q=";
 
-for (const query of queries) {
+for (const query of gh_queries) {
   // Insert the web URL.
-  const webUrl = WEB_BASE_URL + encodeURIComponent(query.q);
+  const webUrl = GH_WEB_BASE_URL + encodeURIComponent(query.q);
   const a = document.createElement('a');
   a.href = webUrl;
   a.textContent = query.desc;
   const li = document.createElement('li');
   li.appendChild(a);
-  ul.appendChild(li);
+  wpt_list.appendChild(li);
 
   // Hit the API and update the page with the number of results.
-  const apiUrl = API_BASE_URL + encodeURIComponent(query.q);
+  const apiUrl = GH_API_BASE_URL + encodeURIComponent(query.q);
   fetch(apiUrl)
     .then(r => r.json())
     .then(results => {
       li.appendChild(document.createTextNode(` (${results.total_count})`));
     });
 }
+
+const crbug_queries = [
+  { desc: 'Ecosystem Infra: unconfirmed and untriaged', 'q': 'component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged' },
+  { desc: 'Ecosystem Infra: P0 issues >2 days', 'q': 'component:Blink>Infra>Ecosystem Pri=0 modified<today-2' },
+  { desc: 'Ecosystem Infra: P1 issues >30 days', 'q': 'component:Blink>Infra>Ecosystem Pri=1 modified<today-30' },
+  { desc: 'Ecosystem Infra: P2 issues >60 days', 'q': 'component:Blink>Infra>Ecosystem Pri=2 modified<today-60' },
+  { desc: 'Blink Infra: unconfirmed and untriaged', 'q': 'component:Blink>Infra status:Unconfirmed,Untriaged' },
+  { desc: 'Blink Infra: P0 issues >2 days', 'q': 'component:Blink>Infra Pri=0 modified<today-2' },
+  { desc: 'Blink Infra: P1 issues >30 days', 'q': 'component:Blink>Infra Pri=1 modified<today-30' },
+  { desc: 'Blink Infra: P2 issues >60 days', 'q': 'component:Blink>Infra Pri=2 modified<today-60' },
+];
+
+const CRBUG_BASE_URL = 'crbug.com';
+
+fetch('crbug.json', { cache: 'no-store' })
+  .then(r => r.json())
+  .then(query_results => {
+    for (const query of crbug_queries) {
+      const results = query_results[query.q];
+
+      const url = CRBUG_BASE_URL + encodeURIComponent(query.q);
+      const a = document.createElement('a');
+      a.href = url;
+      a.textContent = query.desc;
+      const li = document.createElement('li');
+      li.appendChild(a);
+      li.appendChild(document.createTextNode(` (${results.totalResults})`));
+      crbug_list.appendChild(li);
+    }
+  });
 </script>
