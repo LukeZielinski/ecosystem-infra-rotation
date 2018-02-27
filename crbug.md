@@ -5,7 +5,7 @@ None
 None
 
 # Ecosystem Infra: P1 issues >30 days
-* [Audit Blink WPT Bot's privileges on Gerrit](https://crbug.com/801003)
+None
 
 # Ecosystem Infra: P2 issues >60 days
 None
@@ -18,7 +18,7 @@ None
 None
 
 # Blink Infra: P1 issues >30 days
-* [Audit Blink WPT Bot's privileges on Gerrit](https://crbug.com/801003)
+None
 
 # Blink Infra: P2 issues >60 days
 None
