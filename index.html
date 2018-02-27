@@ -55,7 +55,7 @@ const crbug_queries = [
   { desc: 'Blink Infra: P2 issues >60 days', 'q': 'component:Blink>Infra Pri=2 modified<today-60' },
 ];
 
-const CRBUG_BASE_URL = 'crbug.com';
+const CRBUG_BASE_URL = 'https://bugs.chromium.org/p/chromium/issues/list?can=2&q=';
 
 fetch('crbug.json', { cache: 'no-store' })
   .then(r => r.json())
