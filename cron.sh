@@ -17,7 +17,7 @@ else
     cd ..
 fi
 
-python3 monorail.py > gh-pages/crbug.md
+python3 monorail.py gh-pages/crbug.json > gh-pages/crbug.md
 
 cd gh-pages
 git config user.email "bot@foolip.org"
