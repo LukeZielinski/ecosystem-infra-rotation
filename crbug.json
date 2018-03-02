@@ -15,7 +15,7 @@
     "totalResults": 0
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"uQZWiPZshIjgU3ptnuABnYjT9TE/M_3CXmZE2x8eVBVekrMs_N2tMfc\"",
+    "etag": "\"uQZWiPZshIjgU3ptnuABnYjT9TE/nJ7M5EsJ-BAxSdKwnsyyMaeyO3c\"",
     "items": [
       {
         "author": {
@@ -112,10 +112,73 @@
         "summary": "content_shell startup timeout is handled as test timeout",
         "title": "content_shell startup timeout is handled as test timeout",
         "updated": "2018-02-27T18:25:20"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/201825990",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "laszio@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/201825990",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "laszio@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1358278378",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "xixuan@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1654237156",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "dgarrett@chromium.org"
+          }
+        ],
+        "component_modified": "2018-03-02T19:42:59",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 772985,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-1",
+          "Type-Bug",
+          "OS-Chrome"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3312097986",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "nxia@chromium.org"
+        },
+        "owner_modified": "2017-10-09T23:01:31",
+        "projectId": "chromium",
+        "published": "2017-10-09T19:01:35",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2017-10-09T19:01:35",
+        "summary": "swarming.py doesn't generate output for > 8640s, which kills build incorrectly.",
+        "title": "swarming.py doesn't generate output for > 8640s, which kills build incorrectly.",
+        "updated": "2018-03-02T19:42:59"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 2
+    "totalResults": 3
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"uQZWiPZshIjgU3ptnuABnYjT9TE/gioCf8J4DTwIlQw93MrJ551fsko\"",
