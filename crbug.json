@@ -10,8 +10,71 @@
     "totalResults": 0
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
-    "etag": "\"uQZWiPZshIjgU3ptnuABnYjT9TE/hw0v9TyXl5Xxk6nedpBxumM3Qqs\"",
+    "etag": "\"uQZWiPZshIjgU3ptnuABnYjT9TE/iOfEWG6hkPXLhSIJONyY_36GvwE\"",
     "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "qyearsley@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3285626211",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "bokan@chromium.org"
+          }
+        ],
+        "component_modified": "2017-06-07T18:20:07",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 730704,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-2",
+          "Type-Feature"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3958632946",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "13",
+          "name": "bugsnash@chromium.org",
+          "vacation_message": "on leave until 19th April 2018"
+        },
+        "owner_modified": "2017-09-04T03:15:28",
+        "projectId": "chromium",
+        "published": "2017-06-07T18:20:07",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Started",
+        "status_modified": "2017-09-04T04:59:05",
+        "summary": "Make a tool for automatically removing TestExpectations lines for unexpected passes",
+        "title": "Make a tool for automatically removing TestExpectations lines for unexpected passes",
+        "updated": "2018-01-02T21:04:08"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -334,7 +397,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 4
+    "totalResults": 5
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "etag": "\"uQZWiPZshIjgU3ptnuABnYjT9TE/nJ7M5EsJ-BAxSdKwnsyyMaeyO3c\"",

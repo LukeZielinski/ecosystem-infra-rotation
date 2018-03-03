@@ -22,6 +22,7 @@ None
 None
 
 # Blink Infra: P2 issues >60 days
+* [Make a tool for automatically removing TestExpectations lines for unexpected passes](https://crbug.com/730704)
 * [Virtual layout tests should inherit SLOW expectations from their non-virtual counterparts.](https://crbug.com/594216)
 * [Hard-coded URL used for layout tests for Android](https://crbug.com/530257)
 * [Missing crash stack on reftest? Breakpad doesn’t support linux_use_debug_fission (-gsplit-dwarf).](https://crbug.com/369608)
