@@ -22,6 +22,7 @@ None
 None
 
 # Blink Infra: P2 issues >60 days
+* [Build system should warn when there are duplicated-basename files](https://crbug.com/764662)
 * [Make a tool for automatically removing TestExpectations lines for unexpected passes](https://crbug.com/730704)
 * [Virtual layout tests should inherit SLOW expectations from their non-virtual counterparts.](https://crbug.com/594216)
 * [Hard-coded URL used for layout tests for Android](https://crbug.com/530257)
