@@ -22,5 +22,5 @@ None
 None
 
 # Blink Infra: P2 issues >60 days
-None
+* [Content Shell should have one code path for opening secondary windows](https://crbug.com/309760)
 
