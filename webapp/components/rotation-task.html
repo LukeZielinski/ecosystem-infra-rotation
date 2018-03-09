@@ -1,0 +1,37 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../bower_components/paper-collapse-item/paper-collapse-item.html">
+
+<dom-module id="rotation-task">
+  <template>
+    <style>
+    </style>
+
+    <div>
+      <paper-collapse-item>
+        <div slot='header'>
+          [[ task.name ]]
+          [[ task.count ]]
+        </div>
+
+        <a href='[[task.href]]'>Link</a>
+      </paper-collapse-item>
+    </div>
+
+  </template>
+
+  <script>
+    class RotationTask extends window.Polymer.Element {
+      static get is() {
+        return 'rotation-task';
+      }
+
+      static get properties() {
+        return {
+          task: Object,
+        };
+      }
+    }
+
+    window.customElements.define(RotationTask.is, RotationTask);
+  </script>
+</dom-module>
