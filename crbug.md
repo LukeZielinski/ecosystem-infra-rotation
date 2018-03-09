@@ -17,6 +17,7 @@ None
 * [Add a flag to rebaseline-cl to rebaseline failing tests only](https://crbug.com/817605)
 * [content_shell startup timeout is handled as test timeout](https://crbug.com/812349)
 * [swarming.py doesn't generate output for > 8640s, which kills build incorrectly.](https://crbug.com/772985)
+* [Stop uploading failing_results.json, just upload full_results.json.](https://crbug.com/655202)
 
 # Blink Infra: P0 issues >2 days
 None
