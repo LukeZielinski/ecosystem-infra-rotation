@@ -18,6 +18,7 @@ else
 fi
 
 python3 monorail.py gh-pages/crbug.json > gh-pages/crbug.md
+cp webapp/index.html gh-pages/
 
 cd gh-pages
 git config user.email "bot@foolip.org"
