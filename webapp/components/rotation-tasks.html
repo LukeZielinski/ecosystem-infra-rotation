@@ -11,6 +11,11 @@
       <rotation-task task='[[task]]'></rotation-task>
     </template>
 
+    <h1>crbug triage</h1>
+    <template is='dom-repeat' as='task' items='[[chromiumTasks]]'>
+      <rotation-task task='[[task]]'></rotation-task>
+    </template>
+
   </template>
 
   <script>
@@ -59,28 +64,27 @@
         };
       }
 
-      ready() {
+      async ready() {
         super.ready();
 
-        let githubTasks = [];
-        for (const query of gh_queries) {
-          // Insert the web URL.
-          let task = {};
-          task.href = `${GH_WEB_BASE_URL}${encodeURIComponent(query.q)}`;
-          task.name = query.desc;
-
-          // Hit the API and update the page with the number of results.
-          let countUrl = `${GH_API_BASE_URL}${encodeURIComponent(query.q)}`;
-          fetch(countUrl)
-            .then(r => r.json())
-            .then(results => {
-              task.count = results.total_count;
-            });
-          githubTasks.push(task);
-        }
+        let githubTasks = await Promise.all(
+          gh_queries.map(query => {
+            // Hit the API and update the page with the number of results.
+            let countUrl = `${GH_API_BASE_URL}${encodeURIComponent(query.q)}`;
+            return fetch(countUrl)
+              .then(r => r.json())
+              .then(results => {
+                // Insert the web URL.
+                let task = {};
+                task.href = `${GH_WEB_BASE_URL}${encodeURIComponent(query.q)}`;
+                task.name = query.desc;
+                task.count = results.total_count;
+                return task;
+              });
+            }));
         this.githubTasks = githubTasks;
 
-        fetch('crbug.json', { cache: 'no-store' })
+        fetch('/crbug.json', { cache: 'no-store' })
           .then(r => r.json())
           .then(query_results => {
             let chromiumTasks = [];

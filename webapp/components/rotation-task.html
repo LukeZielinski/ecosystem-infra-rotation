@@ -1,9 +1,23 @@
 <link rel="import" href="../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../bower_components/paper-collapse-item/paper-collapse-item.html">
+<link rel="import" href="../bower_components/paper-badge/paper-badge.html">
 
 <dom-module id="rotation-task">
   <template>
     <style>
+      :host {
+        --paper-badge-height: 32px;
+        --paper-badge-width: 32px;
+      }
+      .badge {
+        margin-right: 16px;
+      }
+      paper-badge.red {
+        --paper-badge-background: red;
+      }
+      paper-badge.green {
+        --paper-badge-background: green;
+      }
     </style>
 
     <div>
@@ -11,6 +25,9 @@
         <div slot='header'>
           [[ task.name ]]
           [[ task.count ]]
+        </div>
+        <div class='badge' slot='icon'>
+          <paper-badge label='[[task.count]]' class$='[[_computeBadgeClass(task.count)]]'></paper-badge>
         </div>
 
         <a href='[[task.href]]'>Link</a>
@@ -29,6 +46,10 @@
         return {
           task: Object,
         };
+      }
+
+      _computeBadgeClass(count) {
+        return count < 1 ? 'green': 'red';
       }
     }
 
