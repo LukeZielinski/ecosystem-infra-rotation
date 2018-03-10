@@ -3,8 +3,6 @@
 
 <dom-module id="rotation-tasks">
   <template>
-    <style>
-    </style>
 
     <h1>web-platform-tests triage</h1>
     <template is='dom-repeat' as='task' items='[[githubTasks]]'>
@@ -22,13 +20,17 @@
     const wpt_list = document.getElementById('wpt');
     const crbug_list = document.getElementById('crbug');
 
-    function daysAgo(days) {
-      const date = new Date(Date.now() - days * 24 * 3600 * 1000);
+    function minutesAgo(minutes) {
+      const date = new Date(Date.now() - minutes * 60000);
       return date.toISOString().substr(0, 10);
     }
 
+    function daysAgo(days) {
+      return minutesAgo(days * 1440);
+    }
+
     const gh_queries = [
-      { desc: 'pending export PRs', q: 'is:pr is:open label:chromium-export -label:"do not merge yet"' },
+      { desc: 'pending export PRs', q: `is:pr is:open label:chromium-export -label:"do not merge yet" updated:<${minutesAgo(50)}` },
       { desc: 'untriaged issues', q: 'is:issue is:open label:infra -label:priority:backlog -label:priority:roadmap -label:priority:urgent' },
       { desc: 'urgent issues >2 days', q: `is:issue is:open label:infra label:priority:urgent updated:<${daysAgo(2)} sort:updated-asc` },
       { desc: 'roadmap issues >60 days', q: `is:issue is:open label:infra label:priority:roadmap updated:<${daysAgo(60)} sort:updated-asc` },
@@ -39,18 +41,17 @@
     const GH_WEB_BASE_URL = "https://github.com/w3c/web-platform-tests/issues?q=";
 
     const crbug_queries = [
-      { desc: 'Ecosystem Infra: unconfirmed and untriaged', 'q': 'component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged' },
-      { desc: 'Ecosystem Infra: P0 issues >2 days', 'q': 'component:Blink>Infra>Ecosystem Pri=0 modified<today-2' },
-      { desc: 'Ecosystem Infra: P1 issues >30 days', 'q': 'component:Blink>Infra>Ecosystem Pri=1 modified<today-30' },
-      { desc: 'Ecosystem Infra: P2 issues >60 days', 'q': 'component:Blink>Infra>Ecosystem Pri=2 modified<today-60' },
-      { desc: 'Blink Infra: unconfirmed and untriaged', 'q': 'component:Blink>Infra status:Unconfirmed,Untriaged' },
-      { desc: 'Blink Infra: P0 issues >2 days', 'q': 'component:Blink>Infra Pri=0 modified<today-2' },
-      { desc: 'Blink Infra: P1 issues >30 days', 'q': 'component:Blink>Infra Pri=1 modified<today-30' },
-      { desc: 'Blink Infra: P2 issues >60 days', 'q': 'component:Blink>Infra Pri=2 modified<today-60' },
+      { desc: 'Ecosystem Infra: unconfirmed and untriaged', q: 'component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged' },
+      { desc: 'Ecosystem Infra: P0 issues >2 days', q: 'component:Blink>Infra>Ecosystem Pri=0 modified<today-2' },
+      { desc: 'Ecosystem Infra: P1 issues >30 days', q: 'component:Blink>Infra>Ecosystem Pri=1 modified<today-30' },
+      { desc: 'Ecosystem Infra: P2 issues >60 days', q: 'component:Blink>Infra>Ecosystem Pri=2 modified<today-60' },
+      { desc: 'Blink Infra: unconfirmed and untriaged', q: 'component:Blink>Infra status:Unconfirmed,Untriaged' },
+      { desc: 'Blink Infra: P0 issues >2 days', q: 'component:Blink>Infra Pri=0 modified<today-2' },
+      { desc: 'Blink Infra: P1 issues >30 days', q: 'component:Blink>Infra Pri=1 modified<today-30' },
+      { desc: 'Blink Infra: P2 issues >60 days', q: 'component:Blink>Infra Pri=2 modified<today-60' },
     ];
 
     const CRBUG_BASE_URL = 'https://bugs.chromium.org/p/chromium/issues/list?can=2&q=';
-
 
     class RotationTasks extends window.Polymer.Element {
       static get is() {
