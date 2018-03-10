@@ -79,6 +79,7 @@
                 let task = {};
                 task.href = `${GH_WEB_BASE_URL}${encodeURIComponent(query.q)}`;
                 task.name = query.desc;
+                task.count = results.total_count;
                 return task;
               });
             }));

@@ -12,11 +12,15 @@
       .badge {
         margin-right: 16px;
       }
-      paper-badge.red {
-        --paper-badge-background: red;
+      paper-badge {
+        /* initial state before async check is done */
+        --paper-badge-background: gray;
       }
-      paper-badge.green {
+      paper-badge.pass {
         --paper-badge-background: green;
+      }
+      paper-badge.fail {
+        --paper-badge-background: red;
       }
     </style>
 
@@ -27,7 +31,7 @@
           [[ task.count ]]
         </div>
         <div class='badge' slot='icon'>
-          <paper-badge label='[[task.count]]' class$='[[_computeBadgeClass(task.count)]]'></paper-badge>
+          <paper-badge label='[[_computeBadgeLabel(task)]]' class$='[[_computeBadgeClass(task)]]'></paper-badge>
         </div>
 
         <a href='[[task.href]]'>Link</a>
@@ -48,8 +52,21 @@
         };
       }
 
-      _computeBadgeClass(count) {
-        return count < 1 ? 'green': 'red';
+      _computeBadgeLabel(task) {
+        if (task.count === undefined) {
+          return '?';
+        }
+        return task.count;
+      }
+
+      _computeBadgeClass(task) {
+        if (task.count === undefined) {
+          return '';
+        }
+        if (task.count === 0) {
+          return 'pass';
+        }
+        return 'fail';
       }
     }
 
