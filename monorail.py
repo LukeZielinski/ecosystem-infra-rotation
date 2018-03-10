@@ -4,8 +4,8 @@ import googleapiclient.discovery
 import os.path
 import sys
 
-CREDENTIALS_FILE = 'monorail-key.json'
-RESULTS_FILE = sys.argv[1]
+CREDENTIALS_FILE = sys.argv[1]
+RESULTS_FILE = sys.argv[2]
 
 DISCOVERY_URL = (
     'https://monorail-prod.appspot.com/_ah/api/discovery/v1/apis/'
@@ -37,16 +37,8 @@ monorail = googleapiclient.discovery.build(
 results = {}
 
 for label, args in QUERIES:
-    print('#', label)
     response = monorail.issues().list(projectId='chromium', can='open', **args).execute()
     results[args['q']] = response
-    if response['totalResults'] == 0:
-        print('None')
-        print()
-        continue
-    for issue in response['items']:
-        print('* [{}](https://crbug.com/{})'.format(issue['title'], issue['id']))
-    print()
 
 with open(RESULTS_FILE, 'w+') as f:
     json.dump(results, f, indent=2, sort_keys=True)
