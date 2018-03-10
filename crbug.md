@@ -11,7 +11,6 @@ None
 * [[WPT Export] Audit all commits from 2017 for missed and incomplete exports](https://crbug.com/754619)
 
 # Blink Infra: unconfirmed and untriaged
-* [WebKit public/features are inconsistent on Android](https://crbug.com/820262)
 * [WebKit Linux Trusty MSAN is timout out on random tests](https://crbug.com/819227)
 * [webkitpy.common.system.platform_info.PlatformInfo.is_hidpi fails on Mac >= 10.12](https://crbug.com/818558)
 * [Add a flag to rebaseline-cl to rebaseline failing tests only](https://crbug.com/817605)
@@ -31,6 +30,7 @@ None
 * [Make a tool for automatically removing TestExpectations lines for unexpected passes](https://crbug.com/730704)
 * [Virtual layout tests should inherit SLOW expectations from their non-virtual counterparts.](https://crbug.com/594216)
 * [Hard-coded URL used for layout tests for Android](https://crbug.com/530257)
+* [Convert WebKit Android (Nexus 4) tests to run under swarming](https://crbug.com/524758)
 * [Missing crash stack on reftest? Breakpad doesn’t support linux_use_debug_fission (-gsplit-dwarf).](https://crbug.com/369608)
 * [Content Shell should have one code path for opening secondary windows](https://crbug.com/309760)
 
