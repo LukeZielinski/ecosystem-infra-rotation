@@ -22,13 +22,17 @@
     const wpt_list = document.getElementById('wpt');
     const crbug_list = document.getElementById('crbug');
 
-    function daysAgo(days) {
-      const date = new Date(Date.now() - days * 24 * 3600 * 1000);
+    function minutesAgo(minutes) {
+      const date = new Date(Date.now() - minutes * 60000);
       return date.toISOString().substr(0, 10);
     }
 
+    function daysAgo(days) {
+      return minutesAgo(days * 1440);
+    }
+
     const gh_queries = [
-      { desc: 'pending export PRs', q: 'is:pr is:open label:chromium-export -label:"do not merge yet"' },
+      { desc: 'pending export PRs', q: `is:pr is:open label:chromium-export -label:"do not merge yet" updated:<${minutesAgo(50)}` },
       { desc: 'untriaged issues', q: 'is:issue is:open label:infra -label:priority:backlog -label:priority:roadmap -label:priority:urgent' },
       { desc: 'urgent issues >2 days', q: `is:issue is:open label:infra label:priority:urgent updated:<${daysAgo(2)} sort:updated-asc` },
       { desc: 'roadmap issues >60 days', q: `is:issue is:open label:infra label:priority:roadmap updated:<${daysAgo(60)} sort:updated-asc` },
@@ -50,7 +54,6 @@
     ];
 
     const CRBUG_BASE_URL = 'https://bugs.chromium.org/p/chromium/issues/list?can=2&q=';
-
 
     class RotationTasks extends window.Polymer.Element {
       static get is() {
