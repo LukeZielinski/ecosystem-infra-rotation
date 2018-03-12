@@ -56,7 +56,7 @@
     "totalResults": 1
   },
   "component:Blink>Infra Pri=1 modified<today-30": {
-    "etag": "\"MCjFcZdknPtheeHbKTGdwJmkHNg/8YlzTkbjYOzORz8TH9QdD78AbuI\"",
+    "etag": "\"MCjFcZdknPtheeHbKTGdwJmkHNg/OsiyUbRgRiqmigA72ujaFYavEPs\"",
     "items": [
       {
         "author": {
@@ -101,7 +101,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/3098058249",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "0",
             "name": "robertma@chromium.org"
           },
           {
@@ -924,8 +924,40 @@
     "totalResults": 8
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"MCjFcZdknPtheeHbKTGdwJmkHNg/ALjkVzvFDuoQX9mHLZgW3nWWjOo\"",
+    "etag": "\"MCjFcZdknPtheeHbKTGdwJmkHNg/ZxdCEItemp8Gq5ZcZwJx2Gn6to8\"",
     "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/2992293184",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "dullweber@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2018-03-12T14:32:43",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 820982,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-1",
+          "Type-Bug"
+        ],
+        "owner_modified": "2018-03-12T14:32:43",
+        "projectId": "chromium",
+        "published": "2018-03-12T14:32:43",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-03-12T14:32:43",
+        "summary": "Upload of test-results is failing on Win7 Tests (dbg)",
+        "title": "Upload of test-results is failing on Win7 Tests (dbg)",
+        "updated": "2018-03-12T14:32:43"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -1222,7 +1254,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 6
+    "totalResults": 7
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"MCjFcZdknPtheeHbKTGdwJmkHNg/gioCf8J4DTwIlQw93MrJ551fsko\"",
