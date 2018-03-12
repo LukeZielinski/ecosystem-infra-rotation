@@ -154,8 +154,112 @@
     "totalResults": 1
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
-    "etag": "\"MCjFcZdknPtheeHbKTGdwJmkHNg/nR4Uztz79g9K4-lZTTs9vJaMy44\"",
+    "etag": "\"MCjFcZdknPtheeHbKTGdwJmkHNg/GCujKRDq4HQJfK3kEzEurHP7igQ\"",
     "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/2368433223",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "hajimehoshi@chromium.org"
+        },
+        "blocking": [
+          {
+            "issueId": 757374,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/356701551",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "90",
+            "name": "tansell@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1728011590",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "3",
+            "name": "tasak@google.com"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1939658455",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "jeffcarp@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2368433223",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "hajimehoshi@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "6",
+            "name": "dpranke@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3185994615",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "erikchen@chromium.org"
+          }
+        ],
+        "component_modified": "2017-09-13T11:10:00",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 764662,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "2",
+          "name": "robertma@chromium.org"
+        },
+        "owner_modified": "2018-01-02T22:23:06",
+        "projectId": "chromium",
+        "published": "2017-09-13T11:10:00",
+        "starred": false,
+        "stars": 3,
+        "state": "open",
+        "status": "Assigned",
+        "status_modified": "2018-01-02T22:23:06",
+        "summary": "Build system should warn when there are duplicated-basename files",
+        "title": "Build system should warn when there are duplicated-basename files",
+        "updated": "2018-01-02T22:23:06"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -817,10 +921,10 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 7
+    "totalResults": 8
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"MCjFcZdknPtheeHbKTGdwJmkHNg/VemQb_taxcxTd-w8-ZNxTbuLc8Q\"",
+    "etag": "\"MCjFcZdknPtheeHbKTGdwJmkHNg/T7nfZwBdrGRC2xlUjtzwhwQ8Kdo\"",
     "items": [
       {
         "author": {
@@ -1033,7 +1137,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1358278378",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
+            "last_visit_days_ago": "1",
             "name": "xixuan@chromium.org"
           },
           {
