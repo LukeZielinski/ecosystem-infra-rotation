@@ -93,7 +93,7 @@
           taskForQuery.set(query.q, task);
           return task;
         });
-        fetch('/crbug.json', { cache: 'no-store' })
+        fetch('crbug.json', { cache: 'no-store' })
           .then(r => r.json())
           .then(query_results => {
             for (const query of crbug_queries) {
