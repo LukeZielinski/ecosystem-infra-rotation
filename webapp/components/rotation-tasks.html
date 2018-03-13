@@ -85,22 +85,14 @@
             }));
         this.githubTasks = githubTasks;
 
-        let taskForQuery = new Map; // for easy task lookup after fetch()
+        let queryResults = await (await fetch('crbug.json', { cache: 'no-store' })).json();
         this.chromiumTasks = crbug_queries.map(query => {
           let task = {};
           task.href = `${CRBUG_BASE_URL}${encodeURIComponent(query.q)}`;
           task.name = query.desc;
-          taskForQuery.set(query.q, task);
+          task.count = queryResults[query.q].totalResults;
           return task;
         });
-        fetch('crbug.json', { cache: 'no-store' })
-          .then(r => r.json())
-          .then(query_results => {
-            for (const query of crbug_queries) {
-              const results = query_results[query.q];
-              taskForQuery.get(query.q).count = results.total_count;
-            }
-          });
       }
     }
 
