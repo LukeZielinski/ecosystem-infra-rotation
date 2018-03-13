@@ -4,12 +4,12 @@
 <dom-module id="rotation-tasks">
   <template>
 
-    <h1>web-platform-tests triage</h1>
+    <h1>web-platform-tests infra triage</h1>
     <template is='dom-repeat' as='task' items='[[githubTasks]]'>
       <rotation-task task='[[task]]'></rotation-task>
     </template>
 
-    <h1>crbug triage</h1>
+    <h1>Blink>Infra triage</h1>
     <template is='dom-repeat' as='task' items='[[chromiumTasks]]'>
       <rotation-task task='[[task]]'></rotation-task>
     </template>
@@ -41,14 +41,10 @@
     const GH_WEB_BASE_URL = "https://github.com/w3c/web-platform-tests/issues?q=";
 
     const crbug_queries = [
-      { desc: 'Ecosystem Infra: unconfirmed and untriaged', q: 'component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged' },
-      { desc: 'Ecosystem Infra: P0 issues >2 days', q: 'component:Blink>Infra>Ecosystem Pri=0 modified<today-2' },
-      { desc: 'Ecosystem Infra: P1 issues >30 days', q: 'component:Blink>Infra>Ecosystem Pri=1 modified<today-30' },
-      { desc: 'Ecosystem Infra: P2 issues >60 days', q: 'component:Blink>Infra>Ecosystem Pri=2 modified<today-60' },
-      { desc: 'Blink Infra: unconfirmed and untriaged', q: 'component:Blink>Infra status:Unconfirmed,Untriaged' },
-      { desc: 'Blink Infra: P0 issues >2 days', q: 'component:Blink>Infra Pri=0 modified<today-2' },
-      { desc: 'Blink Infra: P1 issues >30 days', q: 'component:Blink>Infra Pri=1 modified<today-30' },
-      { desc: 'Blink Infra: P2 issues >60 days', q: 'component:Blink>Infra Pri=2 modified<today-60' },
+      { desc: 'unconfirmed and untriaged', q: 'component:Blink>Infra status:Unconfirmed,Untriaged' },
+      { desc: 'P0 issues >2 days', q: 'component:Blink>Infra Pri=0 modified<today-2' },
+      { desc: 'P1 issues >30 days', q: 'component:Blink>Infra Pri=1 modified<today-30' },
+      { desc: 'P2 issues >60 days', q: 'component:Blink>Infra Pri=2 modified<today-60' },
     ];
 
     const CRBUG_BASE_URL = 'https://bugs.chromium.org/p/chromium/issues/list?can=2&q=';
