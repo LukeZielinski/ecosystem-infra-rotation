@@ -873,7 +873,7 @@
     "totalResults": 8
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"MCjFcZdknPtheeHbKTGdwJmkHNg/4en-6N18XadPvypnt4MM7mSeQVc\"",
+    "etag": "\"MCjFcZdknPtheeHbKTGdwJmkHNg/WOxMCjGsbV18-4OP2vxO7LUU8Mw\"",
     "items": [
       {
         "author": {
@@ -953,54 +953,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/551094170",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "sergeyu@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2779573485",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "dpranke@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/4006160393",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "jbudorick@chromium.org"
-          }
-        ],
-        "component_modified": "2018-02-14T20:08:21",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 812349,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3"
-        ],
-        "owner_modified": "2018-02-14T20:08:21",
-        "projectId": "chromium",
-        "published": "2018-02-14T20:08:21",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-02-14T20:08:21",
-        "summary": "content_shell startup timeout is handled as test timeout",
-        "title": "content_shell startup timeout is handled as test timeout",
-        "updated": "2018-02-27T18:25:20"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/201825990",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "3",
@@ -1060,52 +1012,10 @@
         "summary": "swarming.py doesn't generate output for > 8640s, which kills build incorrectly.",
         "title": "swarming.py doesn't generate output for > 8640s, which kills build incorrectly.",
         "updated": "2018-03-02T19:42:59"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1322892317",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "qyearsley@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3934801634",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "estaab@chromium.org"
-          }
-        ],
-        "component_modified": "2016-10-12T17:12:36",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 655202,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2016-10-12T17:12:36",
-        "projectId": "chromium",
-        "published": "2016-10-12T17:12:36",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-03-09T17:09:39",
-        "summary": "Stop uploading failing_results.json, just upload full_results.json.",
-        "title": "Stop uploading failing_results.json, just upload full_results.json.",
-        "updated": "2018-03-09T17:09:39"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 5
+    "totalResults": 3
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"MCjFcZdknPtheeHbKTGdwJmkHNg/gioCf8J4DTwIlQw93MrJ551fsko\"",
