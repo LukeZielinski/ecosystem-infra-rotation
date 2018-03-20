@@ -10,7 +10,7 @@
     "totalResults": 0
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
-    "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/F_lDjr47625QkfjdmFCj-WilD2I\"",
+    "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/bXYvE3StcaGnhTDtreJkbuXC8zM\"",
     "items": [
       {
         "author": {
@@ -66,6 +66,62 @@
         "summary": "[WPT import] Cannot update expectations for renamed/deleted any.js tests",
         "title": "[WPT import] Cannot update expectations for renamed/deleted any.js tests",
         "updated": "2018-01-12T19:33:17"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "robertma@chromium.org"
+        },
+        "blockedOn": [
+          {
+            "issueId": 801357,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          }
+        ],
+        "component_modified": "2018-01-09T23:37:40",
+        "components": [
+          "Blink>Infra",
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 800570,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "robertma@chromium.org"
+        },
+        "owner_modified": "2018-01-11T20:20:18",
+        "projectId": "chromium",
+        "published": "2018-01-09T23:37:40",
+        "starred": false,
+        "stars": 2,
+        "state": "open",
+        "status": "Started",
+        "status_modified": "2018-01-19T01:02:27",
+        "summary": "[WPT] Support test names containing ? (URL params)",
+        "title": "[WPT] Support test names containing ? (URL params)",
+        "updated": "2018-01-19T01:54:08"
       },
       {
         "author": {
@@ -784,7 +840,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 8
+    "totalResults": 9
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/3UnhCEf3aaWRzB5lgjDP7t6QeBA\"",
@@ -909,7 +965,7 @@
     "totalResults": 0
   },
   "component:Blink>Infra>Ecosystem Pri=2 modified<today-60": {
-    "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/lRl86RpQIRup1F1N15xDanRYla4\"",
+    "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/O7ko77crlVvWJ_hS-yHBbPLxI1o\"",
     "items": [
       {
         "author": {
@@ -965,10 +1021,66 @@
         "summary": "[WPT import] Cannot update expectations for renamed/deleted any.js tests",
         "title": "[WPT import] Cannot update expectations for renamed/deleted any.js tests",
         "updated": "2018-01-12T19:33:17"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "robertma@chromium.org"
+        },
+        "blockedOn": [
+          {
+            "issueId": 801357,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          }
+        ],
+        "component_modified": "2018-01-09T23:37:40",
+        "components": [
+          "Blink>Infra",
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 800570,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "robertma@chromium.org"
+        },
+        "owner_modified": "2018-01-11T20:20:18",
+        "projectId": "chromium",
+        "published": "2018-01-09T23:37:40",
+        "starred": false,
+        "stars": 2,
+        "state": "open",
+        "status": "Started",
+        "status_modified": "2018-01-19T01:02:27",
+        "summary": "[WPT] Support test names containing ? (URL params)",
+        "title": "[WPT] Support test names containing ? (URL params)",
+        "updated": "2018-01-19T01:54:08"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 1
+    "totalResults": 2
   },
   "component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged": {
     "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/gioCf8J4DTwIlQw93MrJ551fsko\"",
