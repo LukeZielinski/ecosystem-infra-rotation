@@ -10,7 +10,7 @@
     "totalResults": 0
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
-    "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/yo7YVbOdDJb1lLc1YF8Xgkp0DZw\"",
+    "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/VKt9advIX96X5Zo2D_D5vQNlt5s\"",
     "items": [
       {
         "author": {
@@ -122,6 +122,74 @@
         "summary": "[WPT] Support test names containing ? (URL params)",
         "title": "[WPT] Support test names containing ? (URL params)",
         "updated": "2018-01-19T01:54:08"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1573466780",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "wez@chromium.org"
+        },
+        "blockedOn": [
+          {
+            "issueId": 774365,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 787946,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 791742,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/384153905",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "3",
+            "name": "kbr@chromium.org"
+          }
+        ],
+        "component_modified": "2017-12-05T23:49:08",
+        "components": [
+          "Blink>Infra",
+          "Tests>Flaky"
+        ],
+        "id": 791734,
+        "kind": "monorail#issue",
+        "labels": [
+          "OS-Linux",
+          "Type-Bug",
+          "Pri-2",
+          "M-65"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3285626211",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "bokan@chromium.org"
+        },
+        "owner_modified": "2017-12-15T13:05:56",
+        "projectId": "chromium",
+        "published": "2017-12-04T22:06:43",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Assigned",
+        "status_modified": "2017-12-15T13:05:56",
+        "summary": "Some webkit_unit_tests always get retried in runs under Linux",
+        "title": "Some webkit_unit_tests always get retried in runs under Linux",
+        "updated": "2018-01-19T15:22:04"
       },
       {
         "author": {
@@ -840,7 +908,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 9
+    "totalResults": 10
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/3UnhCEf3aaWRzB5lgjDP7t6QeBA\"",
