@@ -1,7 +1,6 @@
 <link rel="import" href="../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../bower_components/paper-styles/typography.html">
 <link rel="import" href="./rotation-task-group.html">
-<link rel="import" href="./rotation-tasks.html">
 
 <dom-module id="ecosystem-infra-rotation">
   <template>
@@ -13,7 +12,6 @@
     <template is='dom-repeat' as='group' items='[[groups]]'>
       <rotation-task-group name='[[group.name]]' tasks='[[group.tasks]]'></rotation-task-group>
     </template>
-    <rotation-tasks></rotation-tasks>
   </template>
   <script>
     function minutesAgo(minutes) {
@@ -40,6 +38,21 @@
       };
     }
 
+    // single fetch that will be shared by tasks
+    const crbugJSON = fetch('crbug.json', { cache: 'no-store' }).then(r => r.json());
+
+    function crbugTask(name, query) {
+      const BASE_URL = 'https://bugs.chromium.org/p/chromium/issues/list?can=2&q=';
+
+      return {
+        name: name,
+        href: `${BASE_URL}${encodeURIComponent(query)}`,
+        status: crbugJSON.then(async results => {
+          return results[query].totalResults;
+        }),
+      };
+    }
+
     class EcosystemInfraRotation extends Polymer.Element {
       static get is() {
         return 'ecosystem-infra-rotation';
@@ -62,14 +75,25 @@
           { name: 'roadmap issues >60 days', query: `is:issue is:open label:infra label:priority:roadmap updated:<${daysAgo(60)} sort:updated-asc` },
         ];
 
+        const blinkInfraTaskInfo = [
+          { name: 'unconfirmed and untriaged', query: 'component:Blink>Infra status:Unconfirmed,Untriaged' },
+          { name: 'P0 issues >2 days', query: 'component:Blink>Infra Pri=0 modified<today-2' },
+          { name: 'P1 issues >30 days', query: 'component:Blink>Infra Pri=1 modified<today-30' },
+          { name: 'P2 issues >60 days', query: 'component:Blink>Infra Pri=2 modified<today-60' },
+        ];
+
         this.groups = [
           {
             name: '2-way sync',
             tasks: [exportTask],
           },
           {
-            name: 'web-platform-tests infra triage',
+            name: 'web-platform-tests infra issue triage',
             tasks: wptInfraTaskInfo.map(info => githubTask(info.name, info.query)),
+          },
+          {
+            name: 'Blink>Infra issue triage',
+            tasks: blinkInfraTaskInfo.map(info => crbugTask(info.name, info.query)),
           },
         ];
       }
