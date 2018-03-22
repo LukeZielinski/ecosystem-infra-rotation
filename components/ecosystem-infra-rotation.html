@@ -1,6 +1,6 @@
 <link rel="import" href="../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../bower_components/paper-styles/typography.html">
-<link rel="import" href="./rotation-tasks.html">
+<link rel="import" href="./rotation-task-group.html">
 
 <dom-module id="ecosystem-infra-rotation">
   <template>
@@ -9,12 +9,93 @@
         @apply(--paper-font-common-base);
       }
     </style>
-    <rotation-tasks></rotation-tasks>
+    <template is='dom-repeat' as='group' items='[[groups]]'>
+      <rotation-task-group name='[[group.name]]' tasks='[[group.tasks]]'></rotation-task-group>
+    </template>
   </template>
   <script>
+    function minutesAgo(minutes) {
+      const date = new Date(Date.now() - minutes * 60000);
+      return date.toISOString().substr(0, 10);
+    }
+
+    function daysAgo(days) {
+      return minutesAgo(days * 1440);
+    }
+
+    function githubTask(name, query) {
+      // These two URLs for the API and the website should be in sync, different views of the same data.
+      const BASE_API_URL = "https://api.github.com/search/issues?q=repo%3Aw3c%2Fweb-platform-tests%20";
+      const BASE_WEB_URL = "https://github.com/w3c/web-platform-tests/issues?q=";
+
+      const apiURL = `${BASE_API_URL}${encodeURIComponent(query)}`;
+      const webURL = `${BASE_WEB_URL}${encodeURIComponent(query)}`;
+
+      return {
+        name: name,
+        href: webURL,
+        status: fetch(apiURL).then(r => r.json()).then(r => r.total_count),
+      };
+    }
+
+    // single fetch that will be shared by tasks
+    const crbugJSON = fetch('crbug.json', { cache: 'no-store' }).then(r => r.json());
+
+    function crbugTask(name, query) {
+      const BASE_URL = 'https://bugs.chromium.org/p/chromium/issues/list?can=2&q=';
+
+      return {
+        name: name,
+        href: `${BASE_URL}${encodeURIComponent(query)}`,
+        status: crbugJSON.then(async results => {
+          return results[query].totalResults;
+        }),
+      };
+    }
+
     class EcosystemInfraRotation extends Polymer.Element {
       static get is() {
         return 'ecosystem-infra-rotation';
+      }
+
+      static get properties() {
+        return {
+          groups: Array,
+        };
+      }
+
+      ready() {
+        super.ready();
+
+        const exportTask = githubTask('pending export PRs', `is:pr is:open label:chromium-export -label:"do not merge yet" updated:<${minutesAgo(50)}`);
+
+        const wptInfraTaskInfo = [
+          { name: 'untriaged issues', query: 'is:issue is:open label:infra -label:priority:backlog -label:priority:roadmap -label:priority:urgent' },
+          { name: 'urgent issues >2 days', query: `is:issue is:open label:infra label:priority:urgent updated:<${daysAgo(2)} sort:updated-asc` },
+          { name: 'roadmap issues >60 days', query: `is:issue is:open label:infra label:priority:roadmap updated:<${daysAgo(60)} sort:updated-asc` },
+        ];
+
+        const blinkInfraTaskInfo = [
+          { name: 'unconfirmed and untriaged', query: 'component:Blink>Infra status:Unconfirmed,Untriaged' },
+          { name: 'P0 issues >2 days', query: 'component:Blink>Infra Pri=0 modified<today-2' },
+          { name: 'P1 issues >30 days', query: 'component:Blink>Infra Pri=1 modified<today-30' },
+          { name: 'P2 issues >60 days', query: 'component:Blink>Infra Pri=2 modified<today-60' },
+        ];
+
+        this.groups = [
+          {
+            name: '2-way sync',
+            tasks: [exportTask],
+          },
+          {
+            name: 'web-platform-tests infra issue triage',
+            tasks: wptInfraTaskInfo.map(info => githubTask(info.name, info.query)),
+          },
+          {
+            name: 'Blink>Infra issue triage',
+            tasks: blinkInfraTaskInfo.map(info => crbugTask(info.name, info.query)),
+          },
+        ];
       }
     }
 
