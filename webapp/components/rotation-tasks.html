@@ -48,7 +48,7 @@
 
     const CRBUG_BASE_URL = 'https://bugs.chromium.org/p/chromium/issues/list?can=2&q=';
 
-    class RotationTasks extends window.Polymer.Element {
+    class RotationTasks extends Polymer.Element {
       static get is() {
         return 'rotation-tasks';
       }
@@ -91,6 +91,6 @@
       }
     }
 
-    window.customElements.define(RotationTasks.is, RotationTasks);
+    customElements.define(RotationTasks.is, RotationTasks);
   </script>
 </dom-module>

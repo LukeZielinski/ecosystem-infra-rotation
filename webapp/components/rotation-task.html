@@ -41,7 +41,7 @@
   </template>
 
   <script>
-    class RotationTask extends window.Polymer.Element {
+    class RotationTask extends Polymer.Element {
       static get is() {
         return 'rotation-task';
       }
@@ -73,6 +73,6 @@
       }
     }
 
-    window.customElements.define(RotationTask.is, RotationTask);
+    customElements.define(RotationTask.is, RotationTask);
   </script>
 </dom-module>
