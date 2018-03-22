@@ -1,14 +1,8 @@
 <link rel="import" href="../bower_components/polymer/polymer-element.html">
-<link rel="import" href="../bower_components/paper-styles/typography.html">
 <link rel="import" href="./rotation-task.html">
 
 <dom-module id="rotation-tasks">
   <template>
-    <style>
-      :host {
-        @apply(--paper-font-common-base);
-      }
-    </style>
     <h1>web-platform-tests infra triage</h1>
     <template is='dom-repeat' as='task' items='[[githubTasks]]'>
       <rotation-task task='[[task]]'></rotation-task>
