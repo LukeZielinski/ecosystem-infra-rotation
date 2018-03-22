@@ -1,6 +1,7 @@
 <link rel="import" href="../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../bower_components/paper-collapse-item/paper-collapse-item.html">
 <link rel="import" href="../bower_components/paper-badge/paper-badge.html">
+<link rel="import" href="../bower_components/paper-styles/color.html">
 
 <dom-module id="rotation-task">
   <template>
@@ -14,13 +15,13 @@
       }
       paper-badge {
         /* initial state before async check is done */
-        --paper-badge-background: gray;
+        --paper-badge-background: var(--paper-grey-500);
       }
       paper-badge.pass {
-        --paper-badge-background: green;
+        --paper-badge-background: var(--paper-green-500);
       }
       paper-badge.fail {
-        --paper-badge-background: red;
+        --paper-badge-background: var(--paper-red-500);
       }
     </style>
 
