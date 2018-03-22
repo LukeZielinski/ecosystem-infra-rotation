@@ -56,6 +56,9 @@
         if (task.count === undefined) {
           return '?';
         }
+        if (task.count === 0) {
+          return '';
+        }
         return task.count;
       }
 
