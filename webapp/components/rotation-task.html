@@ -31,7 +31,7 @@
           [[ task.name ]]
         </div>
         <div class='badge' slot='icon'>
-          <paper-badge label='[[_computeBadgeLabel(task)]]' class$='[[_computeBadgeClass(task)]]'></paper-badge>
+          <paper-badge label='[[_computeBadgeLabel(task.count)]]' class$='[[_computeBadgeClass(task.count)]]'></paper-badge>
         </div>
 
         <a href='[[task.href]]'>Link</a>
@@ -52,21 +52,35 @@
         };
       }
 
-      _computeBadgeLabel(task) {
-        if (task.count === undefined) {
-          return '?';
+      ready() {
+        super.ready();
+
+        // the status promise resolves to the count
+        if (this.task.status) {
+          this.task.status.then(count => {
+            this.set('task.count', count);
+            console.log(this.task);
+          }).catch(error => {
+            alert(`Something is wrong: ${error}`);
+          });
         }
-        if (task.count === 0) {
-          return '';
-        }
-        return task.count;
       }
 
-      _computeBadgeClass(task) {
-        if (task.count === undefined) {
+      _computeBadgeLabel(count) {
+        if (count === undefined) {
+          return '?';
+        }
+        if (count === 0) {
           return '';
         }
-        if (task.count === 0) {
+        return String(count);
+      }
+
+      _computeBadgeClass(count) {
+        if (count === undefined) {
+          return '';
+        }
+        if (count === 0) {
           return 'pass';
         }
         return 'fail';

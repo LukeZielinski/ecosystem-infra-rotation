@@ -29,7 +29,6 @@
     }
 
     const gh_queries = [
-      { desc: 'pending export PRs', q: `is:pr is:open label:chromium-export -label:"do not merge yet" updated:<${minutesAgo(50)}` },
       { desc: 'untriaged issues', q: 'is:issue is:open label:infra -label:priority:backlog -label:priority:roadmap -label:priority:urgent' },
       { desc: 'urgent issues >2 days', q: `is:issue is:open label:infra label:priority:urgent updated:<${daysAgo(2)} sort:updated-asc` },
       { desc: 'roadmap issues >60 days', q: `is:issue is:open label:infra label:priority:roadmap updated:<${daysAgo(60)} sort:updated-asc` },

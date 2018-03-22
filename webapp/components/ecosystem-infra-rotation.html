@@ -1,5 +1,6 @@
 <link rel="import" href="../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../bower_components/paper-styles/typography.html">
+<link rel="import" href="./rotation-task-group.html">
 <link rel="import" href="./rotation-tasks.html">
 
 <dom-module id="ecosystem-infra-rotation">
@@ -9,12 +10,54 @@
         @apply(--paper-font-common-base);
       }
     </style>
+    <template is='dom-repeat' as='group' items='[[groups]]'>
+      <rotation-task-group name='[[group.name]]' tasks='[[group.tasks]]'></rotation-task-group>
+    </template>
     <rotation-tasks></rotation-tasks>
   </template>
   <script>
+    function minutesAgo(minutes) {
+      const date = new Date(Date.now() - minutes * 60000);
+      return date.toISOString().substr(0, 10);
+    }
+
+    function githubTask(name, query) {
+      // These two URLs for the API and the website should be in sync, different views of the same data.
+      const BASE_API_URL = "https://api.github.com/search/issues?q=repo%3Aw3c%2Fweb-platform-tests%20";
+      const BASE_WEB_URL = "https://github.com/w3c/web-platform-tests/issues?q=";
+
+      const apiURL = `${BASE_API_URL}${encodeURIComponent(query)}`;
+      const webURL = `${BASE_WEB_URL}${encodeURIComponent(query)}`;
+
+      return {
+        name: name,
+        href: webURL,
+        status: fetch(apiURL).then(r => r.json()).then(r => r.total_count),
+      };
+    }
+
     class EcosystemInfraRotation extends Polymer.Element {
       static get is() {
         return 'ecosystem-infra-rotation';
+      }
+
+      static get properties() {
+        return {
+          groups: Array,
+        };
+      }
+
+      ready() {
+        super.ready();
+
+        const task = githubTask('pending export PRs', `is:pr is:open label:chromium-export -label:"do not merge yet" updated:<${minutesAgo(50)}`);
+
+        this.groups = [
+          {
+            name: '2-way sync',
+            tasks: [task],
+          },
+        ];
       }
     }
 
