@@ -3,11 +3,6 @@
 
 <dom-module id="rotation-tasks">
   <template>
-    <h1>web-platform-tests infra triage</h1>
-    <template is='dom-repeat' as='task' items='[[githubTasks]]'>
-      <rotation-task task='[[task]]'></rotation-task>
-    </template>
-
     <h1>Blink>Infra triage</h1>
     <template is='dom-repeat' as='task' items='[[chromiumTasks]]'>
       <rotation-task task='[[task]]'></rotation-task>
@@ -16,27 +11,7 @@
   </template>
 
   <script>
-    const wpt_list = document.getElementById('wpt');
     const crbug_list = document.getElementById('crbug');
-
-    function minutesAgo(minutes) {
-      const date = new Date(Date.now() - minutes * 60000);
-      return date.toISOString().substr(0, 10);
-    }
-
-    function daysAgo(days) {
-      return minutesAgo(days * 1440);
-    }
-
-    const gh_queries = [
-      { desc: 'untriaged issues', q: 'is:issue is:open label:infra -label:priority:backlog -label:priority:roadmap -label:priority:urgent' },
-      { desc: 'urgent issues >2 days', q: `is:issue is:open label:infra label:priority:urgent updated:<${daysAgo(2)} sort:updated-asc` },
-      { desc: 'roadmap issues >60 days', q: `is:issue is:open label:infra label:priority:roadmap updated:<${daysAgo(60)} sort:updated-asc` },
-    ];
-
-    // These two URLs for the API and the website should be in sync, different views of the same data.
-    const GH_API_BASE_URL = "https://api.github.com/search/issues?q=repo%3Aw3c%2Fweb-platform-tests%20";
-    const GH_WEB_BASE_URL = "https://github.com/w3c/web-platform-tests/issues?q=";
 
     const crbug_queries = [
       { desc: 'unconfirmed and untriaged', q: 'component:Blink>Infra status:Unconfirmed,Untriaged' },
@@ -55,29 +30,11 @@
       static get properties() {
         return {
           chromiumTasks: Array,
-          githubTasks: Array,
         };
       }
 
       async ready() {
         super.ready();
-
-        let githubTasks = await Promise.all(
-          gh_queries.map(query => {
-            // Hit the API and update the page with the number of results.
-            let countUrl = `${GH_API_BASE_URL}${encodeURIComponent(query.q)}`;
-            return fetch(countUrl)
-              .then(r => r.json())
-              .then(results => {
-                // Insert the web URL.
-                let task = {};
-                task.href = `${GH_WEB_BASE_URL}${encodeURIComponent(query.q)}`;
-                task.name = query.desc;
-                task.count = results.total_count;
-                return task;
-              });
-            }));
-        this.githubTasks = githubTasks;
 
         let queryResults = await (await fetch('crbug.json', { cache: 'no-store' })).json();
         this.chromiumTasks = crbug_queries.map(query => {
