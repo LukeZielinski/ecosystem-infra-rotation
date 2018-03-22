@@ -23,18 +23,19 @@
       paper-badge.fail {
         --paper-badge-background: var(--paper-red-500);
       }
+      a {
+        color: var(--paper-blue-800);
+      }
     </style>
 
     <div>
       <paper-collapse-item>
         <div slot='header'>
-          [[ task.name ]]
+          <a href='[[task.href]]' target='_blank'>[[task.name]]</a>
         </div>
         <div class='badge' slot='icon'>
           <paper-badge label='[[_computeBadgeLabel(task.count)]]' class$='[[_computeBadgeClass(task.count)]]'></paper-badge>
         </div>
-
-        <a href='[[task.href]]'>Link</a>
       </paper-collapse-item>
     </div>
 
