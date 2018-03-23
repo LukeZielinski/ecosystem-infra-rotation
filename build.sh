@@ -14,7 +14,7 @@ cp -r webapp "$OUTDIR"
 
 # virtualenv initialization
 if [[ ! -f "env/bin/activate" ]]; then
-    virtualenv -p /usr/bin/python3 --no-site-packages env
+    virtualenv -p python3 --no-site-packages env
 fi
 set +u
 source env/bin/activate
@@ -31,4 +31,4 @@ else
     git show FETCH_HEAD:crbug.json > "$OUTDIR/crbug.json"
 fi
 
-python3 wptsync.py $OUTDIR/import.json $OUTDIR/export.json
+python3 wptsync.py "$OUTDIR/import.json" "$OUTDIR/export.json"
