@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from oauth2client.client import GoogleCredentials
 import json
 import googleapiclient.discovery
