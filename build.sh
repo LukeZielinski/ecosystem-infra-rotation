@@ -30,3 +30,5 @@ else
     git fetch -q origin gh-pages
     git show FETCH_HEAD:crbug.json > "$OUTDIR/crbug.json"
 fi
+
+python3 wptsync.py $OUTDIR/import.json $OUTDIR/export.json
