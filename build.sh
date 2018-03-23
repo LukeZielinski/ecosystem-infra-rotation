@@ -12,6 +12,15 @@ mkdir out
 # copy the static webapp content
 cp -r webapp "$OUTDIR"
 
+# virtualenv initialization
+if [[ ! -f "env/bin/activate" ]]; then
+    virtualenv -p /usr/bin/python3 --no-site-packages
+fi
+set +u
+source env/bin/activate
+set -u
+pip install -U -r requirements.txt
+
 # generate or copy the crbug list
 MONORAIL_KEY="monorail-key.json"
 if [[ -f "$MONORAIL_KEY" ]]; then
