@@ -38,6 +38,27 @@
       };
     }
 
+    function importExportTask(kind) {
+      return {
+        name: `${kind}er status`,
+        href: `https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-${kind}er/`,
+        status: fetch(`${kind}.json`, { cache: 'no-store' }).then(async response => {
+          const builds = await response.json();
+          const ms_since_last_success = Date.now() - Date.parse(builds.last_success);
+          // flag more than one failure in a row
+          if (builds.recent_failures > 1) {
+            return builds.recent_failures;
+          }
+          // flag no success in past 12 hours
+          if (ms_since_last_success > 12*3600*1000) {
+            // TODO: include a status message with the failures, not just a count.
+            return 12;
+          }
+          return 0;
+        }),
+      }
+    }
+
     // single fetch that will be shared by tasks
     const crbugJSON = fetch('crbug.json', { cache: 'no-store' }).then(r => r.json());
 
@@ -67,7 +88,11 @@
       ready() {
         super.ready();
 
-        const exportTask = githubTask('pending export PRs', `is:pr is:open label:chromium-export -label:"do not merge yet" updated:<${minutesAgo(50)}`);
+        const twoWaySyncTasks = [
+          importExportTask('import'),
+          importExportTask('export'),
+          githubTask('pending export PRs', `is:pr is:open label:chromium-export -label:"do not merge yet" updated:<${minutesAgo(50)}`),
+        ];
 
         const wptInfraTaskInfo = [
           { name: 'untriaged issues', query: 'is:issue is:open label:infra -label:priority:backlog -label:priority:roadmap -label:priority:urgent' },
@@ -85,7 +110,7 @@
         this.groups = [
           {
             name: '2-way sync',
-            tasks: [exportTask],
+            tasks: twoWaySyncTasks,
           },
           {
             name: 'web-platform-tests infra issue triage',
