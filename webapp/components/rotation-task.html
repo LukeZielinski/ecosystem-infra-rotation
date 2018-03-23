@@ -60,7 +60,6 @@
         if (this.task.status) {
           this.task.status.then(count => {
             this.set('task.count', count);
-            console.log(this.task);
           }).catch(error => {
             alert(`Something is wrong: ${error}`);
           });
