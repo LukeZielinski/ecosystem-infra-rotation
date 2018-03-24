@@ -10,8 +10,80 @@
     "totalResults": 0
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
-    "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/OwiwPk8ci4YFrSoBEdO1tgOC2KE\"",
+    "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/EVldzTGmI4KTI4_OLOU5Aqe3wLo\"",
     "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/2928714875",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "lukasza@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1566474911",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "38",
+            "name": "avallee@chromium.org",
+            "vacation_message": "On baby leave until March 26"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2436768650",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "creis@chromium.org",
+            "vacation_message": "OOO until 3/27"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3267981708",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "alexmos@chromium.org"
+          }
+        ],
+        "component_modified": "2017-11-14T10:29:07",
+        "components": [
+          "Blink>Infra>Ecosystem",
+          "Internals>Sandbox>SiteIsolation"
+        ],
+        "id": 783416,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner_modified": "2017-11-21T20:23:07",
+        "projectId": "chromium",
+        "published": "2017-11-09T22:05:47",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "ExternalDependency",
+        "status_modified": "2017-11-14T10:28:51",
+        "summary": "WPT-prescribed cross-origins are not cross-site",
+        "title": "WPT-prescribed cross-origins are not cross-site",
+        "updated": "2018-01-23T05:41:54"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -736,7 +808,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 7
+    "totalResults": 8
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/WfHzP12oBFkbpOojVXN_TNd9BOc\"",
@@ -854,9 +926,83 @@
     "totalResults": 0
   },
   "component:Blink>Infra>Ecosystem Pri=2 modified<today-60": {
-    "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/gioCf8J4DTwIlQw93MrJ551fsko\"",
+    "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/6IK-NBpCpjFiZzPpE1VVfaXvZ9k\"",
+    "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/2928714875",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "lukasza@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1566474911",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "38",
+            "name": "avallee@chromium.org",
+            "vacation_message": "On baby leave until March 26"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2436768650",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "creis@chromium.org",
+            "vacation_message": "OOO until 3/27"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3267981708",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "alexmos@chromium.org"
+          }
+        ],
+        "component_modified": "2017-11-14T10:29:07",
+        "components": [
+          "Blink>Infra>Ecosystem",
+          "Internals>Sandbox>SiteIsolation"
+        ],
+        "id": 783416,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner_modified": "2017-11-21T20:23:07",
+        "projectId": "chromium",
+        "published": "2017-11-09T22:05:47",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "ExternalDependency",
+        "status_modified": "2017-11-14T10:28:51",
+        "summary": "WPT-prescribed cross-origins are not cross-site",
+        "title": "WPT-prescribed cross-origins are not cross-site",
+        "updated": "2018-01-23T05:41:54"
+      }
+    ],
     "kind": "monorail#issueList",
-    "totalResults": 0
+    "totalResults": 1
   },
   "component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged": {
     "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/gioCf8J4DTwIlQw93MrJ551fsko\"",
