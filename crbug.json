@@ -10,7 +10,7 @@
     "totalResults": 0
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
-    "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/8gILjza9qULPMT_8uZT5Y09XHko\"",
+    "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/uFOnQ74yfjCNzP5jEZRkftE-tdw\"",
     "items": [
       {
         "author": {
@@ -266,7 +266,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/113376574",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "3",
             "name": "jochen@chromium.org",
             "vacation_message": "OOO until Apr 2"
           },
@@ -350,7 +350,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/113376574",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "3",
             "name": "jochen@chromium.org",
             "vacation_message": "OOO until Apr 2"
           },
@@ -551,7 +551,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/113376574",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "3",
             "name": "jochen@chromium.org",
             "vacation_message": "OOO until Apr 2"
           },
@@ -659,7 +659,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/113376574",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "3",
             "name": "jochen@chromium.org",
             "vacation_message": "OOO until Apr 2"
           },
@@ -735,7 +735,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/113376574",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "3",
             "name": "jochen@chromium.org",
             "vacation_message": "OOO until Apr 2"
           },
@@ -811,109 +811,9 @@
     "totalResults": 8
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/GyD-PuDism7gynpYbqDiMsbpVT8\"",
-    "items": [
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3098058249",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "2",
-          "name": "robertma@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2779573485",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "3",
-            "name": "dpranke@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3195081326",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "foolip@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/4006160393",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "jbudorick@chromium.org"
-          }
-        ],
-        "component_modified": "2018-03-21T22:51:47",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 824539,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Android",
-          "Type-Bug",
-          "Pri-2"
-        ],
-        "owner_modified": "2018-03-21T22:51:47",
-        "projectId": "chromium",
-        "published": "2018-03-21T22:51:47",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-03-21T22:51:47",
-        "summary": "WebKit Android bots aren't running any layout tests (but still green)",
-        "title": "WebKit Android bots aren't running any layout tests (but still green)",
-        "updated": "2018-03-22T21:57:52"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/4104350089",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "ulan@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/4104350089",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "ulan@chromium.org"
-          }
-        ],
-        "component_modified": "2018-03-14T19:27:39",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 819227,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Linux",
-          "Pri-1",
-          "Type-Bug"
-        ],
-        "owner_modified": "2018-03-06T15:37:54",
-        "projectId": "chromium",
-        "published": "2018-03-06T15:37:54",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-03-06T15:37:54",
-        "summary": "WebKit Linux Trusty MSAN is timout out on random tests",
-        "title": "WebKit Linux Trusty MSAN is timout out on random tests",
-        "updated": "2018-03-14T19:27:39"
-      }
-    ],
+    "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/gioCf8J4DTwIlQw93MrJ551fsko\"",
     "kind": "monorail#issueList",
-    "totalResults": 2
+    "totalResults": 0
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"ieP2-BgC5gdpQ19hZ1yn6mYL7qI/gioCf8J4DTwIlQw93MrJ551fsko\"",
