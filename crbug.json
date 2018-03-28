@@ -393,9 +393,94 @@
     "totalResults": 5
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"b8eqfZvIR_rV12xPssCQ51ZdawM/gioCf8J4DTwIlQw93MrJ551fsko\"",
+    "etag": "\"b8eqfZvIR_rV12xPssCQ51ZdawM/6DVwFruVtk0g3xOBOW54Dv-TUjE\"",
+    "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "qyearsley@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2017-03-24T15:54:04",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 704951,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Task",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-03-24T15:54:04",
+        "projectId": "chromium",
+        "published": "2017-03-24T15:54:04",
+        "starred": false,
+        "stars": 2,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-03-28T16:08:07",
+        "summary": "Identify and convert some pixel tests to reference tests.",
+        "title": "Identify and convert some pixel tests to reference tests.",
+        "updated": "2018-03-28T16:08:07"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "qyearsley@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1939658455",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "jeffcarp@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "dpranke@chromium.org"
+          }
+        ],
+        "component_modified": "2017-03-23T01:49:09",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 704382,
+        "kind": "monorail#issue",
+        "labels": [
+          "Hotlist-CodeHealth",
+          "Type-Task",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-03-23T01:49:09",
+        "projectId": "chromium",
+        "published": "2017-03-23T01:49:09",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-03-28T16:08:21",
+        "summary": "Remove the \"archived results dashboard\" feature of run-webkit-tests.",
+        "title": "Remove the \"archived results dashboard\" feature of run-webkit-tests.",
+        "updated": "2018-03-28T16:08:21"
+      }
+    ],
     "kind": "monorail#issueList",
-    "totalResults": 0
+    "totalResults": 2
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"b8eqfZvIR_rV12xPssCQ51ZdawM/gioCf8J4DTwIlQw93MrJ551fsko\"",
