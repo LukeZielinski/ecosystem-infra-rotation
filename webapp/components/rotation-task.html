@@ -17,6 +17,9 @@
         /* initial state before async check is done */
         --paper-badge-background: var(--paper-grey-500);
       }
+      paper-badge.broken {
+        --paper-badge-background: var(--paper-purple-500);
+      }
       paper-badge.pass {
         --paper-badge-background: var(--paper-green-500);
       }
@@ -61,13 +64,18 @@
           this.task.status.then(count => {
             this.set('task.count', count);
           }).catch(error => {
-            alert(`Something is wrong: ${error}`);
+            console.error(error);
+            // TODO: replace count with something more "semantic"
+            this.set('task.count', -1);
           });
         }
       }
 
       _computeBadgeLabel(count) {
         if (count === undefined) {
+          return '\u22EF';
+        }
+        if (count === -1) {
           return '?';
         }
         if (count === 0) {
@@ -79,6 +87,9 @@
       _computeBadgeClass(count) {
         if (count === undefined) {
           return '';
+        }
+        if (count === -1) {
+          return 'broken';
         }
         if (count === 0) {
           return 'pass';
