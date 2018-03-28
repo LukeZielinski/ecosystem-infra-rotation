@@ -27,11 +27,13 @@
 
     function minutesAgo(minutes) {
       const date = new Date(Date.now() - minutes * 60000);
-      return date.toISOString().substr(0, 10);
+      // Drop the milliseconds part of the string, since GitHub doesn't support it:
+      // https://help.github.com/articles/understanding-the-search-syntax/#query-for-dates
+      return date.toISOString().replace(/\.\d\d\dZ$/, 'Z');
     }
 
     function daysAgo(days) {
-      return minutesAgo(days * 1440);
+      return minutesAgo(days * 1440).substr(0, 10);
     }
 
     function githubTask(name, query) {
