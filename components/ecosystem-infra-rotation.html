@@ -91,7 +91,7 @@
         const twoWaySyncTasks = [
           importExportTask('import'),
           importExportTask('export'),
-          githubTask('pending export PRs', `is:pr is:open label:chromium-export -label:"do not merge yet" updated:<${minutesAgo(50)}`),
+          githubTask('blocked export PRs', `is:pr is:open label:chromium-export -label:"do not merge yet" updated:<${minutesAgo(50)}`),
         ];
 
         const wptInfraTaskInfo = [
@@ -101,7 +101,7 @@
         ];
 
         const blinkInfraTaskInfo = [
-          { name: 'unconfirmed and untriaged', query: 'component:Blink>Infra status:Unconfirmed,Untriaged' },
+          { name: 'untriaged issues', query: 'component:Blink>Infra status:Unconfirmed,Untriaged' },
           { name: 'P0 issues >2 days', query: 'component:Blink>Infra Pri=0 modified<today-2' },
           { name: 'P1 issues >30 days', query: 'component:Blink>Infra Pri=1 modified<today-30' },
           { name: 'P2 issues >60 days', query: 'component:Blink>Infra Pri=2 modified<today-60' },
