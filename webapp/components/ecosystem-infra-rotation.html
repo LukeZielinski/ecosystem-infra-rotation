@@ -12,6 +12,9 @@
     <template is='dom-repeat' as='group' items='[[groups]]'>
       <rotation-task-group name='[[group.name]]' tasks='[[group.tasks]]'></rotation-task-group>
     </template>
+    <footer>
+      <p>source on <a href="https://github.com/foolip/ecosystem-infra-rotation">GitHub</a></p>
+    </footer>
   </template>
   <script>
     function minutesAgo(minutes) {
