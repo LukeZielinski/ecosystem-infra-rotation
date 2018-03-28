@@ -17,6 +17,14 @@
     </footer>
   </template>
   <script>
+    async function fetchJSON(url) {
+      const response = await fetch(url, { cache: 'no-store' });
+      if (!response.ok) {
+        throw new Error(`${url} response has status ${response.status}`);
+      }
+      return response.json();
+    }
+
     function minutesAgo(minutes) {
       const date = new Date(Date.now() - minutes * 60000);
       return date.toISOString().substr(0, 10);
@@ -37,7 +45,7 @@
       return {
         name: name,
         href: webURL,
-        status: fetch(apiURL).then(r => r.json()).then(r => r.total_count),
+        status: fetchJSON(apiURL).then(r => r.total_count),
       };
     }
 
@@ -45,8 +53,7 @@
       return {
         name: `${kind}er status`,
         href: `https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-${kind}er/`,
-        status: fetch(`${kind}.json`, { cache: 'no-store' }).then(async response => {
-          const builds = await response.json();
+        status: fetchJSON(`${kind}.json`).then(builds => {
           const ms_since_last_success = Date.now() - Date.parse(builds.last_success);
           // flag more than one failure in a row
           if (builds.recent_failures > 1) {
@@ -63,7 +70,7 @@
     }
 
     // single fetch that will be shared by tasks
-    const crbugJSON = fetch('crbug.json', { cache: 'no-store' }).then(r => r.json());
+    const crbugJSON = fetchJSON('crbug.json');
 
     function crbugTask(name, query) {
       const BASE_URL = 'https://bugs.chromium.org/p/chromium/issues/list?can=2&q=';
