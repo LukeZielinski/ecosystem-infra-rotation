@@ -2,7 +2,7 @@
 
 This is a tool for the [ecosystem infra](https://bit.ly/ecosystem-infra) rotation.
 
-Usage: visit [the tool](https://foolip.github.io/ecosystem-infra-rotation/) and make all the circles green.
+Usage: visit https://foolip.github.io/ecosystem-infra-rotation/ and make all the circles green.
 
 If you reload often you might hit the GitHub API limit for unauthenticated requests.
 If this happens, [generate a new access token](https://github.com/settings/tokens/new) and append it to the URL as `GH_TOKEN=abcdef`, i.e.: https://foolip.github.io/ecosystem-infra-rotation/#GH_TOKEN=abcdef
@@ -32,7 +32,7 @@ See the [Monorail API access](https://bugs.chromium.org/p/monorail/issues/detail
 
 ## Server setup
 
-The [live tool](https://foolip.github.io/ecosystem-infra-rotation/) depends on a cron job running `./build.sh && ./deploy.sh` to update the gh-pages branch.
+https://foolip.github.io/ecosystem-infra-rotation/ depends on a cron job running `./build.sh && ./deploy.sh` to update the gh-pages branch.
 
 This is currently run by foolip, but if broken can be set up elsewhere.
 
