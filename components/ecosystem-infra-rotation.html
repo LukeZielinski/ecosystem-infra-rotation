@@ -17,8 +17,10 @@
     </footer>
   </template>
   <script>
-    async function fetchJSON(url) {
-      const response = await fetch(url, { cache: 'no-store' });
+    async function fetchJSON(url, init) {
+      // Bypass cache by default since gitub.io caches too much.
+      const initWithCache = Object.assign({ cache: 'no-store' }, init);
+      const response = await fetch(url, initWithCache);
       if (!response.ok) {
         throw new Error(`${url} response has status ${response.status}`);
       }
@@ -44,10 +46,19 @@
       const apiURL = `${BASE_API_URL}${encodeURIComponent(query)}`;
       const webURL = `${BASE_WEB_URL}${encodeURIComponent(query)}`;
 
+      // Extract GitHub API token from #GH_TOKEN=abcdef
+      let init;
+      if (location.hash) {
+        const token = new URLSearchParams(location.hash.substr(1)).get('GH_TOKEN');
+        if (token) {
+          init = { headers: { 'Authorization': `token ${token}` } };
+        }
+      }
+
       return {
         name: name,
         href: webURL,
-        status: fetchJSON(apiURL).then(r => r.total_count),
+        status: fetchJSON(apiURL, init).then(r => r.total_count),
       };
     }
 
