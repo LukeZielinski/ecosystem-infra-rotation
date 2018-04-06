@@ -1,6 +1,13 @@
 {
   "builds": [
     {
+      "build": "https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-importer/15383",
+      "duration": "1 hrs 11 mins",
+      "info": "failed Import changes from WPT to Chromium",
+      "result": "Failed",
+      "time": "Friday, 06-Apr-18 10:00:18 UTC"
+    },
+    {
       "build": "https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-importer/15382",
       "duration": "3 hrs 8 mins",
       "info": "failed Import changes from WPT to Chromium",
@@ -167,15 +174,8 @@
       "info": "build successful",
       "result": "Success",
       "time": "Wednesday, 04-Apr-18 16:32:25 UTC"
-    },
-    {
-      "build": "https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-importer/15358",
-      "duration": "11 mins 10 secs",
-      "info": "build successful",
-      "result": "Success",
-      "time": "Wednesday, 04-Apr-18 16:20:03 UTC"
     }
   ],
   "last_success": "Friday, 06-Apr-18 00:53:52 UTC",
-  "recent_failures": 2
+  "recent_failures": 3
 }
