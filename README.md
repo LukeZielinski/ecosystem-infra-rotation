@@ -4,10 +4,11 @@ This is a tool for the [ecosystem infra](https://bit.ly/ecosystem-infra) rotatio
 
 Usage: visit https://foolip.github.io/ecosystem-infra-rotation/ and make all the circles green.
 
+When things are red, there may be extra instructions in [docs/](docs/) for how to make it green.
+The [old rotation doc](https://bit.ly/ecosystem-infra-rotation) also has some useful information for how to deal with problems that come up, which hasn't yet been transitioned to docs/.
+
 If you reload often you might hit the GitHub API limit for unauthenticated requests.
 If this happens, [generate a new access token](https://github.com/settings/tokens/new) and pass it in the URL: https://foolip.github.io/ecosystem-infra-rotation/#GH_TOKEN=abcdef
-
-The [old rotation doc](https://bit.ly/ecosystem-infra-rotation) still has some useful information for how to deal with problems that come up.
 
 ## Running locally
 
