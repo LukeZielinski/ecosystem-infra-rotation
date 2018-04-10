@@ -15,8 +15,56 @@
     "totalResults": 0
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"4n6XuAMoH6ox7Vuoi8fJqE7a-P0/OMDgvm5Df_Bo4ndcTBDRIi3tNRI\"",
+    "etag": "\"4n6XuAMoH6ox7Vuoi8fJqE7a-P0/_E_7IJNSM2oSg_1iireksOPOqxw\"",
     "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1151644111",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "wangxianzhu@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          }
+        ],
+        "component_modified": "2018-04-10T03:22:35",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 831036,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-1",
+          "Type-Bug"
+        ],
+        "owner_modified": "2018-04-10T03:22:35",
+        "projectId": "chromium",
+        "published": "2018-04-10T03:22:35",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-04-10T03:22:35",
+        "summary": "After webkit-patch rebaseline-cl, all mac bots pass, but mac_chromium_rel_ng still fails",
+        "title": "After webkit-patch rebaseline-cl, all mac bots pass, but mac_chromium_rel_ng still fails",
+        "updated": "2018-04-10T03:22:35"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -115,7 +163,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 2
+    "totalResults": 3
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"4n6XuAMoH6ox7Vuoi8fJqE7a-P0/gioCf8J4DTwIlQw93MrJ551fsko\"",
