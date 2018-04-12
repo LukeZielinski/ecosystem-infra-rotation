@@ -15,7 +15,7 @@
     "totalResults": 0
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"4n6XuAMoH6ox7Vuoi8fJqE7a-P0/gb_hXvRSGeUJZDdr5wk-3By3LKc\"",
+    "etag": "\"4n6XuAMoH6ox7Vuoi8fJqE7a-P0/Fady0_Q0dpnM-aNKISpSc42lwEU\"",
     "items": [
       {
         "author": {
@@ -211,10 +211,96 @@
         "summary": "Remove redundant presubmits from third_party/WebKit",
         "title": "Remove redundant presubmits from third_party/WebKit",
         "updated": "2018-04-11T16:12:08"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/2271046939",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "fbeaufort@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          }
+        ],
+        "component_modified": "2016-06-13T09:38:49",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 619512,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold",
+          "Hotlist-GoodFirstBug"
+        ],
+        "owner_modified": "2016-06-13T09:38:49",
+        "projectId": "chromium",
+        "published": "2016-06-13T09:38:49",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-04-12T16:11:21",
+        "summary": "layout-test-results/results.html shows links for diff files for timed-out tests.",
+        "title": "layout-test-results/results.html shows links for diff files for timed-out tests.",
+        "updated": "2018-04-12T16:11:21"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/2064552898",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "cbiesinger@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          }
+        ],
+        "component_modified": "2016-06-10T16:26:18",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 619065,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold",
+          "Hotlist-GoodFirstBug"
+        ],
+        "owner_modified": "2016-06-10T16:26:18",
+        "projectId": "chromium",
+        "published": "2016-06-10T16:26:18",
+        "starred": false,
+        "stars": 3,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-04-12T16:11:25",
+        "summary": "run-webkit-tests prints confusing summary (no list following colon).",
+        "title": "run-webkit-tests prints confusing summary (no list following colon).",
+        "updated": "2018-04-12T16:11:25"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 4
+    "totalResults": 6
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"4n6XuAMoH6ox7Vuoi8fJqE7a-P0/gioCf8J4DTwIlQw93MrJ551fsko\"",
