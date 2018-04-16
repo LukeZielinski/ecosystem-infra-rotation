@@ -160,7 +160,7 @@
     "totalResults": 1
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"Htjs66UQmhclZoU_ulDY5l4UNOw/n43PQyppeOcQRWNqMfyiDAXn1_E\"",
+    "etag": "\"Htjs66UQmhclZoU_ulDY5l4UNOw/ZKmw-Eo-kkvcxftn9RNjkGvcIWU\"",
     "items": [
       {
         "author": {
@@ -177,7 +177,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/3462071806",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "0",
             "name": "mikhail.pozdnyakov@intel.com"
           },
           {
@@ -478,7 +478,7 @@
     "totalResults": 0
   },
   "component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged": {
-    "etag": "\"Htjs66UQmhclZoU_ulDY5l4UNOw/jm71o-8qAANEg1G0DOBcR3v7BWc\"",
+    "etag": "\"Htjs66UQmhclZoU_ulDY5l4UNOw/9pkdH-woCzPO0j0ZCz7OW7oWPyE\"",
     "items": [
       {
         "author": {
@@ -490,6 +490,22 @@
         },
         "canComment": true,
         "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3462071806",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "mikhail.pozdnyakov@intel.com"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3527652992",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "5",
+            "name": "alexander.shalamov@intel.com"
+          }
+        ],
         "component_modified": "2018-04-16T01:58:01",
         "components": [
           "Blink>Infra>Ecosystem",
@@ -513,7 +529,7 @@
         "status_modified": "2018-04-16T01:58:01",
         "summary": "external/wpt/accelerometer/Accelerometer.https.html is flaky (in a strange way)",
         "title": "external/wpt/accelerometer/Accelerometer.https.html is flaky (in a strange way)",
-        "updated": "2018-04-16T03:07:59"
+        "updated": "2018-04-16T08:10:04"
       },
       {
         "author": {
