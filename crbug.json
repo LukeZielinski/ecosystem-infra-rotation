@@ -108,7 +108,7 @@
     "totalResults": 0
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"Htjs66UQmhclZoU_ulDY5l4UNOw/oN3qcPgD1iHsxR5-qxUwKKPweUo\"",
+    "etag": "\"Htjs66UQmhclZoU_ulDY5l4UNOw/y0pXQGE-7UKZ4Wj4hgBeM_Le3mY\"",
     "items": [
       {
         "author": {
@@ -157,58 +157,6 @@
         "summary": "try-flag is broken",
         "title": "try-flag is broken",
         "updated": "2018-04-17T17:06:48"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3098058249",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "robertma@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3462071806",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "mikhail.pozdnyakov@intel.com"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3527652992",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "7",
-            "name": "alexander.shalamov@intel.com"
-          }
-        ],
-        "component_modified": "2018-04-16T01:58:01",
-        "components": [
-          "Blink>Infra>Ecosystem",
-          "Blink>Sensor"
-        ],
-        "id": 833215,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Linux",
-          "Type-Bug",
-          "Pri-3",
-          "OS-Mac",
-          "merge-merged-testbranch"
-        ],
-        "owner_modified": "2018-04-16T01:58:01",
-        "projectId": "chromium",
-        "published": "2018-04-16T01:58:01",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-04-16T01:58:01",
-        "summary": "external/wpt/accelerometer/Accelerometer.https.html is flaky (in a strange way)",
-        "title": "external/wpt/accelerometer/Accelerometer.https.html is flaky (in a strange way)",
-        "updated": "2018-04-17T19:13:41"
       },
       {
         "author": {
@@ -652,7 +600,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 11
+    "totalResults": 10
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"Htjs66UQmhclZoU_ulDY5l4UNOw/gioCf8J4DTwIlQw93MrJ551fsko\"",
@@ -670,60 +618,8 @@
     "totalResults": 0
   },
   "component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged": {
-    "etag": "\"Htjs66UQmhclZoU_ulDY5l4UNOw/utIagcDnPrWAmkPIFfU4DAa5w1Q\"",
+    "etag": "\"Htjs66UQmhclZoU_ulDY5l4UNOw/3xxT0nXVwohutKgtwG99Qhtk56g\"",
     "items": [
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3098058249",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "robertma@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3462071806",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "mikhail.pozdnyakov@intel.com"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3527652992",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "7",
-            "name": "alexander.shalamov@intel.com"
-          }
-        ],
-        "component_modified": "2018-04-16T01:58:01",
-        "components": [
-          "Blink>Infra>Ecosystem",
-          "Blink>Sensor"
-        ],
-        "id": 833215,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Linux",
-          "Type-Bug",
-          "Pri-3",
-          "OS-Mac",
-          "merge-merged-testbranch"
-        ],
-        "owner_modified": "2018-04-16T01:58:01",
-        "projectId": "chromium",
-        "published": "2018-04-16T01:58:01",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-04-16T01:58:01",
-        "summary": "external/wpt/accelerometer/Accelerometer.https.html is flaky (in a strange way)",
-        "title": "external/wpt/accelerometer/Accelerometer.https.html is flaky (in a strange way)",
-        "updated": "2018-04-17T19:13:41"
-      },
       {
         "author": {
           "email_bouncing": false,
@@ -774,6 +670,6 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 2
+    "totalResults": 1
   }
 }
