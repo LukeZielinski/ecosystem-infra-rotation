@@ -1,6 +1,13 @@
 {
   "builds": [
     {
+      "build": "https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-exporter/77094",
+      "duration": "2 mins 3 secs",
+      "info": "Build expired on Milo",
+      "result": "Exception",
+      "time": "Saturday, 21-Apr-18 11:28:06 UTC"
+    },
+    {
       "build": "https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-exporter/77093",
       "duration": "7 mins 1 secs",
       "info": "build successful",
@@ -167,15 +174,8 @@
       "info": "build successful",
       "result": "Success",
       "time": "Saturday, 21-Apr-18 08:19:13 UTC"
-    },
-    {
-      "build": "https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-exporter/77069",
-      "duration": "9 mins 50 secs",
-      "info": "build successful",
-      "result": "Success",
-      "time": "Saturday, 21-Apr-18 08:11:20 UTC"
     }
   ],
   "last_success": "Saturday, 21-Apr-18 11:25:10 UTC",
-  "recent_failures": 0
+  "recent_failures": 1
 }
