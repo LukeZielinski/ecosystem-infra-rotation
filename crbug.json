@@ -10,8 +10,71 @@
     "totalResults": 0
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
-    "etag": "\"mtjIHvAx4HYZkjvy_c5qpmUV-_I/85Zzji50I6YjiFoK1dkNKbLwJQo\"",
+    "etag": "\"mtjIHvAx4HYZkjvy_c5qpmUV-_I/RlhzFqjAw2nVqInJ4qvmca3LLVo\"",
     "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "qyearsley@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/904770043",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "jrobbins@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2946409494",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "10",
+            "name": "nainar@chromium.org",
+            "vacation_message": "Not on Chrome anymore"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "robertma@chromium.org"
+          }
+        ],
+        "component_modified": "2016-03-24T21:47:08",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 597797,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-2",
+          "Type-Feature"
+        ],
+        "owner_modified": "2017-04-19T05:36:29",
+        "projectId": "chromium",
+        "published": "2016-03-24T21:47:08",
+        "starred": false,
+        "stars": 0,
+        "state": "open",
+        "status": "Available",
+        "status_modified": "2017-04-19T05:36:29",
+        "summary": "Write a script to list stale flaky or skipped tests",
+        "title": "Write a script to list stale flaky or skipped tests",
+        "updated": "2018-02-21T16:33:41"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -63,7 +126,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 1
+    "totalResults": 2
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "etag": "\"mtjIHvAx4HYZkjvy_c5qpmUV-_I/gioCf8J4DTwIlQw93MrJ551fsko\"",
