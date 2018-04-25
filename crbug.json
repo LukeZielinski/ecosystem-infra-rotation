@@ -15,7 +15,7 @@
     "totalResults": 0
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"mtjIHvAx4HYZkjvy_c5qpmUV-_I/WMmGq8rFdn2UjP4wjvJuM4Bk1Zw\"",
+    "etag": "\"mtjIHvAx4HYZkjvy_c5qpmUV-_I/CrmAxUC-bnfp4f8LVxTMmOQmMoU\"",
     "items": [
       {
         "author": {
@@ -80,10 +80,95 @@
         "summary": "external/wpt/content-security-policy/inside-worker/dedicated-inheritance.html failing on Mac.",
         "title": "external/wpt/content-security-policy/inside-worker/dedicated-inheritance.html failing on Mac.",
         "updated": "2018-04-25T13:10:20"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3228155790",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "dcheng@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/503772156",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "loyso@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3127793378",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "haraken@chromium.org"
+          },
+          {
+            "email_bouncing": true,
+            "htmlLink": "https://bugs.chromium.org/u/3226797277",
+            "kind": "monorail#issuePerson",
+            "name": "earthdok@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3584865153",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "thakis@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3927685578",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "zmo@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/4262791645",
+            "kind": "monorail#issuePerson",
+            "name": "samsonov@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/4287370460",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "13",
+            "name": "glider@chromium.org"
+          }
+        ],
+        "component_modified": "2015-05-05T17:46:33",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 484760,
+        "kind": "monorail#issue",
+        "labels": [
+          "OS-Linux",
+          "Type-Bug",
+          "Stability-Memory-LeakSanitizer",
+          "Pri-3",
+          "Hotlist-Recharge-Cold",
+          "Build-Toolchain"
+        ],
+        "owner_modified": "2015-12-16T06:02:31",
+        "projectId": "chromium",
+        "published": "2015-05-05T17:46:33",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-04-25T16:06:14",
+        "summary": "Stack symbolization is not stable between build configs",
+        "title": "Stack symbolization is not stable between build configs",
+        "updated": "2018-04-25T16:06:14"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 1
+    "totalResults": 2
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"mtjIHvAx4HYZkjvy_c5qpmUV-_I/gioCf8J4DTwIlQw93MrJ551fsko\"",
