@@ -15,7 +15,7 @@
     "totalResults": 0
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"mtjIHvAx4HYZkjvy_c5qpmUV-_I/EiZMtMiNqSDD621DKdqIHw77RMM\"",
+    "etag": "\"mtjIHvAx4HYZkjvy_c5qpmUV-_I/lYsivaO2zrgP10fZx5KCU6eRSIE\"",
     "items": [
       {
         "author": {
@@ -114,70 +114,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1931360713",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "thestig@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/444592569",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "rakina@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/446957730",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "yoichio@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "qyearsley@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2018-04-25T01:24:11",
-        "components": [
-          "Blink>Infra>Ecosystem",
-          "Blink>SecurityFeature>ContentSecurityPolicy"
-        ],
-        "id": 836627,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-2",
-          "OS-Mac"
-        ],
-        "owner_modified": "2018-04-25T01:18:03",
-        "projectId": "chromium",
-        "published": "2018-04-25T01:18:03",
-        "starred": false,
-        "stars": 2,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-04-25T01:18:03",
-        "summary": "external/wpt/content-security-policy/inside-worker/dedicated-inheritance.html failing on Mac.",
-        "title": "external/wpt/content-security-policy/inside-worker/dedicated-inheritance.html failing on Mac.",
-        "updated": "2018-04-25T17:32:44"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3228155790",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -262,7 +198,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 4
+    "totalResults": 3
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"mtjIHvAx4HYZkjvy_c5qpmUV-_I/gioCf8J4DTwIlQw93MrJ551fsko\"",
@@ -280,74 +216,8 @@
     "totalResults": 0
   },
   "component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged": {
-    "etag": "\"mtjIHvAx4HYZkjvy_c5qpmUV-_I/Vi2v3kc11zZ9_W-QGoY0vgALS5g\"",
-    "items": [
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1931360713",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "thestig@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/444592569",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "rakina@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/446957730",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "yoichio@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "qyearsley@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2018-04-25T01:24:11",
-        "components": [
-          "Blink>Infra>Ecosystem",
-          "Blink>SecurityFeature>ContentSecurityPolicy"
-        ],
-        "id": 836627,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-2",
-          "OS-Mac"
-        ],
-        "owner_modified": "2018-04-25T01:18:03",
-        "projectId": "chromium",
-        "published": "2018-04-25T01:18:03",
-        "starred": false,
-        "stars": 2,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-04-25T01:18:03",
-        "summary": "external/wpt/content-security-policy/inside-worker/dedicated-inheritance.html failing on Mac.",
-        "title": "external/wpt/content-security-policy/inside-worker/dedicated-inheritance.html failing on Mac.",
-        "updated": "2018-04-25T17:32:44"
-      }
-    ],
+    "etag": "\"mtjIHvAx4HYZkjvy_c5qpmUV-_I/gioCf8J4DTwIlQw93MrJ551fsko\"",
     "kind": "monorail#issueList",
-    "totalResults": 1
+    "totalResults": 0
   }
 }
