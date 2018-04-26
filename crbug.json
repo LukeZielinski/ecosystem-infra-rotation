@@ -15,8 +15,47 @@
     "totalResults": 0
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"mtjIHvAx4HYZkjvy_c5qpmUV-_I/49aFfy1nFejiQpAgHFp9MzcSPtQ\"",
+    "etag": "\"mtjIHvAx4HYZkjvy_c5qpmUV-_I/hq95kKAvHlZTTDJVHRXqkkXuhC0\"",
     "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3787522839",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "maxmorin@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2018-04-26T09:16:17",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 837163,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-1",
+          "Type-Bug"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "qyearsley@chromium.org"
+        },
+        "owner_modified": "2018-04-26T09:16:17",
+        "projectId": "chromium",
+        "published": "2018-04-26T09:16:17",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-04-26T09:16:17",
+        "summary": "Nonsense presubmit error when disabling flaky tests",
+        "title": "Nonsense presubmit error when disabling flaky tests",
+        "updated": "2018-04-26T09:16:17"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -198,7 +237,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 3
+    "totalResults": 4
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"mtjIHvAx4HYZkjvy_c5qpmUV-_I/gioCf8J4DTwIlQw93MrJ551fsko\"",
