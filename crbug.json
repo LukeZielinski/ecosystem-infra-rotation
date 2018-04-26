@@ -15,8 +15,60 @@
     "totalResults": 0
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"mtjIHvAx4HYZkjvy_c5qpmUV-_I/hhQep1VzlY1x4pZhsvck98zLrqA\"",
+    "etag": "\"mtjIHvAx4HYZkjvy_c5qpmUV-_I/hQpsYqV7nynTObQj-5hkgLWpzbc\"",
     "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "robertma@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/802588938",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "7",
+            "name": "iannucci@chromium.org",
+            "vacation_message": "OOO (>= June 01, 2018)"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3032437257",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "martiniss@chromium.org"
+          }
+        ],
+        "component_modified": "2018-04-26T18:35:14",
+        "components": [
+          "Blink>Infra",
+          "Infra>Platform>Recipes"
+        ],
+        "id": 837301,
+        "kind": "monorail#issue",
+        "labels": [
+          "Infra-Troopers",
+          "Pri-2",
+          "Infra",
+          "Infra-Area-Recipes"
+        ],
+        "owner_modified": "2018-04-26T17:52:50",
+        "projectId": "chromium",
+        "published": "2018-04-26T17:52:50",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-04-26T17:52:50",
+        "summary": "Recipe engine bug: unexpected failure (webkit_layout_tests)",
+        "title": "Recipe engine bug: unexpected failure (webkit_layout_tests)",
+        "updated": "2018-04-26T18:35:14"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -372,7 +424,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 6
+    "totalResults": 7
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"mtjIHvAx4HYZkjvy_c5qpmUV-_I/gioCf8J4DTwIlQw93MrJ551fsko\"",
