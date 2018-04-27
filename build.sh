@@ -11,7 +11,7 @@ mkdir out
 
 # Copy the static webapp content. Exclude Markdown as the gh-pages build can
 # fail because of them.
-rsync -a --exclude="*.md" webapp "$OUTDIR"
+rsync -a --exclude="*.md" webapp/ "$OUTDIR"
 
 # virtualenv initialization
 if [[ ! -f "env/bin/activate" ]]; then
