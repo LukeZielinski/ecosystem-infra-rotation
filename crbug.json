@@ -155,7 +155,7 @@
     "totalResults": 2
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/rKVrHhCTp2uUJEFY9geGEugw7r8\"",
+    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/VGhPR4g1LLSBEXczRWhDlb1HwJI\"",
     "items": [
       {
         "author": {
@@ -172,7 +172,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1841987732",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "544",
+            "last_visit_days_ago": "545",
             "name": "jchaffraix@chromium.org"
           }
         ],
@@ -278,10 +278,62 @@
         "summary": "Fix and re-enable virtual/threaded tests under MSAN.",
         "title": "Fix and re-enable virtual/threaded tests under MSAN.",
         "updated": "2018-05-01T16:04:36"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1178999657",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "279",
+          "name": "jww@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/189620131",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "mkwst@chromium.org",
+            "vacation_message": "OOO, sick family"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3002369578",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "28",
+            "name": "adamk@chromium.org",
+            "vacation_message": "out for Q2"
+          }
+        ],
+        "component_modified": "2014-09-19T01:40:59",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 415845,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold",
+          "OS-All"
+        ],
+        "owner_modified": "2014-09-19T01:40:59",
+        "projectId": "chromium",
+        "published": "2014-09-19T01:40:59",
+        "starred": false,
+        "stars": 2,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-05-01T16:05:22",
+        "summary": "test_runner needs to clean up isolated worlds on reset",
+        "title": "test_runner needs to clean up isolated worlds on reset",
+        "updated": "2018-05-01T16:05:22"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 2
+    "totalResults": 3
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/gioCf8J4DTwIlQw93MrJ551fsko\"",
