@@ -155,8 +155,70 @@
     "totalResults": 2
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/sRdFThzJ_WHCsx3sP4t1LV3llKI\"",
+    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/D1oix8fm7DS4p23wiLZnxrCWkMQ\"",
     "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/2779573485",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "dpranke@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1573466780",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "wez@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2553354860",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "kmarshall@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/4006160393",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "jbudorick@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/4143809049",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "scottmg@chromium.org"
+          }
+        ],
+        "component_modified": "2018-05-01T21:39:50",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 838703,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-1",
+          "Type-Bug"
+        ],
+        "owner_modified": "2018-05-01T21:39:50",
+        "projectId": "chromium",
+        "published": "2018-05-01T21:39:50",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-05-01T21:39:50",
+        "summary": "webkit_lint failing on windows",
+        "title": "webkit_lint failing on windows",
+        "updated": "2018-05-01T21:39:50"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -333,7 +395,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 3
+    "totalResults": 4
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/gioCf8J4DTwIlQw93MrJ551fsko\"",
