@@ -5,9 +5,97 @@
     "totalResults": 0
   },
   "component:Blink>Infra Pri=1 modified<today-30": {
-    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/gioCf8J4DTwIlQw93MrJ551fsko\"",
+    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/iDDMVALcwkeGEgkBvwxL6vAvyPw\"",
+    "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/2779573485",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "2",
+          "name": "dpranke@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/925436157",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "tandrii@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1386785815",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "efoo@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1837693908",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "nodir@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3934801634",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "estaab@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/4006160393",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "jbudorick@chromium.org"
+          }
+        ],
+        "component_modified": "2018-03-02T21:53:24",
+        "components": [
+          "Blink>Infra",
+          "Infra>Platform"
+        ],
+        "id": 818301,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-1",
+          "Type-Bug",
+          "LUCI-Chromium",
+          "LUCI-Blocker-Chromium"
+        ],
+        "owner_modified": "2018-03-02T21:53:24",
+        "projectId": "chromium",
+        "published": "2018-03-02T21:53:24",
+        "starred": false,
+        "stars": 3,
+        "state": "open",
+        "status": "Available",
+        "status_modified": "2018-03-02T22:17:31",
+        "summary": "We should shut off chromium.webkit and migrate the remaining tasks to chromium.{mac,win,linux,android}",
+        "title": "We should shut off chromium.webkit and migrate the remaining tasks to chromium.{mac,win,linux,android}",
+        "updated": "2018-04-07T01:55:18"
+      }
+    ],
     "kind": "monorail#issueList",
-    "totalResults": 0
+    "totalResults": 1
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
     "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/gioCf8J4DTwIlQw93MrJ551fsko\"",
