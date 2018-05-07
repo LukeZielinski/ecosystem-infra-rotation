@@ -103,8 +103,49 @@
     "totalResults": 0
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/-ZG71ZdCFh0ONnGzr4hjQEznojk\"",
+    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/AO9Mj0hugV5dRUGtEQeEX-09BSY\"",
     "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3958632946",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "bugsnash@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "qyearsley@chromium.org"
+          }
+        ],
+        "component_modified": "2018-05-07T04:38:35",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 840230,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3"
+        ],
+        "owner_modified": "2018-05-07T04:38:35",
+        "projectId": "chromium",
+        "published": "2018-05-07T04:38:35",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-05-07T04:38:35",
+        "summary": "update_flaky_expectations script throws 404 errors for all builders except Android",
+        "title": "update_flaky_expectations script throws 404 errors for all builders except Android",
+        "updated": "2018-05-07T04:38:35"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -158,7 +199,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 1
+    "totalResults": 2
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/gioCf8J4DTwIlQw93MrJ551fsko\"",
