@@ -15,7 +15,7 @@
     "totalResults": 0
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/3vlq-ozA8RjPCPM1OMvGU3aOMO4\"",
+    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/s6vt3IzXuV3AQc-xM3ynlrejKiE\"",
     "items": [
       {
         "author": {
@@ -27,6 +27,16 @@
         },
         "canComment": true,
         "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2564229424",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "4",
+            "name": "bsheedy@chromium.org",
+            "vacation_message": "OOO 5/2-2/25"
+          }
+        ],
         "component_modified": "2018-05-08T18:38:44",
         "components": [
           "Blink>Infra",
@@ -48,7 +58,7 @@
         "status_modified": "2018-05-08T18:38:44",
         "summary": "VR test is very flaky",
         "title": "VR test is very flaky",
-        "updated": "2018-05-08T18:38:44"
+        "updated": "2018-05-08T18:50:58"
       },
       {
         "author": {
