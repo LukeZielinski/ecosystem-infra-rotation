@@ -73,7 +73,7 @@
     "totalResults": 1
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/mRMcZ93sk5lJI9gcpNMk6AzajHY\"",
+    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/X-X2dpOZ0nXhFHw8o6ri4qjBOd4\"",
     "items": [
       {
         "author": {
@@ -143,6 +143,13 @@
           },
           {
             "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1939658455",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "jeffcarp@chromium.org"
+          },
+          {
+            "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/2779573485",
             "kind": "monorail#issuePerson",
             "last_visit_days_ago": "0",
@@ -171,7 +178,7 @@
         "status_modified": "2018-05-07T16:05:50",
         "summary": "run-webkit-tests doesn't support wildcards with virtual test suites",
         "title": "run-webkit-tests doesn't support wildcards with virtual test suites",
-        "updated": "2018-05-07T16:05:50"
+        "updated": "2018-05-08T14:50:18"
       }
     ],
     "kind": "monorail#issueList",
