@@ -73,8 +73,40 @@
     "totalResults": 1
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/-F6OU4CtUxJSIzS5pYhQBaLCQCg\"",
+    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/rUcAcJKON-5UTcPuWZGHdDnfzHs\"",
     "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/2078885569",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "hta@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2018-05-08T05:28:24",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 840659,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3"
+        ],
+        "owner_modified": "2018-05-08T05:28:24",
+        "projectId": "chromium",
+        "published": "2018-05-08T05:28:24",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-05-08T05:28:24",
+        "summary": "WebKit bots seem to be compiled without software H.264 support",
+        "title": "WebKit bots seem to be compiled without software H.264 support",
+        "updated": "2018-05-08T05:28:24"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -275,7 +307,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 4
+    "totalResults": 5
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/gioCf8J4DTwIlQw93MrJ551fsko\"",
