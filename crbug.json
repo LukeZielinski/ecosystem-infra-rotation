@@ -73,7 +73,7 @@
     "totalResults": 1
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/eP8wbzVBN2jjMcy5zLyOKSvKL8E\"",
+    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/ZSd43YI0aucfPMV85XuLcKM4Z0g\"",
     "items": [
       {
         "author": {
@@ -85,6 +85,22 @@
         },
         "canComment": true,
         "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2078885569",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "hta@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          }
+        ],
         "component_modified": "2018-05-08T05:28:24",
         "components": [
           "Blink>Infra"
@@ -98,14 +114,14 @@
         "owner_modified": "2018-05-08T05:28:24",
         "projectId": "chromium",
         "published": "2018-05-08T05:28:24",
-        "starred": false,
-        "stars": 1,
+        "starred": true,
+        "stars": 2,
         "state": "open",
         "status": "Untriaged",
         "status_modified": "2018-05-08T05:28:24",
         "summary": "WebKit bots seem to be compiled without software H.264 support",
         "title": "WebKit bots seem to be compiled without software H.264 support",
-        "updated": "2018-05-08T10:35:59"
+        "updated": "2018-05-08T11:38:45"
       },
       {
         "author": {
