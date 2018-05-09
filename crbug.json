@@ -15,7 +15,7 @@
     "totalResults": 0
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"ryY0whB98azwmRYYuHPxEl6EJb4/fctX9oQ2CmI6vU-WHk-y1MUYNIA\"",
+    "etag": "\"ryY0whB98azwmRYYuHPxEl6EJb4/AClrBNj960yRNW5A-jJM0vGNQCk\"",
     "items": [
       {
         "author": {
@@ -117,39 +117,6 @@
         },
         "canComment": true,
         "canEdit": true,
-        "component_modified": "2013-08-26T22:48:48",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 279500,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Feature",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2013-08-26T22:48:48",
-        "projectId": "chromium",
-        "published": "2013-08-26T22:48:48",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-05-08T16:05:27",
-        "summary": "Rework the way we update expectations files in tool/commands/rebaseline.py",
-        "title": "Rework the way we update expectations files in tool/commands/rebaseline.py",
-        "updated": "2018-05-08T16:05:27"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2779573485",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "dpranke@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
         "cc": [
           {
             "email_bouncing": false,
@@ -232,53 +199,10 @@
         "summary": "Use a generic theme and text rendering engine for content shell by default to get cross-platform baselines",
         "title": "Use a generic theme and text rendering engine for content shell by default to get cross-platform baselines",
         "updated": "2018-05-08T16:06:10"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2801085551",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "dalecurtis@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3399942901",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "peter@chromium.org"
-          }
-        ],
-        "component_modified": "2013-07-17T00:31:05",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 260972,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Android",
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2013-07-17T00:31:05",
-        "projectId": "chromium",
-        "published": "2013-07-17T00:31:05",
-        "starred": false,
-        "stars": 2,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-05-08T16:06:12",
-        "summary": "Android layout tests fail to run when built in shared_library mode.",
-        "title": "Android layout tests fail to run when built in shared_library mode.",
-        "updated": "2018-05-08T16:06:12"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 6
+    "totalResults": 4
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"ryY0whB98azwmRYYuHPxEl6EJb4/gioCf8J4DTwIlQw93MrJ551fsko\"",
