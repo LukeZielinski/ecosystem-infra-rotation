@@ -1,302 +1,181 @@
 {
   "component:Blink>Infra Pri=0 modified<today-2": {
-    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/gioCf8J4DTwIlQw93MrJ551fsko\"",
+    "etag": "\"M7VI04POVHb2d8kZDU7LVyXl2As/gioCf8J4DTwIlQw93MrJ551fsko\"",
     "kind": "monorail#issueList",
     "totalResults": 0
   },
   "component:Blink>Infra Pri=1 modified<today-30": {
-    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/gioCf8J4DTwIlQw93MrJ551fsko\"",
+    "etag": "\"M7VI04POVHb2d8kZDU7LVyXl2As/gioCf8J4DTwIlQw93MrJ551fsko\"",
     "kind": "monorail#issueList",
     "totalResults": 0
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
-    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/gioCf8J4DTwIlQw93MrJ551fsko\"",
-    "kind": "monorail#issueList",
-    "totalResults": 0
-  },
-  "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/h6z4o7wj6Fcx8hZF32sbYLWwng4\"",
+    "etag": "\"M7VI04POVHb2d8kZDU7LVyXl2As/MA_RrYTMQDkgaiTbZv61muWC0X8\"",
     "items": [
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3958632946",
+          "htmlLink": "https://bugs.chromium.org/u/777339296",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "2",
-          "name": "bugsnash@chromium.org"
+          "last_visit_days_ago": "0",
+          "name": "smcgruer@chromium.org"
         },
+        "blocking": [
+          {
+            "issueId": 699244,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 805463,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
         "canComment": true,
         "canEdit": true,
         "cc": [
           {
             "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "htmlLink": "https://bugs.chromium.org/u/777339296",
             "kind": "monorail#issuePerson",
             "last_visit_days_ago": "0",
-            "name": "qyearsley@chromium.org"
+            "name": "smcgruer@chromium.org"
           },
           {
             "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
+            "last_visit_days_ago": "2",
+            "name": "foolip@chromium.org"
           }
         ],
-        "component_modified": "2018-05-07T04:38:35",
+        "component_modified": "2018-01-31T18:20:02",
         "components": [
-          "Blink>Infra"
+          "Blink>Infra",
+          "Blink>Infra>Ecosystem"
         ],
-        "id": 840230,
+        "id": 807627,
         "kind": "monorail#issue",
         "labels": [
           "Type-Bug",
-          "Pri-3"
+          "Pri-2"
         ],
-        "owner_modified": "2018-05-07T04:38:35",
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "1",
+          "name": "robertma@chromium.org"
+        },
+        "owner_modified": "2018-01-31T15:18:04",
         "projectId": "chromium",
-        "published": "2018-05-07T04:38:35",
+        "published": "2018-01-31T15:18:04",
         "starred": false,
         "stars": 1,
         "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-05-07T04:38:35",
-        "summary": "update_flaky_expectations script throws 404 errors for all builders except Android",
-        "title": "update_flaky_expectations script throws 404 errors for all builders except Android",
-        "updated": "2018-05-07T11:48:04"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1755358397",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "jshin@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2779573485",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "dpranke@chromium.org"
-          }
-        ],
-        "component_modified": "2013-10-28T16:42:17",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 312317,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2013-10-28T16:42:17",
-        "projectId": "chromium",
-        "published": "2013-10-28T16:42:17",
-        "starred": false,
-        "stars": 2,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-05-08T16:04:34",
-        "summary": "For reference test mismatches, stop copying reference file to results directory.",
-        "title": "For reference test mismatches, stop copying reference file to results directory.",
-        "updated": "2018-05-08T16:04:34"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2779573485",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "dpranke@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "component_modified": "2013-08-26T22:48:48",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 279500,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Feature",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2013-08-26T22:48:48",
-        "projectId": "chromium",
-        "published": "2013-08-26T22:48:48",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-05-08T16:05:27",
-        "summary": "Rework the way we update expectations files in tool/commands/rebaseline.py",
-        "title": "Rework the way we update expectations files in tool/commands/rebaseline.py",
-        "updated": "2018-05-08T16:05:27"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2779573485",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "dpranke@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "qyearsley@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2779573485",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "dpranke@chromium.org"
-          }
-        ],
-        "component_modified": "2013-08-26T22:38:13",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 279494,
-        "kind": "monorail#issue",
-        "labels": [
-          "Hotlist-CodeHealth",
-          "Type-Task",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2017-03-22T23:32:06",
-        "projectId": "chromium",
-        "published": "2013-08-26T22:38:13",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-05-08T16:05:28",
-        "summary": "In tests, use fake port names with no relationship to the real OS versions.",
-        "title": "In tests, use fake port names with no relationship to the real OS versions.",
-        "updated": "2018-05-08T16:05:28"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2779573485",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "dpranke@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/925785400",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "174",
-            "name": "eseidel@chromium.org"
-          }
-        ],
-        "component_modified": "2013-07-19T19:17:54",
-        "components": [
-          "Blink>Forms",
-          "Blink>Infra"
-        ],
-        "id": 262228,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Feature",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2014-03-19T00:24:18",
-        "projectId": "chromium",
-        "published": "2013-07-19T19:17:54",
-        "starred": false,
-        "stars": 2,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-05-08T16:06:10",
-        "summary": "Use a generic theme and text rendering engine for content shell by default to get cross-platform baselines",
-        "title": "Use a generic theme and text rendering engine for content shell by default to get cross-platform baselines",
-        "updated": "2018-05-08T16:06:10"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2801085551",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "dalecurtis@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3399942901",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "peter@chromium.org"
-          }
-        ],
-        "component_modified": "2013-07-17T00:31:05",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 260972,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Android",
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2013-07-17T00:31:05",
-        "projectId": "chromium",
-        "published": "2013-07-17T00:31:05",
-        "starred": false,
-        "stars": 2,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-05-08T16:06:12",
-        "summary": "Android layout tests fail to run when built in shared_library mode.",
-        "title": "Android layout tests fail to run when built in shared_library mode.",
-        "updated": "2018-05-08T16:06:12"
+        "status": "Assigned",
+        "status_modified": "2018-01-31T18:20:02",
+        "summary": "[WPT] jsharness tests being mistakenly interpreted as reftests",
+        "title": "[WPT] jsharness tests being mistakenly interpreted as reftests",
+        "updated": "2018-03-14T14:58:45"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 6
+    "totalResults": 1
+  },
+  "component:Blink>Infra status:Unconfirmed,Untriaged": {
+    "etag": "\"M7VI04POVHb2d8kZDU7LVyXl2As/gioCf8J4DTwIlQw93MrJ551fsko\"",
+    "kind": "monorail#issueList",
+    "totalResults": 0
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
-    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/gioCf8J4DTwIlQw93MrJ551fsko\"",
+    "etag": "\"M7VI04POVHb2d8kZDU7LVyXl2As/gioCf8J4DTwIlQw93MrJ551fsko\"",
     "kind": "monorail#issueList",
     "totalResults": 0
   },
   "component:Blink>Infra>Ecosystem Pri=1 modified<today-30": {
-    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/gioCf8J4DTwIlQw93MrJ551fsko\"",
+    "etag": "\"M7VI04POVHb2d8kZDU7LVyXl2As/gioCf8J4DTwIlQw93MrJ551fsko\"",
     "kind": "monorail#issueList",
     "totalResults": 0
   },
   "component:Blink>Infra>Ecosystem Pri=2 modified<today-60": {
-    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/gioCf8J4DTwIlQw93MrJ551fsko\"",
+    "etag": "\"M7VI04POVHb2d8kZDU7LVyXl2As/MA_RrYTMQDkgaiTbZv61muWC0X8\"",
+    "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/777339296",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "smcgruer@chromium.org"
+        },
+        "blocking": [
+          {
+            "issueId": 699244,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 805463,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/777339296",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "smcgruer@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2018-01-31T18:20:02",
+        "components": [
+          "Blink>Infra",
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 807627,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "1",
+          "name": "robertma@chromium.org"
+        },
+        "owner_modified": "2018-01-31T15:18:04",
+        "projectId": "chromium",
+        "published": "2018-01-31T15:18:04",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Assigned",
+        "status_modified": "2018-01-31T18:20:02",
+        "summary": "[WPT] jsharness tests being mistakenly interpreted as reftests",
+        "title": "[WPT] jsharness tests being mistakenly interpreted as reftests",
+        "updated": "2018-03-14T14:58:45"
+      }
+    ],
     "kind": "monorail#issueList",
-    "totalResults": 0
+    "totalResults": 1
   },
   "component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged": {
-    "etag": "\"dXhznSaielL4ni5tIXZIhHtT4iY/gioCf8J4DTwIlQw93MrJ551fsko\"",
+    "etag": "\"M7VI04POVHb2d8kZDU7LVyXl2As/gioCf8J4DTwIlQw93MrJ551fsko\"",
     "kind": "monorail#issueList",
     "totalResults": 0
   }
