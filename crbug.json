@@ -460,8 +460,58 @@
     "totalResults": 1
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"M7VI04POVHb2d8kZDU7LVyXl2As/Z0oEC6G_i19OyUwXm82DhkDJSRM\"",
+    "etag": "\"M7VI04POVHb2d8kZDU7LVyXl2As/cdED3vjxAYRilm5WS_gSn2eYTxk\"",
     "items": [
+      {
+        "author": {
+          "email_bouncing": true,
+          "htmlLink": "https://bugs.chromium.org/u/2001183601",
+          "kind": "monorail#issuePerson",
+          "name": "monorail-api@ecosystem-infra.iam.gserviceaccount.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/777339296",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "smcgruer@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "3",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2018-05-15T15:02:05",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 843148,
+        "kind": "monorail#issue",
+        "owner_modified": "2018-05-15T15:02:05",
+        "projectId": "chromium",
+        "published": "2018-05-15T15:02:05",
+        "starred": true,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-05-15T15:02:05",
+        "summary": "[WPT] New failures introduced in external/wpt/infrastructure by import https://crrev.com/c/1059713",
+        "title": "[WPT] New failures introduced in external/wpt/infrastructure by import https://crrev.com/c/1059713",
+        "updated": "2018-05-15T15:02:05"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -521,7 +571,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 1
+    "totalResults": 2
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"M7VI04POVHb2d8kZDU7LVyXl2As/gioCf8J4DTwIlQw93MrJ551fsko\"",
@@ -539,8 +589,58 @@
     "totalResults": 0
   },
   "component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged": {
-    "etag": "\"M7VI04POVHb2d8kZDU7LVyXl2As/Z0oEC6G_i19OyUwXm82DhkDJSRM\"",
+    "etag": "\"M7VI04POVHb2d8kZDU7LVyXl2As/cdED3vjxAYRilm5WS_gSn2eYTxk\"",
     "items": [
+      {
+        "author": {
+          "email_bouncing": true,
+          "htmlLink": "https://bugs.chromium.org/u/2001183601",
+          "kind": "monorail#issuePerson",
+          "name": "monorail-api@ecosystem-infra.iam.gserviceaccount.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/777339296",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "smcgruer@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "3",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2018-05-15T15:02:05",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 843148,
+        "kind": "monorail#issue",
+        "owner_modified": "2018-05-15T15:02:05",
+        "projectId": "chromium",
+        "published": "2018-05-15T15:02:05",
+        "starred": true,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-05-15T15:02:05",
+        "summary": "[WPT] New failures introduced in external/wpt/infrastructure by import https://crrev.com/c/1059713",
+        "title": "[WPT] New failures introduced in external/wpt/infrastructure by import https://crrev.com/c/1059713",
+        "updated": "2018-05-15T15:02:05"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -600,6 +700,6 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 1
+    "totalResults": 2
   }
 }
