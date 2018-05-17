@@ -460,7 +460,7 @@
     "totalResults": 1
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"Oj3UYJq0Si92RMvaGSfcnnlpWqE/J5FUPcl_B-NkVGzWrMGBB7EjMg4\"",
+    "etag": "\"Oj3UYJq0Si92RMvaGSfcnnlpWqE/xo8tzQhxCIIo-D32_u9PpoRoQhE\"",
     "items": [
       {
         "author": {
@@ -511,67 +511,10 @@
         "summary": "[WPT] New failures introduced in external/wpt/infrastructure by import https://crrev.com/c/1059713",
         "title": "[WPT] New failures introduced in external/wpt/infrastructure by import https://crrev.com/c/1059713",
         "updated": "2018-05-15T15:09:42"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2111200626",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "mmoroz@chromium.org"
-        },
-        "blocking": [
-          {
-            "issueId": 842851,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "qyearsley@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2018-05-15T14:10:05",
-        "components": [
-          "Blink>Infra",
-          "Blink>Infra>Ecosystem",
-          "Tools>CodeCoverage"
-        ],
-        "id": 843125,
-        "kind": "monorail#issue",
-        "labels": [
-          "Pri-1",
-          "Type-Bug"
-        ],
-        "owner_modified": "2018-05-15T14:08:58",
-        "projectId": "chromium",
-        "published": "2018-05-15T14:08:58",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-05-15T14:08:58",
-        "summary": "wptserve hangs after running the tests",
-        "title": "wptserve hangs after running the tests",
-        "updated": "2018-05-16T16:28:58"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 2
+    "totalResults": 1
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"Oj3UYJq0Si92RMvaGSfcnnlpWqE/gioCf8J4DTwIlQw93MrJ551fsko\"",
@@ -589,7 +532,7 @@
     "totalResults": 0
   },
   "component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged": {
-    "etag": "\"Oj3UYJq0Si92RMvaGSfcnnlpWqE/J5FUPcl_B-NkVGzWrMGBB7EjMg4\"",
+    "etag": "\"Oj3UYJq0Si92RMvaGSfcnnlpWqE/xo8tzQhxCIIo-D32_u9PpoRoQhE\"",
     "items": [
       {
         "author": {
@@ -640,66 +583,9 @@
         "summary": "[WPT] New failures introduced in external/wpt/infrastructure by import https://crrev.com/c/1059713",
         "title": "[WPT] New failures introduced in external/wpt/infrastructure by import https://crrev.com/c/1059713",
         "updated": "2018-05-15T15:09:42"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2111200626",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "mmoroz@chromium.org"
-        },
-        "blocking": [
-          {
-            "issueId": 842851,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "qyearsley@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2018-05-15T14:10:05",
-        "components": [
-          "Blink>Infra",
-          "Blink>Infra>Ecosystem",
-          "Tools>CodeCoverage"
-        ],
-        "id": 843125,
-        "kind": "monorail#issue",
-        "labels": [
-          "Pri-1",
-          "Type-Bug"
-        ],
-        "owner_modified": "2018-05-15T14:08:58",
-        "projectId": "chromium",
-        "published": "2018-05-15T14:08:58",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-05-15T14:08:58",
-        "summary": "wptserve hangs after running the tests",
-        "title": "wptserve hangs after running the tests",
-        "updated": "2018-05-16T16:28:58"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 2
+    "totalResults": 1
   }
 }
