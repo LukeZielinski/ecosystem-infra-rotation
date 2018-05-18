@@ -15,7 +15,7 @@
     "totalResults": 0
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"Oj3UYJq0Si92RMvaGSfcnnlpWqE/49LaLPR7hWSgZbOCqcNXzRxIeZA\"",
+    "etag": "\"Oj3UYJq0Si92RMvaGSfcnnlpWqE/w3Ejawe9ofvsEm_aRjU-r9aDaws\"",
     "items": [
       {
         "author": {
@@ -25,6 +25,13 @@
           "last_visit_days_ago": "0",
           "name": "ajuma@chromium.org"
         },
+        "blockedOn": [
+          {
+            "issueId": 844462,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
         "canComment": true,
         "canEdit": true,
         "cc": [
@@ -57,7 +64,7 @@
         "status_modified": "2018-05-18T19:10:58",
         "summary": "WPT importer bot failing because of no GitHub credentials",
         "title": "WPT importer bot failing because of no GitHub credentials",
-        "updated": "2018-05-18T19:10:58"
+        "updated": "2018-05-18T19:18:06"
       }
     ],
     "kind": "monorail#issueList",
