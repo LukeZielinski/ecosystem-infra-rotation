@@ -109,9 +109,53 @@
     "totalResults": 1
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"DxTHf1qxBKxX6-dtGeEB0mFRdT8/gioCf8J4DTwIlQw93MrJ551fsko\"",
+    "etag": "\"DxTHf1qxBKxX6-dtGeEB0mFRdT8/MZDNrdkEHAo4P_W3njg-aoVetKQ\"",
+    "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3526898415",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "alancutter@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/88961009",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "noel@chromium.org"
+          }
+        ],
+        "component_modified": "2017-05-18T07:04:36",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 723981,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-05-18T07:04:36",
+        "projectId": "chromium",
+        "published": "2017-05-18T07:04:36",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-05-21T16:04:52",
+        "summary": "Add presubmit warning for when DEFINE_STATIC_REF is used in a header file",
+        "title": "Add presubmit warning for when DEFINE_STATIC_REF is used in a header file",
+        "updated": "2018-05-21T16:04:52"
+      }
+    ],
     "kind": "monorail#issueList",
-    "totalResults": 0
+    "totalResults": 1
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"DxTHf1qxBKxX6-dtGeEB0mFRdT8/gioCf8J4DTwIlQw93MrJ551fsko\"",
