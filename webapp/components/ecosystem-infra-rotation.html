@@ -40,8 +40,8 @@
 
     function githubTask(name, query) {
       // These two URLs for the API and the website should be in sync, different views of the same data.
-      const BASE_API_URL = "https://api.github.com/search/issues?q=repo%3Aw3c%2Fweb-platform-tests%20";
-      const BASE_WEB_URL = "https://github.com/w3c/web-platform-tests/issues?q=";
+      const BASE_API_URL = "https://api.github.com/search/issues?q=repo%3Aweb-platform-tests%2Fwpt%20";
+      const BASE_WEB_URL = "https://github.com/web-platform-tests/wpt/issues?q=";
 
       const apiURL = `${BASE_API_URL}${encodeURIComponent(query)}`;
       const webURL = `${BASE_WEB_URL}${encodeURIComponent(query)}`;
