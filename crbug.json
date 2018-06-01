@@ -637,7 +637,7 @@
     "totalResults": 3
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"Lgl4jP1sJblZjQbbKql1OXBf2iE/iJyMNXEw1hNa2jLBCephacq3MSE\"",
+    "etag": "\"Lgl4jP1sJblZjQbbKql1OXBf2iE/9BppJiLRG_F-dX9d8Jh_QC2djcA\"",
     "items": [
       {
         "author": {
@@ -657,6 +657,13 @@
             "last_visit_days_ago": "43",
             "name": "iannucci@chromium.org",
             "vacation_message": "OOO (>= June 01, 2018)"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
           }
         ],
         "component_modified": "2014-03-29T01:14:18",
@@ -682,7 +689,7 @@
         "status_modified": "2018-05-31T16:04:59",
         "summary": "Simplify the logic in recipe_modules/test_utils/util.py for parsing layout test JSON data.",
         "title": "Simplify the logic in recipe_modules/test_utils/util.py for parsing layout test JSON data.",
-        "updated": "2018-05-31T16:04:59"
+        "updated": "2018-06-01T14:46:15"
       }
     ],
     "kind": "monorail#issueList",
