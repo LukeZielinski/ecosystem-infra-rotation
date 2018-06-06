@@ -848,9 +848,66 @@
     "totalResults": 5
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"kCqrWN4JZO_hKaS9DUVonCABVf8/gioCf8J4DTwIlQw93MrJ551fsko\"",
+    "etag": "\"kCqrWN4JZO_hKaS9DUVonCABVf8/pe4aB86ZPlGgB2anzVaXrlhAaoM\"",
+    "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1439056490",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "chanli@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/4011577997",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "stgao@chromium.org"
+          }
+        ],
+        "component_modified": "2018-06-06T21:17:42",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 850255,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3"
+        ],
+        "owner_modified": "2018-06-06T21:17:42",
+        "projectId": "chromium",
+        "published": "2018-06-06T21:17:42",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-06-06T21:17:42",
+        "summary": "KeyError: <blinkpy.web_tests.models.test_expectations.TestExpectationLine object at 0x7fb3bf47c950>",
+        "title": "KeyError: <blinkpy.web_tests.models.test_expectations.TestExpectationLine object at 0x7fb3bf47c950>",
+        "updated": "2018-06-06T21:17:42"
+      }
+    ],
     "kind": "monorail#issueList",
-    "totalResults": 0
+    "totalResults": 1
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"kCqrWN4JZO_hKaS9DUVonCABVf8/gioCf8J4DTwIlQw93MrJ551fsko\"",
