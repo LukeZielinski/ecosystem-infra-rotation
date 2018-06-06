@@ -1,6 +1,13 @@
 {
   "builds": [
     {
+      "build": "https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-exporter/84631",
+      "duration": "7 mins 6 secs",
+      "info": "build successful",
+      "result": "Success",
+      "time": "Wednesday, 06-Jun-18 10:54:17 UTC"
+    },
+    {
       "build": "https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-exporter/84630",
       "duration": "7 mins 4 secs",
       "info": "failed Export Chromium commits and in-flight CLs to WPT",
@@ -167,15 +174,8 @@
       "info": "build successful",
       "result": "Success",
       "time": "Wednesday, 06-Jun-18 07:14:37 UTC"
-    },
-    {
-      "build": "https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-exporter/84606",
-      "duration": "9 mins 8 secs",
-      "info": "build successful",
-      "result": "Success",
-      "time": "Wednesday, 06-Jun-18 07:04:37 UTC"
     }
   ],
-  "last_success": "Wednesday, 06-Jun-18 10:38:30 UTC",
-  "recent_failures": 1
+  "last_success": "Wednesday, 06-Jun-18 10:54:17 UTC",
+  "recent_failures": 0
 }
