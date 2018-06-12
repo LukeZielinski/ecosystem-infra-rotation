@@ -722,8 +722,49 @@
     "totalResults": 6
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"kCqrWN4JZO_hKaS9DUVonCABVf8/Vv2kbfshhOosdMSNARMndD5mEkI\"",
+    "etag": "\"kCqrWN4JZO_hKaS9DUVonCABVf8/VhGUmERP4YhiwLPZli_HO3o9X1M\"",
     "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1601924823",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "npm@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          }
+        ],
+        "component_modified": "2018-06-12T18:32:28",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 852053,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3"
+        ],
+        "owner_modified": "2018-06-12T18:32:16",
+        "projectId": "chromium",
+        "published": "2018-06-12T18:32:16",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-06-12T18:32:16",
+        "summary": "LayoutTests should support serving via PHP not just in http/tests",
+        "title": "LayoutTests should support serving via PHP not just in http/tests",
+        "updated": "2018-06-12T18:32:28"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -767,7 +808,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 1
+    "totalResults": 2
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"kCqrWN4JZO_hKaS9DUVonCABVf8/gioCf8J4DTwIlQw93MrJ551fsko\"",
