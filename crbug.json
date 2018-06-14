@@ -723,8 +723,42 @@
     "totalResults": 6
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"BPGmgDoudZtq7Cdxebpm6snDfcw/B353qVfcUiKGOZF2RAbsOYK2QH0\"",
+    "etag": "\"BPGmgDoudZtq7Cdxebpm6snDfcw/JGtx4SzPEKU7Dt1N8ChMJBZepRo\"",
     "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3720250006",
+          "kind": "monorail#issuePerson",
+          "name": "chromium-try-flakes@appspot.gserviceaccount.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2018-06-14T15:28:28",
+        "components": [
+          "Blink>Infra",
+          "Tests>Flaky"
+        ],
+        "id": 852494,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-1",
+          "Type-Bug",
+          "Sheriff-Chromium",
+          "Via-TryFlakes"
+        ],
+        "owner_modified": "2018-06-13T19:17:12",
+        "projectId": "chromium",
+        "published": "2018-06-13T19:17:12",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-06-13T19:17:12",
+        "summary": "\"http/tests/security/xssAuditor/svg-animate-clutter-2.html\" is flaky",
+        "title": "\"http/tests/security/xssAuditor/svg-animate-clutter-2.html\" is flaky",
+        "updated": "2018-06-14T15:28:28"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -852,7 +886,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 3
+    "totalResults": 4
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"BPGmgDoudZtq7Cdxebpm6snDfcw/gioCf8J4DTwIlQw93MrJ551fsko\"",
