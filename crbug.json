@@ -824,7 +824,7 @@
     "totalResults": 8
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"BPGmgDoudZtq7Cdxebpm6snDfcw/KSB4LOsTN9oFo4e5BRSVsbyg6FQ\"",
+    "etag": "\"BPGmgDoudZtq7Cdxebpm6snDfcw/3m-trGEvxhDB6Odb5T3LGf1JOBc\"",
     "items": [
       {
         "author": {
@@ -835,9 +835,10 @@
         },
         "canComment": true,
         "canEdit": true,
-        "component_modified": "2018-06-14T15:28:28",
+        "component_modified": "2018-06-18T22:17:33",
         "components": [
           "Blink>Infra",
+          "Infra>Platform>Swarming",
           "Tests>Flaky"
         ],
         "id": 852494,
@@ -857,48 +858,7 @@
         "status_modified": "2018-06-13T19:17:12",
         "summary": "\"http/tests/security/xssAuditor/svg-animate-clutter-2.html\" is flaky",
         "title": "\"http/tests/security/xssAuditor/svg-animate-clutter-2.html\" is flaky",
-        "updated": "2018-06-18T15:05:39"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1601924823",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "npm@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2018-06-12T18:32:28",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 852053,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3"
-        ],
-        "owner_modified": "2018-06-12T18:32:16",
-        "projectId": "chromium",
-        "published": "2018-06-12T18:32:16",
-        "starred": false,
-        "stars": 2,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-06-12T18:32:16",
-        "summary": "LayoutTests should support serving via PHP not just in http/tests",
-        "title": "LayoutTests should support serving via PHP not just in http/tests",
-        "updated": "2018-06-18T17:42:18"
+        "updated": "2018-06-18T22:17:33"
       },
       {
         "author": {
@@ -945,7 +905,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 3
+    "totalResults": 2
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"BPGmgDoudZtq7Cdxebpm6snDfcw/gioCf8J4DTwIlQw93MrJ551fsko\"",
