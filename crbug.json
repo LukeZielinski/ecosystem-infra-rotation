@@ -10,8 +10,70 @@
     "totalResults": 0
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
-    "etag": "\"BPGmgDoudZtq7Cdxebpm6snDfcw/ajQel6AcWGWYHnOvUqxRRwdMCTA\"",
+    "etag": "\"BPGmgDoudZtq7Cdxebpm6snDfcw/Wzgs7z8ikgc2qb0_FlGVVFDwJCw\"",
     "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3053815138",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "skobes@chromium.org"
+        },
+        "blocking": [
+          {
+            "issueId": 755401,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "4",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          }
+        ],
+        "component_modified": "2018-04-17T17:06:48",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 833897,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-2",
+          "Type-Bug-Regression"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3053815138",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "skobes@chromium.org"
+        },
+        "owner_modified": "2018-04-20T17:07:24",
+        "projectId": "chromium",
+        "published": "2018-04-17T17:06:48",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Assigned",
+        "status_modified": "2018-04-20T15:28:41",
+        "summary": "try-flag is broken",
+        "title": "try-flag is broken",
+        "updated": "2018-04-20T17:13:42"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -629,7 +691,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 7
+    "totalResults": 8
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "etag": "\"BPGmgDoudZtq7Cdxebpm6snDfcw/3m-trGEvxhDB6Odb5T3LGf1JOBc\"",
