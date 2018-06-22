@@ -10,7 +10,7 @@
     "totalResults": 0
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
-    "etag": "\"8HovBc_ZPTU3MjIEU0mi5Xh1wkI/yEbaxWi71xuEC44Vjc_2_TdtEQQ\"",
+    "etag": "\"8HovBc_ZPTU3MjIEU0mi5Xh1wkI/dKvHozIDWUqxkZgyT1Ein5aeTLY\"",
     "items": [
       {
         "author": {
@@ -501,10 +501,59 @@
         "summary": "Implement try-flag, a tool for helping to run layout test try jobs with flags",
         "title": "Implement try-flag, a tool for helping to run layout test try jobs with flags",
         "updated": "2018-04-17T17:06:48"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/984414433",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "nzolghadr@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/984414433",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "nzolghadr@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2341872843",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "mustaq@chromium.org"
+          }
+        ],
+        "component_modified": "2016-03-14T20:23:21",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 594672,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2",
+          "OS-All"
+        ],
+        "owner_modified": "2016-03-14T20:23:21",
+        "projectId": "chromium",
+        "published": "2016-03-14T20:23:21",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Available",
+        "status_modified": "2017-03-22T21:48:53",
+        "summary": "Scroll offsets don't get reset between tests",
+        "title": "Scroll offsets don't get reset between tests",
+        "updated": "2018-04-23T16:07:45"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 8
+    "totalResults": 9
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "etag": "\"8HovBc_ZPTU3MjIEU0mi5Xh1wkI/KqF56VLnBxrVNR3W5cxAIZwJ2ro\"",
