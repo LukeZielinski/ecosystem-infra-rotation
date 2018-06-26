@@ -210,7 +210,7 @@
     "totalResults": 3
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"8HovBc_ZPTU3MjIEU0mi5Xh1wkI/RdDmdGY3hMjzlq-aEfTvDoG6xYQ\"",
+    "etag": "\"8HovBc_ZPTU3MjIEU0mi5Xh1wkI/6HJDmenOJzWEjURkTdFQkitZ-es\"",
     "items": [
       {
         "author": {
@@ -230,6 +230,13 @@
         "canComment": true,
         "canEdit": true,
         "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/6496940",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "magchen@chromium.org"
+          },
           {
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/711146336",
@@ -276,7 +283,7 @@
         "status_modified": "2018-06-26T00:35:36",
         "summary": "GPU process sometimes fails to exit running webkit_layout_tests on win7_chromium_rel_ng",
         "title": "GPU process sometimes fails to exit running webkit_layout_tests on win7_chromium_rel_ng",
-        "updated": "2018-06-26T14:33:44"
+        "updated": "2018-06-26T16:08:38"
       },
       {
         "author": {
