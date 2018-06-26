@@ -164,8 +164,74 @@
     "totalResults": 2
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"8HovBc_ZPTU3MjIEU0mi5Xh1wkI/evyzVLLHb1No_ChhtwjN-Itr3TA\"",
+    "etag": "\"8HovBc_ZPTU3MjIEU0mi5Xh1wkI/W2rKo4aNZ3pevSjFTUNmZ47_Fic\"",
     "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/384153905",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "kbr@chromium.org"
+        },
+        "blockedOn": [
+          {
+            "issueId": 810437,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/711146336",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "3",
+            "name": "sugoi@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2215981380",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "piman@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2929596023",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "3",
+            "name": "capn@chromium.org"
+          }
+        ],
+        "component_modified": "2018-06-26T00:35:36",
+        "components": [
+          "Blink>Infra",
+          "Internals>GPU>Internals",
+          "Internals>GPU>SwiftShader",
+          "Tests>Flaky"
+        ],
+        "id": 856398,
+        "kind": "monorail#issue",
+        "labels": [
+          "OS-Windows",
+          "Pri-1",
+          "Type-Bug"
+        ],
+        "owner_modified": "2018-06-26T00:35:36",
+        "projectId": "chromium",
+        "published": "2018-06-26T00:35:36",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-06-26T00:35:36",
+        "summary": "GPU process sometimes fails to exit running webkit_layout_tests on win7_chromium_rel_ng",
+        "title": "GPU process sometimes fails to exit running webkit_layout_tests on win7_chromium_rel_ng",
+        "updated": "2018-06-26T00:35:36"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -434,7 +500,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 5
+    "totalResults": 6
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"8HovBc_ZPTU3MjIEU0mi5Xh1wkI/gioCf8J4DTwIlQw93MrJ551fsko\"",
