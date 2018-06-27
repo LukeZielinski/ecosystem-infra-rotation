@@ -210,7 +210,7 @@
     "totalResults": 3
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"8HovBc_ZPTU3MjIEU0mi5Xh1wkI/MGox7Yn8JHKIBT3FdVcYUvrOiiI\"",
+    "etag": "\"8HovBc_ZPTU3MjIEU0mi5Xh1wkI/VpRxnvRP4Qi7WgCJGelnun3imc4\"",
     "items": [
       {
         "author": {
@@ -286,6 +286,56 @@
         "summary": "Remove IMAGE, TEXT, IMAGE+TEXT, AUDIO result types.",
         "title": "Remove IMAGE, TEXT, IMAGE+TEXT, AUDIO result types.",
         "updated": "2018-06-25T16:04:54"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1151644111",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "wangxianzhu@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "dpranke@chromium.org"
+          }
+        ],
+        "component_modified": "2016-06-17T17:16:26",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 621126,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold",
+          "Test-Layout"
+        ],
+        "owner_modified": "2016-06-17T17:16:26",
+        "projectId": "chromium",
+        "published": "2016-06-17T17:16:26",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-06-27T16:04:02",
+        "summary": "NeedsManualRebaselines left for a long time are harmful.",
+        "title": "NeedsManualRebaselines left for a long time are harmful.",
+        "updated": "2018-06-27T16:04:02"
       },
       {
         "author": {
@@ -479,7 +529,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 5
+    "totalResults": 6
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"8HovBc_ZPTU3MjIEU0mi5Xh1wkI/gioCf8J4DTwIlQw93MrJ551fsko\"",
