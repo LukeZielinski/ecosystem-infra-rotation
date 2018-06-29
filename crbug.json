@@ -298,8 +298,66 @@
     "totalResults": 4
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"-hPDrc8lUK0v1SCZwm-7yXMtVNo/VpGcKT7cJCIKoKnydBPzdLGCiPw\"",
+    "etag": "\"-hPDrc8lUK0v1SCZwm-7yXMtVNo/0iulGztA3mQaiFVi12mDzz5cE7E\"",
     "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/384153905",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "kbr@chromium.org"
+        },
+        "blocking": [
+          {
+            "issueId": 773617,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 786230,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "dpranke@chromium.org"
+          }
+        ],
+        "component_modified": "2018-06-29T02:22:30",
+        "components": [
+          "Blink>Infra",
+          "Internals>Network>Cache",
+          "Tests>Flaky"
+        ],
+        "id": 858920,
+        "kind": "monorail#issue",
+        "labels": [
+          "OS-Windows",
+          "Infra-Troopers",
+          "Type-Bug",
+          "Pri-2",
+          "Sheriff-Chromium"
+        ],
+        "owner_modified": "2018-06-29T02:22:30",
+        "projectId": "chromium",
+        "published": "2018-06-29T02:22:30",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-06-29T02:22:30",
+        "summary": "webkit_layout_tests failing reliably on vm143-m4",
+        "title": "webkit_layout_tests failing reliably on vm143-m4",
+        "updated": "2018-06-29T02:22:30"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -493,7 +551,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 3
+    "totalResults": 4
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"-hPDrc8lUK0v1SCZwm-7yXMtVNo/gioCf8J4DTwIlQw93MrJ551fsko\"",
