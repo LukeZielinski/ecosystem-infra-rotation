@@ -298,7 +298,7 @@
     "totalResults": 4
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/xn9ZiD6Sw-6yh7zpYcBmiAtYxq4\"",
+    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/oOjRO0gLcQrKFReriMUeqZ-7KsA\"",
     "items": [
       {
         "author": {
@@ -308,14 +308,16 @@
           "last_visit_days_ago": "0",
           "name": "kbr@chromium.org"
         },
+        "blockedOn": [
+          {
+            "issueId": 858920,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
         "blocking": [
           {
             "issueId": 773617,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          },
-          {
-            "issueId": 858920,
             "kind": "monorail#issueRef",
             "projectId": "chromium"
           }
@@ -343,7 +345,7 @@
         "status_modified": "2018-07-01T22:33:55",
         "summary": "webkit_layout_tests intermittently fails entire shard on win7_chromium_rel_ng with \"System dependencies check failed.\"",
         "title": "webkit_layout_tests intermittently fails entire shard on win7_chromium_rel_ng with \"System dependencies check failed.\"",
-        "updated": "2018-07-01T22:33:55"
+        "updated": "2018-07-01T22:36:11"
       },
       {
         "author": {
@@ -405,13 +407,6 @@
           "last_visit_days_ago": "0",
           "name": "kbr@chromium.org"
         },
-        "blockedOn": [
-          {
-            "issueId": 859366,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
         "blocking": [
           {
             "issueId": 773617,
@@ -420,6 +415,11 @@
           },
           {
             "issueId": 786230,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 859366,
             "kind": "monorail#issueRef",
             "projectId": "chromium"
           }
@@ -460,7 +460,52 @@
         "status_modified": "2018-06-29T02:22:30",
         "summary": "webkit_layout_tests failing reliably on vm143-m4",
         "title": "webkit_layout_tests failing reliably on vm143-m4",
-        "updated": "2018-07-01T22:33:55"
+        "updated": "2018-07-01T22:36:11"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/2368433223",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "4",
+          "name": "hajimehoshi@chromium.org"
+        },
+        "blockedOn": [
+          {
+            "issueId": 858920,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 859366,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2018-07-01T22:35:01",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 773617,
+        "kind": "monorail#issue",
+        "labels": [
+          "OS-Windows",
+          "Pri-1",
+          "Type-Bug"
+        ],
+        "owner_modified": "2017-10-11T09:24:10",
+        "projectId": "chromium",
+        "published": "2017-10-11T09:24:10",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2017-10-11T09:24:10",
+        "summary": "run_layout_test.py often crashes on Windows",
+        "title": "run_layout_test.py often crashes on Windows",
+        "updated": "2018-07-01T22:35:01"
       },
       {
         "author": {
@@ -741,7 +786,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 7
+    "totalResults": 8
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/gioCf8J4DTwIlQw93MrJ551fsko\"",
