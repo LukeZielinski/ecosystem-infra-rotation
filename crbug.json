@@ -298,7 +298,7 @@
     "totalResults": 4
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/W4BmJ2wZGx5RQ7eDHdRcSMqCIzI\"",
+    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/-v_ft2MDIMtz-mGiaKOQpN_1sCQ\"",
     "items": [
       {
         "author": {
@@ -409,17 +409,17 @@
         },
         "blocking": [
           {
+            "issueId": 859366,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
             "issueId": 773617,
             "kind": "monorail#issueRef",
             "projectId": "chromium"
           },
           {
             "issueId": 786230,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          },
-          {
-            "issueId": 859366,
             "kind": "monorail#issueRef",
             "projectId": "chromium"
           }
@@ -744,7 +744,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/3938850088",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "0",
             "name": "bashi@chromium.org"
           },
           {
