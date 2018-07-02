@@ -298,7 +298,7 @@
     "totalResults": 4
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/6iu92jJN76n1dxSBlZB8vMkhdVY\"",
+    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/wMfc8sgQZAkz4s5AjaNW21fsGNo\"",
     "items": [
       {
         "author": {
@@ -409,17 +409,17 @@
         },
         "blocking": [
           {
+            "issueId": 859366,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
             "issueId": 773617,
             "kind": "monorail#issueRef",
             "projectId": "chromium"
           },
           {
             "issueId": 786230,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          },
-          {
-            "issueId": 859366,
             "kind": "monorail#issueRef",
             "projectId": "chromium"
           }
@@ -598,7 +598,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3526898415",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "3",
+          "last_visit_days_ago": "0",
           "name": "alancutter@chromium.org"
         },
         "canComment": true,
@@ -608,7 +608,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/3526898415",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "3",
+            "last_visit_days_ago": "0",
             "name": "alancutter@chromium.org"
           }
         ],
