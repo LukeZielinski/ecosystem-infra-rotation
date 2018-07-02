@@ -298,7 +298,7 @@
     "totalResults": 4
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/KdM4kwPJ3H0jeahgcrNJckvdKS0\"",
+    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/4MFp9i2Q9QOtTwJB4WMIKoi-D68\"",
     "items": [
       {
         "author": {
@@ -409,17 +409,17 @@
         },
         "blocking": [
           {
+            "issueId": 859366,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
             "issueId": 773617,
             "kind": "monorail#issueRef",
             "projectId": "chromium"
           },
           {
             "issueId": 786230,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          },
-          {
-            "issueId": 859366,
             "kind": "monorail#issueRef",
             "projectId": "chromium"
           }
