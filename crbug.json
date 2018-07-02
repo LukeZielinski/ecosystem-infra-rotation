@@ -298,7 +298,7 @@
     "totalResults": 4
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/vC7CMmTnDXW1ed1T9n5ukT6ZVis\"",
+    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/AkfeU6_zfsxyFoqJEfthVusiTjM\"",
     "items": [
       {
         "author": {
@@ -561,6 +561,39 @@
         "summary": "run_layout_test.py often crashes on Windows",
         "title": "run_layout_test.py often crashes on Windows",
         "updated": "2018-07-01T22:35:01"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "2",
+          "name": "qyearsley@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2017-06-29T20:30:11",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 738152,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Task",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-06-29T20:30:11",
+        "projectId": "chromium",
+        "published": "2017-06-29T20:30:11",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-07-02T16:04:46",
+        "summary": "Deprecate \"Rebaseline\" expectations and webkit-patch rebaseline-expectations",
+        "title": "Deprecate \"Rebaseline\" expectations and webkit-patch rebaseline-expectations",
+        "updated": "2018-07-02T16:04:46"
       },
       {
         "author": {
@@ -841,7 +874,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 9
+    "totalResults": 10
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/gioCf8J4DTwIlQw93MrJ551fsko\"",
