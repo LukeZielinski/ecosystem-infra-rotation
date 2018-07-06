@@ -536,7 +536,7 @@
     "totalResults": 7
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/uNx41AONG2uhOEXvd_f5XoBoafY\"",
+    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/kCZaaQ703tFo_JghP2o0yiu882s\"",
     "items": [
       {
         "author": {
@@ -662,6 +662,16 @@
         ],
         "canComment": true,
         "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "robertma@chromium.org",
+            "vacation_message": "Slow/OOO till July 9"
+          }
+        ],
         "component_modified": "2018-07-01T22:35:01",
         "components": [
           "Blink>Infra"
@@ -683,7 +693,7 @@
         "status_modified": "2017-10-11T09:24:10",
         "summary": "run_layout_test.py often crashes on Windows",
         "title": "run_layout_test.py often crashes on Windows",
-        "updated": "2018-07-01T22:35:01"
+        "updated": "2018-07-06T12:14:57"
       },
       {
         "author": {
