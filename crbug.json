@@ -5,83 +5,9 @@
     "totalResults": 0
   },
   "component:Blink>Infra Pri=1 modified<today-30": {
-    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/yc8918wQKXOLWBCwz0sBRwP-oqE\"",
-    "items": [
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2779573485",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "dpranke@chromium.org"
-        },
-        "blockedOn": [
-          {
-            "issueId": 835690,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "qyearsley@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1685932805",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "seanmccullough@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "1",
-            "name": "robertma@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3195081326",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "foolip@chromium.org",
-            "vacation_message": "OOO until July 16"
-          }
-        ],
-        "component_modified": "2018-06-11T00:10:59",
-        "components": [
-          "Blink>Infra",
-          "Build"
-        ],
-        "id": 807751,
-        "kind": "monorail#issue",
-        "labels": [
-          "Pri-1",
-          "Type-Bug",
-          "Build-Tools-TYP"
-        ],
-        "owner_modified": "2018-06-11T00:10:59",
-        "projectId": "chromium",
-        "published": "2018-01-31T21:32:12",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Available",
-        "status_modified": "2018-06-11T00:10:59",
-        "summary": "Switch the layout tests to the new test expectations format",
-        "title": "Switch the layout tests to the new test expectations format",
-        "updated": "2018-06-11T00:10:59"
-      }
-    ],
+    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/gioCf8J4DTwIlQw93MrJ551fsko\"",
     "kind": "monorail#issueList",
-    "totalResults": 1
+    "totalResults": 0
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
     "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/xtXsRNfSJPtWqIxlQ6BdTnR-VHQ\"",
@@ -751,7 +677,7 @@
     "totalResults": 9
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/-dQrwyV7T3twwAcd6D3NZn-9LE4\"",
+    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/FejH6Be2xMdn7FS3TJvfdBrLPPI\"",
     "items": [
       {
         "author": {
@@ -1379,81 +1305,10 @@
         "summary": "Build a tool/process for deduplicating upstreamed/imported tests",
         "title": "Build a tool/process for deduplicating upstreamed/imported tests",
         "updated": "2018-07-06T16:04:45"
-      },
-      {
-        "author": {
-          "email_bouncing": true,
-          "htmlLink": "https://bugs.chromium.org/u/3226797277",
-          "kind": "monorail#issuePerson",
-          "name": "earthdok@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/393497535",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "machenbach@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/975333257",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "jkummerow@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2779573485",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "dpranke@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3909648527",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "12",
-            "name": "eugenis@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/4287370460",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "6",
-            "name": "glider@chromium.org"
-          }
-        ],
-        "component_modified": "2014-10-03T20:12:26",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 420198,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Linux",
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold",
-          "Stability-Memory-MemorySanitizer"
-        ],
-        "owner_modified": "2017-03-08T17:55:06",
-        "projectId": "chromium",
-        "published": "2014-10-03T20:12:26",
-        "starred": false,
-        "stars": 0,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-06-25T16:05:10",
-        "summary": "Huge slowdown in some Blink layout tests under MSan",
-        "title": "Huge slowdown in some Blink layout tests under MSan",
-        "updated": "2018-06-25T16:05:10"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 13
+    "totalResults": 12
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/gioCf8J4DTwIlQw93MrJ551fsko\"",
