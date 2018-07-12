@@ -677,7 +677,7 @@
     "totalResults": 9
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/KdFFW_HwNYf8zO2b3s4KJxiqAZE\"",
+    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/mhZE5Q9qEAFbkFQpeI6ApGeYT0A\"",
     "items": [
       {
         "author": {
@@ -1030,6 +1030,15 @@
         },
         "canComment": true,
         "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          }
+        ],
         "component_modified": "2017-07-03T14:18:20",
         "components": [
           "Blink>Infra>Ecosystem"
@@ -1051,7 +1060,7 @@
         "status_modified": "2018-07-03T16:04:16",
         "summary": "[WPT Import] Run tests locally to get cross-platform baselines",
         "title": "[WPT Import] Run tests locally to get cross-platform baselines",
-        "updated": "2018-07-03T16:04:16"
+        "updated": "2018-07-12T22:16:10"
       },
       {
         "author": {
