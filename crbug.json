@@ -375,8 +375,42 @@
     "totalResults": 5
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
-    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/9upbNgjcq1KUzYOy7OM-5z7DUA4\"",
+    "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/-0EY_71fPqam-WEB4eac5vILmcM\"",
     "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/892476461",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "4",
+          "name": "work@ghostflying.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2018-07-09T17:54:59",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 860179,
+        "kind": "monorail#issue",
+        "labels": [
+          "OS-Android",
+          "Type-Bug",
+          "Pri-2",
+          "Via-Wizard-DeveloperTools"
+        ],
+        "owner_modified": "2018-07-04T09:34:37",
+        "projectId": "chromium",
+        "published": "2018-07-04T09:34:37",
+        "starred": false,
+        "stars": 2,
+        "state": "open",
+        "status": "Unconfirmed",
+        "status_modified": "2018-07-04T09:34:37",
+        "summary": "layout tests or so-called web test crashes on Android with the master branch",
+        "title": "layout tests or so-called web test crashes on Android with the master branch",
+        "updated": "2018-07-09T17:54:59"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -431,6 +465,53 @@
         "summary": "Failing unittests don't show repro instructions",
         "title": "Failing unittests don't show repro instructions",
         "updated": "2018-07-02T15:28:14"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/384153905",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "1",
+          "name": "kbr@chromium.org"
+        },
+        "blockedOn": [
+          {
+            "issueId": 858920,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "blocking": [
+          {
+            "issueId": 773617,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2018-07-01T22:33:55",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 859366,
+        "kind": "monorail#issue",
+        "labels": [
+          "OS-Windows",
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner_modified": "2018-07-01T22:33:55",
+        "projectId": "chromium",
+        "published": "2018-07-01T22:33:55",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-07-01T22:33:55",
+        "summary": "webkit_layout_tests intermittently fails entire shard on win7_chromium_rel_ng with \"System dependencies check failed.\"",
+        "title": "webkit_layout_tests intermittently fails entire shard on win7_chromium_rel_ng with \"System dependencies check failed.\"",
+        "updated": "2018-07-01T22:36:11"
       },
       {
         "author": {
@@ -918,7 +999,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 10
+    "totalResults": 12
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "etag": "\"se1Lh8IyiCDwsGaF9fqPeVscq_I/gioCf8J4DTwIlQw93MrJ551fsko\"",
