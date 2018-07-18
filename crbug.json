@@ -1232,7 +1232,7 @@
     "totalResults": 3
   },
   "component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged": {
-    "etag": "\"yFLOi0Ec22rNg8sQ3YnZmHO4JnI/rqaH_5LH0DShJGrnBZNn8sI_yA8\"",
+    "etag": "\"yFLOi0Ec22rNg8sQ3YnZmHO4JnI/-fqHmykv2XBKea9l8T8MJxcz2BM\"",
     "items": [
       {
         "author": {
@@ -1356,63 +1356,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1364632131",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "13",
-          "name": "rbyers@chromium.org"
-        },
-        "blockedOn": [
-          {
-            "issueId": 437662,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "blocking": [
-          {
-            "issueId": 707649,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3195081326",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "foolip@chromium.org"
-          }
-        ],
-        "component_modified": "2017-07-03T14:18:19",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 707356,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Feature",
-          "Pri-3",
-          "Hotlist-Recharge-Cold",
-          "OS-All"
-        ],
-        "owner_modified": "2017-03-31T20:41:18",
-        "projectId": "chromium",
-        "published": "2017-03-31T20:41:18",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-07-03T16:04:20",
-        "summary": "Enable automated web-platform-tests of animated image decoding",
-        "title": "Enable automated web-platform-tests of animated image decoding",
-        "updated": "2018-07-03T16:04:20"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3526898415",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -1519,6 +1462,6 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 5
+    "totalResults": 4
   }
 }
