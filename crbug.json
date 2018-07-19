@@ -336,6 +336,15 @@
         },
         "canComment": true,
         "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/4006160393",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "jbudorick@chromium.org"
+          }
+        ],
         "component_modified": "2018-07-18T13:18:42",
         "components": [
           "Blink>Infra"
@@ -358,7 +367,7 @@
         "status_modified": "2018-07-18T10:21:23",
         "summary": "layouttest cannot dump pixel on android",
         "title": "layouttest cannot dump pixel on android",
-        "updated": "2018-07-18T13:18:42"
+        "updated": "2018-07-19T10:51:21"
       },
       {
         "author": {
