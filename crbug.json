@@ -566,47 +566,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3195081326",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "foolip@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2018-07-27T14:32:29",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 868374,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3"
-        ],
-        "owner_modified": "2018-07-27T14:32:29",
-        "projectId": "chromium",
-        "published": "2018-07-27T14:32:29",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-07-27T14:32:29",
-        "summary": "run_web_tests.py --reset-results doesn't work with wpt tests with ? in filename/path",
-        "title": "run_web_tests.py --reset-results doesn't work with wpt tests with ? in filename/path",
-        "updated": "2018-07-27T15:15:59"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/2368433223",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -652,73 +611,10 @@
         "summary": "run_layout_test.py often crashes on Windows",
         "title": "run_layout_test.py often crashes on Windows",
         "updated": "2018-07-19T19:11:09"
-      },
-      {
-        "author": {
-          "email_bouncing": true,
-          "htmlLink": "https://bugs.chromium.org/u/3895802",
-          "kind": "monorail#issuePerson",
-          "name": "joelo@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2016800091",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "jsbell@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2968755432",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "wnwen@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/4187517203",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "chrishtr@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/4187598447",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "94",
-            "name": "wkorman@chromium.org"
-          }
-        ],
-        "component_modified": "2015-06-11T22:51:56",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 499594,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Android",
-          "Type-Feature",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2015-06-11T22:51:56",
-        "projectId": "chromium",
-        "published": "2015-06-11T22:51:56",
-        "starred": false,
-        "stars": 3,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-07-26T16:04:43",
-        "summary": "Improve debuggability of Android test results on buildbot.",
-        "title": "Improve debuggability of Android test results on buildbot.",
-        "updated": "2018-07-26T16:04:43"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 3
+    "totalResults": 1
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
@@ -946,50 +842,7 @@
     "totalResults": 4
   },
   "component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged": {
-    "items": [
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3195081326",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "foolip@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2018-07-27T14:32:29",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 868374,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3"
-        ],
-        "owner_modified": "2018-07-27T14:32:29",
-        "projectId": "chromium",
-        "published": "2018-07-27T14:32:29",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-07-27T14:32:29",
-        "summary": "run_web_tests.py --reset-results doesn't work with wpt tests with ? in filename/path",
-        "title": "run_web_tests.py --reset-results doesn't work with wpt tests with ? in filename/path",
-        "updated": "2018-07-27T15:15:59"
-      }
-    ],
     "kind": "monorail#issueList",
-    "totalResults": 1
+    "totalResults": 0
   }
 }
