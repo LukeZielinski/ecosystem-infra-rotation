@@ -946,7 +946,50 @@
     "totalResults": 4
   },
   "component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged": {
+    "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3195081326",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "foolip@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          }
+        ],
+        "component_modified": "2018-07-27T14:32:29",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 868374,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3"
+        ],
+        "owner_modified": "2018-07-27T14:32:29",
+        "projectId": "chromium",
+        "published": "2018-07-27T14:32:29",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-07-27T14:32:29",
+        "summary": "run_web_tests.py --reset-results doesn't work with wpt tests with ? in filename/path",
+        "title": "run_web_tests.py --reset-results doesn't work with wpt tests with ? in filename/path",
+        "updated": "2018-07-27T14:32:29"
+      }
+    ],
     "kind": "monorail#issueList",
-    "totalResults": 0
+    "totalResults": 1
   }
 }
