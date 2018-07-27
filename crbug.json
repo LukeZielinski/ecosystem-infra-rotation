@@ -566,6 +566,54 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/4013606384",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "herb@google.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3710550960",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "qyearsley@google.com"
+          }
+        ],
+        "component_modified": "2018-07-27T18:40:47",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 868469,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3"
+        ],
+        "owner_modified": "2018-07-27T18:40:47",
+        "projectId": "chromium",
+        "published": "2018-07-27T18:40:47",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-07-27T18:40:47",
+        "summary": "rebaseline-cl errors with No issue number for current branch",
+        "title": "rebaseline-cl errors with No issue number for current branch",
+        "updated": "2018-07-27T18:40:47"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3195081326",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -718,7 +766,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 3
+    "totalResults": 4
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
