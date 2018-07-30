@@ -622,6 +622,38 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/339614835",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "pdr@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2018-07-30T18:12:15",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 869051,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner_modified": "2018-07-30T18:12:15",
+        "projectId": "chromium",
+        "published": "2018-07-30T18:12:15",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-07-30T18:12:15",
+        "summary": "mac_chromium_rel_ng job fails webkit_layout_tests but is reported as passing",
+        "title": "mac_chromium_rel_ng job fails webkit_layout_tests but is reported as passing",
+        "updated": "2018-07-30T18:12:15"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/2368433223",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -670,7 +702,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 1
+    "totalResults": 2
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
