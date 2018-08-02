@@ -38,13 +38,13 @@
       return minutesAgo(days * 1440).substr(0, 10);
     }
 
-    function githubTask(name, query) {
+    function githubTask(info) {
       // These two URLs for the API and the website should be in sync, different views of the same data.
       const BASE_API_URL = "https://api.github.com/search/issues?q=repo%3Aweb-platform-tests%2Fwpt%20";
       const BASE_WEB_URL = "https://github.com/web-platform-tests/wpt/issues?q=";
 
-      const apiURL = `${BASE_API_URL}${encodeURIComponent(query)}`;
-      const webURL = `${BASE_WEB_URL}${encodeURIComponent(query)}`;
+      const apiURL = `${BASE_API_URL}${encodeURIComponent(info.query)}`;
+      const webURL = `${BASE_WEB_URL}${encodeURIComponent(info.query)}`;
 
       // Extract GitHub API token from #GH_TOKEN=abcdef
       let init;
@@ -56,13 +56,14 @@
       }
 
       return {
-        name: name,
+        name: info.name,
         href: webURL,
         status: fetchJSON(apiURL, init).then(r => r.total_count),
+        docs: info.docs,
       };
     }
 
-    function importExportTask(kind) {
+    function importExportTask(kind, docs) {
       return {
         name: `${kind}er status`,
         href: `https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-${kind}er/`,
@@ -79,21 +80,23 @@
           }
           return 0;
         }),
+        docs: docs,
       }
     }
 
     // single fetch that will be shared by tasks
     const crbugJSON = fetchJSON('crbug.json');
 
-    function crbugTask(name, query) {
+    function crbugTask(info) {
       const BASE_URL = 'https://bugs.chromium.org/p/chromium/issues/list?can=2&q=';
 
       return {
-        name: name,
-        href: `${BASE_URL}${encodeURIComponent(query)}`,
+        name: info.name,
+        href: `${BASE_URL}${encodeURIComponent(info.query)}`,
         status: crbugJSON.then(async results => {
-          return results[query].totalResults;
+          return results[info.query].totalResults;
         }),
+        docs: info.docs,
       };
     }
 
@@ -112,22 +115,54 @@
         super.ready();
 
         const twoWaySyncTasks = [
-          importExportTask('import'),
-          importExportTask('export'),
-          githubTask('blocked export PRs', `is:pr is:open label:chromium-export -label:"do not merge yet" updated:<${minutesAgo(50)}`),
+          importExportTask('import', 'import.md'),
+          importExportTask('export', 'manual-export.md'),
+          githubTask({
+            name: 'blocked export PRs',
+            query: `is:pr is:open label:chromium-export -label:"do not merge yet" updated:<${minutesAgo(50)}`,
+            docs: 'blocked-export.md',
+          }),
         ];
 
         const wptInfraTaskInfo = [
-          { name: 'untriaged issues', query: 'is:issue is:open label:infra -label:priority:backlog -label:priority:roadmap -label:priority:urgent' },
-          { name: 'urgent issues >2 days', query: `is:issue is:open label:infra label:priority:urgent updated:<${daysAgo(2)} sort:updated-asc` },
-          { name: 'roadmap issues >60 days', query: `is:issue is:open label:infra label:priority:roadmap updated:<${daysAgo(60)} sort:updated-asc` },
+          {
+            name: 'untriaged issues',
+            query: 'is:issue is:open label:infra -label:priority:backlog -label:priority:roadmap -label:priority:urgent',
+            docs: 'wpt-untriaged.md',
+          },
+          {
+            name: 'urgent issues >2 days',
+            query: `is:issue is:open label:infra label:priority:urgent updated:<${daysAgo(2)} sort:updated-asc`,
+            docs: 'wpt-urgent.md',
+          },
+          {
+            name: 'roadmap issues >60 days',
+            query: `is:issue is:open label:infra label:priority:roadmap updated:<${daysAgo(60)} sort:updated-asc`,
+            docs: 'wpt-roadmap.md',
+          },
         ];
 
         const blinkInfraTaskInfo = [
-          { name: 'untriaged issues', query: 'component:Blink>Infra status:Unconfirmed,Untriaged' },
-          { name: 'P0 issues >2 days', query: 'component:Blink>Infra Pri=0 modified<today-2' },
-          { name: 'P1 issues >30 days', query: 'component:Blink>Infra Pri=1 modified<today-30' },
-          { name: 'P2 issues >60 days', query: 'component:Blink>Infra Pri=2 modified<today-60' },
+          {
+            name: 'untriaged issues',
+            query: 'component:Blink>Infra status:Unconfirmed,Untriaged',
+            docs: 'blink-untriaged.md',
+          },
+          {
+            name: 'P0 issues >2 days',
+            query: 'component:Blink>Infra Pri=0 modified<today-2',
+            docs: 'blink-p0.md',
+          },
+          {
+            name: 'P1 issues >30 days',
+            query: 'component:Blink>Infra Pri=1 modified<today-30',
+            docs: 'blink-p1.md',
+          },
+          {
+            name: 'P2 issues >60 days',
+            query: 'component:Blink>Infra Pri=2 modified<today-60',
+            docs: 'blink-p2.md',
+          },
         ];
 
         this.groups = [
@@ -137,11 +172,11 @@
           },
           {
             name: 'web-platform-tests infra issue triage',
-            tasks: wptInfraTaskInfo.map(info => githubTask(info.name, info.query)),
+            tasks: wptInfraTaskInfo.map(info => githubTask(info)),
           },
           {
             name: 'Blink>Infra issue triage',
-            tasks: blinkInfraTaskInfo.map(info => crbugTask(info.name, info.query)),
+            tasks: blinkInfraTaskInfo.map(info => crbugTask(info)),
           },
         ];
       }

@@ -17,6 +17,9 @@ bower install
 cd ..
 rsync -a --exclude="*.md" webapp/ "$OUTDIR"
 
+# Copy the docs/ folder into the out dir.
+cp -a docs "$OUTDIR/"
+
 # virtualenv initialization
 if [[ ! -f "env/bin/activate" ]]; then
     virtualenv -p python3 --no-site-packages env
