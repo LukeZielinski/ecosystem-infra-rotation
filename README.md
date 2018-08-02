@@ -14,8 +14,9 @@ If this happens, [generate a new access token](https://github.com/settings/token
 
 ## Running locally
 
-The build script needs Python 3 and Virtualenv:
+The build script needs Bower, Python 3 and Virtualenv:
 ```bash
+sudo npm install -g bower
 sudo apt install python3 virtualenv
 ```
 

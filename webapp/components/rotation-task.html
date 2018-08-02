@@ -1,6 +1,7 @@
 <link rel="import" href="../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../bower_components/paper-collapse-item/paper-collapse-item.html">
 <link rel="import" href="../bower_components/paper-badge/paper-badge.html">
+<link rel="import" href="../bower_components/paper-item/paper-icon-item.html">
 <link rel="import" href="../bower_components/paper-styles/color.html">
 
 <dom-module id="rotation-task">
@@ -9,9 +10,6 @@
       :host {
         --paper-badge-height: 32px;
         --paper-badge-width: 32px;
-      }
-      .badge {
-        margin-right: 16px;
       }
       paper-badge {
         /* initial state before async check is done */
@@ -33,12 +31,12 @@
 
     <div>
       <paper-collapse-item>
-        <div slot='header'>
+        <paper-icon-item slot='header'>
+          <div slot='item-icon'>
+            <paper-badge label='[[_computeBadgeLabel(task.count)]]' class$='[[_computeBadgeClass(task.count)]]'></paper-badge>
+          </div>
           <a href='[[task.href]]' target='_blank'>[[task.name]]</a>
-        </div>
-        <div class='badge' slot='icon'>
-          <paper-badge label='[[_computeBadgeLabel(task.count)]]' class$='[[_computeBadgeClass(task.count)]]'></paper-badge>
-        </div>
+        </paper-icon-item>
       </paper-collapse-item>
     </div>
 

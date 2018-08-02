@@ -9,8 +9,12 @@ OUTDIR="out/ecosystem-infra-rotation"
 rm -rf out
 mkdir out
 
-# Copy the static webapp content. Exclude Markdown as the gh-pages build can
-# fail because of them.
+# Build and copy the static webapp content. Exclude Markdown as the gh-pages
+# build can fail because of them.
+cd webapp
+rm -rf bower_components
+bower install
+cd ..
 rsync -a --exclude="*.md" webapp/ "$OUTDIR"
 
 # virtualenv initialization
