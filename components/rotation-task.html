@@ -3,6 +3,7 @@
 <link rel="import" href="../bower_components/paper-badge/paper-badge.html">
 <link rel="import" href="../bower_components/paper-item/paper-icon-item.html">
 <link rel="import" href="../bower_components/paper-styles/color.html">
+<link rel="import" href="../bower_components/marked-element/marked-element.html">
 
 <dom-module id="rotation-task">
   <template>
@@ -37,6 +38,10 @@
           </div>
           <a href='[[task.href]]' target='_blank'>[[task.name]]</a>
         </paper-icon-item>
+        <marked-element>
+          <div slot="markdown-html"></div>
+          <script type="text/markdown" src$="docs/[[task.docs]]"></script>
+        </marked-element>
       </paper-collapse-item>
     </div>
 
