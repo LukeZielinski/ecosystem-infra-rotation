@@ -380,6 +380,60 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1439056490",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "1",
+          "name": "chanli@chromium.org"
+        },
+        "blockedOn": [
+          {
+            "issueId": 828605,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "blocking": [
+          {
+            "issueId": 707891,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2018-01-25T19:07:07",
+        "components": [
+          "Blink>Infra>Ecosystem",
+          "Tools>Test>FindIt"
+        ],
+        "id": 806002,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1439056490",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "1",
+          "name": "chanli@chromium.org"
+        },
+        "owner_modified": "2018-01-25T19:07:07",
+        "projectId": "chromium",
+        "published": "2018-01-25T19:07:07",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Started",
+        "status_modified": "2018-03-28T21:19:03",
+        "summary": "[Findit] Add parser for json_test_results_format",
+        "title": "[Findit] Add parser for json_test_results_format",
+        "updated": "2018-06-01T22:53:31"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3195081326",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -427,7 +481,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 7
+    "totalResults": 8
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "items": [
