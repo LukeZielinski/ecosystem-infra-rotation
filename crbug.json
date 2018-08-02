@@ -488,6 +488,71 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/741614732",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "kalin@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/152313752",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "pgangishetty@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/584879917",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "matthewjoseph@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1310489396",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "sontis@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3595769115",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "harpreet@chromium.org"
+          }
+        ],
+        "component_modified": "2018-08-02T23:28:52",
+        "components": [
+          "Blink>Infra",
+          "Internals>Network>Connectivity",
+          "Test"
+        ],
+        "id": 870507,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "OS-Chrome"
+        ],
+        "owner_modified": "2018-08-02T23:28:52",
+        "projectId": "chromium",
+        "published": "2018-08-02T23:28:52",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-08-02T23:28:52",
+        "summary": "Daisy test job is not finishing after test failing, having device being disconnected, and lots of mosys crashes collected",
+        "title": "Daisy test job is not finishing after test failing, having device being disconnected, and lots of mosys crashes collected",
+        "updated": "2018-08-02T23:29:15"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1459596405",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -619,7 +684,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 3
+    "totalResults": 4
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
