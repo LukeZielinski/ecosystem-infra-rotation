@@ -8,12 +8,18 @@
       :host {
         @apply(--paper-font-common-base);
       }
+      footer {
+        margin-top: 4em;
+      }
     </style>
     <template is='dom-repeat' as='group' items='[[groups]]'>
       <rotation-task-group name='[[group.name]]' tasks='[[group.tasks]]'></rotation-task-group>
     </template>
     <footer>
-      <p>source on <a href="https://github.com/foolip/ecosystem-infra-rotation">GitHub</a></p>
+      <p>
+        <b>Usage</b>: Make all the circles green by following the expandable instructions.<br>
+        Please improve or file bugs on <a href="https://github.com/foolip/ecosystem-infra-rotation">GitHub</a>!
+      </p>
     </footer>
   </template>
   <script>
@@ -80,7 +86,7 @@
           }
           return 0;
         }),
-        docs: docs,
+        docs: `${kind}.md`,
       }
     }
 
@@ -115,8 +121,8 @@
         super.ready();
 
         const twoWaySyncTasks = [
-          importExportTask('import', 'import.md'),
-          importExportTask('export', 'manual-export.md'),
+          importExportTask('import'),
+          importExportTask('export'),
           githubTask({
             name: 'blocked export PRs',
             query: `is:pr is:open label:chromium-export -label:"do not merge yet" updated:<${minutesAgo(50)}`,
@@ -171,7 +177,7 @@
             tasks: twoWaySyncTasks,
           },
           {
-            name: 'web-platform-tests infra issue triage',
+            name: 'wpt infra issue triage',
             tasks: wptInfraTaskInfo.map(info => githubTask(info)),
           },
           {
