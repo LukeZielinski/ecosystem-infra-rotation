@@ -488,70 +488,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/741614732",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "kalin@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/152313752",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "pgangishetty@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/584879917",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "matthewjoseph@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1310489396",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "sontis@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3595769115",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "harpreet@chromium.org"
-          }
-        ],
-        "component_modified": "2018-08-03T03:17:01",
-        "components": [
-          "Blink>Infra",
-          "Test"
-        ],
-        "id": 870507,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3",
-          "OS-Chrome"
-        ],
-        "owner_modified": "2018-08-02T23:28:52",
-        "projectId": "chromium",
-        "published": "2018-08-02T23:28:52",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-08-02T23:28:52",
-        "summary": "Daisy test job is not finishing after test failing, having device being disconnected, and lots of mosys crashes collected",
-        "title": "Daisy test job is not finishing after test failing, having device being disconnected, and lots of mosys crashes collected",
-        "updated": "2018-08-03T03:17:01"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1459596405",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -638,52 +574,10 @@
         "summary": "run_layout_test.py often crashes on Windows",
         "title": "run_layout_test.py often crashes on Windows",
         "updated": "2018-07-19T19:11:09"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1322892317",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "qyearsley@chromium.org"
-        },
-        "blocking": [
-          {
-            "issueId": 709214,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "component_modified": "2017-07-31T17:02:15",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 750729,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Linux",
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold",
-          "OS-Mac"
-        ],
-        "owner_modified": "2017-07-31T17:02:15",
-        "projectId": "chromium",
-        "published": "2017-07-31T17:02:15",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-08-01T16:04:21",
-        "summary": "Add try bots to tryserver.blink for all remaining sheriffed bots on chromium.webkit",
-        "title": "Add try bots to tryserver.blink for all remaining sheriffed bots on chromium.webkit",
-        "updated": "2018-08-01T16:04:21"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 4
+    "totalResults": 2
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
