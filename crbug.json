@@ -488,6 +488,47 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/339614835",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "pdr@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3032437257",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "martiniss@chromium.org"
+          }
+        ],
+        "component_modified": "2018-08-03T14:41:12",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 870717,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3"
+        ],
+        "owner_modified": "2018-08-03T14:41:12",
+        "projectId": "chromium",
+        "published": "2018-08-03T14:41:12",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-08-03T14:41:12",
+        "summary": "flakiness_dashboard.html no longer loads layout tests",
+        "title": "flakiness_dashboard.html no longer loads layout tests",
+        "updated": "2018-08-03T14:41:12"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/741614732",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -683,7 +724,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 4
+    "totalResults": 5
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
