@@ -34,7 +34,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1685932805",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "0",
             "name": "seanmccullough@chromium.org"
           },
           {
@@ -312,6 +312,62 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1459596405",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "raphael.kubo.da.costa@intel.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2017-08-11T09:46:02",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 754615,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-08-11T09:46:02",
+        "projectId": "chromium",
+        "published": "2017-08-11T09:46:02",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-08-13T16:03:51",
+        "summary": "[WPT Import] Flaky tests may end up not being rebaselined",
+        "title": "[WPT Import] Flaky tests may end up not being rebaselined",
+        "updated": "2018-08-13T16:03:51"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1322892317",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -407,6 +463,52 @@
         "summary": "Logging functions in webkitpy/style/checker.py duplicate much of webkitpy/common/system/log_utils.py",
         "title": "Logging functions in webkitpy/style/checker.py duplicate much of webkitpy/common/system/log_utils.py",
         "updated": "2018-08-10T16:03:36"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/816690703",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "2",
+          "name": "reillyg@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          }
+        ],
+        "component_modified": "2017-06-15T21:20:15",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 733822,
+        "kind": "monorail#issue",
+        "labels": [
+          "OS-Linux",
+          "OS-Windows",
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold",
+          "OS-Chrome",
+          "OS-Mac"
+        ],
+        "owner_modified": "2017-06-15T21:20:15",
+        "projectId": "chromium",
+        "published": "2017-06-15T21:20:15",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-08-13T16:04:11",
+        "summary": "run-blink-httpd only serves from out/Release",
+        "title": "run-blink-httpd only serves from out/Release",
+        "updated": "2018-08-13T16:04:11"
       },
       {
         "author": {
@@ -527,7 +629,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 6
+    "totalResults": 8
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
@@ -680,6 +782,62 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1459596405",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "raphael.kubo.da.costa@intel.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2017-08-11T09:46:02",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 754615,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-08-11T09:46:02",
+        "projectId": "chromium",
+        "published": "2017-08-11T09:46:02",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-08-13T16:03:51",
+        "summary": "[WPT Import] Flaky tests may end up not being rebaselined",
+        "title": "[WPT Import] Flaky tests may end up not being rebaselined",
+        "updated": "2018-08-13T16:03:51"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1939658455",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -754,6 +912,6 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 1
+    "totalResults": 2
   }
 }
