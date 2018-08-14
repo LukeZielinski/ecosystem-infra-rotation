@@ -106,6 +106,29 @@
       };
     }
 
+    function fyiTask(info) {
+      let apiURL = `https://wpt.fyi/api/runs?label=${info.label}&max-count=1`;
+      // TODO: remove after https://github.com/web-platform-tests/wpt.fyi/issues/433
+      apiURL = apiURL.replace(/[^A-Za-z0-9]+/g, '-') + '.json';
+      const webURL = `https://wpt.fyi/test-runs?label=${info.label}`;
+
+      return {
+        name: `${info.label} runs`,
+        href: webURL,
+        status: fetchJSON(apiURL).then(runs => {
+          let numOldRuns = 0;
+          for (const run of runs) {
+            const runAge = Date.now() - Date.parse(run.time_end);
+            if (runAge > info.maxAge*1000) {
+              numOldRuns++;
+            }
+          }
+          return numOldRuns;
+        }),
+        docs: info.docs,
+      };
+    }
+
     class EcosystemInfraRotation extends Polymer.Element {
       static get is() {
         return 'ecosystem-infra-rotation';
@@ -171,6 +194,19 @@
           },
         ];
 
+        const fyiTaskInfo = [
+          {
+            label: 'stable',
+            maxAge: 24*3600,
+            docs: 'wpt.fyi-stable.md',
+          },
+          {
+            label: 'experimental',
+            maxAge: 7*24*3600,
+            docs: 'wpt.fyi-experimental.md',
+          },
+        ];
+
         this.groups = [
           {
             name: '2-way sync',
@@ -178,12 +214,16 @@
           },
           {
             name: 'wpt infra issue triage',
-            tasks: wptInfraTaskInfo.map(info => githubTask(info)),
+            tasks: wptInfraTaskInfo.map(githubTask),
           },
           {
             name: 'Blink>Infra issue triage',
-            tasks: blinkInfraTaskInfo.map(info => crbugTask(info)),
+            tasks: blinkInfraTaskInfo.map(crbugTask),
           },
+          {
+            name: 'wpt.fyi',
+            tasks: fyiTaskInfo.map(fyiTask),
+          }
         ];
       }
     }
