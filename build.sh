@@ -30,6 +30,7 @@ set -u
 pip install -U -r requirements.txt
 
 # generate or copy the crbug list
+echo "Generating crbug.json"
 MONORAIL_KEY="monorail-key.json"
 if [[ -f "$MONORAIL_KEY" ]]; then
     python3 monorail.py "$MONORAIL_KEY" "$OUTDIR/crbug.json"
@@ -39,4 +40,10 @@ else
     git show FETCH_HEAD:crbug.json > "$OUTDIR/crbug.json"
 fi
 
+echo "Generating import.json and export.json"
 python3 wptsync.py "$OUTDIR/import.json" "$OUTDIR/export.json"
+
+# TODO: remove after https://github.com/web-platform-tests/wpt.fyi/issues/433
+echo "TERRIBLE! AVERT YOUR EYES!! fetching wpt.fyi/api JSON"
+curl "https://wpt.fyi/api/runs?label=stable&max-count=1" > "$OUTDIR/https-wpt-fyi-api-runs-label-stable-max-count-1.json"
+curl "https://wpt.fyi/api/runs?label=experimental&max-count=1" > "$OUTDIR/https-wpt-fyi-api-runs-label-experimental-max-count-1.json"
