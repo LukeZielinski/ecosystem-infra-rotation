@@ -717,6 +717,55 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1939658455",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "jeffcarp@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1939658455",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "jeffcarp@chromium.org"
+          }
+        ],
+        "component_modified": "2017-07-03T14:18:19",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 711437,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Feature",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-08-14T19:34:53",
+        "projectId": "chromium",
+        "published": "2017-04-13T21:09:59",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-08-15T16:03:11",
+        "summary": "[WPT Export] Print out Gerrit CLs, commits, and GitHub PRs more nicely",
+        "title": "[WPT Export] Print out Gerrit CLs, commits, and GitHub PRs more nicely",
+        "updated": "2018-08-15T16:03:11"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1322892317",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -755,10 +804,110 @@
         "summary": "update-flaky-test-expectations does not pay attention to Leak builder etc.",
         "title": "update-flaky-test-expectations does not pay attention to Leak builder etc.",
         "updated": "2018-08-06T16:03:32"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "qyearsley@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3958632946",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "bugsnash@chromium.org"
+          }
+        ],
+        "component_modified": "2016-09-02T03:17:28",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 643490,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2016-09-30T16:03:00",
+        "projectId": "chromium",
+        "published": "2016-09-02T03:17:28",
+        "starred": false,
+        "stars": 0,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-08-15T16:03:18",
+        "summary": "Make Rebaseline/NeedsManualRebaseline not conflict with Pass lines",
+        "title": "Make Rebaseline/NeedsManualRebaseline not conflict with Pass lines",
+        "updated": "2018-08-15T16:03:18"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3053815138",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "skobes@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1255684747",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "12",
+            "name": "bratell@opera.com"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2884559008",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "tdresser@chromium.org"
+          }
+        ],
+        "component_modified": "2015-01-29T08:10:02",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 453254,
+        "kind": "monorail#issue",
+        "labels": [
+          "Hotlist-CodeHealth",
+          "Type-Feature",
+          "Pri-3",
+          "Hotlist-Recharge-Cold",
+          "Hotlist-Input-Dev"
+        ],
+        "owner_modified": "2015-01-29T08:10:02",
+        "projectId": "chromium",
+        "published": "2015-01-29T08:10:02",
+        "starred": false,
+        "stars": 4,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-08-15T16:03:20",
+        "summary": "content_shell: Support interactive layout test mode",
+        "title": "content_shell: Support interactive layout test mode",
+        "updated": "2018-08-15T16:03:20"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 11
+    "totalResults": 14
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
@@ -1101,9 +1250,58 @@
         "summary": "[WPT Export] Create a new CQ builder that blocks if a corresponding WPT PR is red",
         "title": "[WPT Export] Create a new CQ builder that blocks if a corresponding WPT PR is red",
         "updated": "2018-08-10T16:03:40"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1939658455",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "jeffcarp@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1939658455",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "jeffcarp@chromium.org"
+          }
+        ],
+        "component_modified": "2017-07-03T14:18:19",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 711437,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Feature",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-08-14T19:34:53",
+        "projectId": "chromium",
+        "published": "2017-04-13T21:09:59",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-08-15T16:03:11",
+        "summary": "[WPT Export] Print out Gerrit CLs, commits, and GitHub PRs more nicely",
+        "title": "[WPT Export] Print out Gerrit CLs, commits, and GitHub PRs more nicely",
+        "updated": "2018-08-15T16:03:11"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 3
+    "totalResults": 4
   }
 }
