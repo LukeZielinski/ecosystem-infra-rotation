@@ -262,8 +262,45 @@
     "totalResults": 4
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
+    "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3720250006",
+          "kind": "monorail#issuePerson",
+          "name": "chromium-try-flakes@appspot.gserviceaccount.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2018-06-20T20:29:19",
+        "components": [
+          "Blink>Infra",
+          "Infra>Platform>Swarming>Admin",
+          "Tests>Flaky"
+        ],
+        "id": 852494,
+        "kind": "monorail#issue",
+        "labels": [
+          "OS-Windows",
+          "Type-Bug",
+          "Pri-2",
+          "Via-TryFlakes"
+        ],
+        "owner_modified": "2018-06-13T19:17:12",
+        "projectId": "chromium",
+        "published": "2018-06-13T19:17:12",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Available",
+        "status_modified": "2018-06-20T21:53:19",
+        "summary": "\"http/tests/security/xssAuditor/svg-animate-clutter-2.html\" is flaky",
+        "title": "\"http/tests/security/xssAuditor/svg-animate-clutter-2.html\" is flaky",
+        "updated": "2018-06-20T21:53:19"
+      }
+    ],
     "kind": "monorail#issueList",
-    "totalResults": 0
+    "totalResults": 1
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "items": [
