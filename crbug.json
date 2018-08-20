@@ -528,6 +528,29 @@
         },
         "canComment": true,
         "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/586622030",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "10",
+            "name": "agable@google.com"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/665198580",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "dpranke@google.com"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2872714853",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "ehmaldonado@chromium.org"
+          }
+        ],
         "component_modified": "2018-08-20T16:10:29",
         "components": [
           "Blink>Infra",
@@ -543,13 +566,13 @@
         "projectId": "chromium",
         "published": "2018-08-20T16:10:29",
         "starred": false,
-        "stars": 1,
+        "stars": 2,
         "state": "open",
         "status": "Untriaged",
         "status_modified": "2018-08-20T16:10:29",
         "summary": "Adding OWNERS files prevent reverts",
         "title": "Adding OWNERS files prevent reverts",
-        "updated": "2018-08-20T16:10:29"
+        "updated": "2018-08-20T16:14:34"
       },
       {
         "author": {
