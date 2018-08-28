@@ -379,7 +379,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/3127793378",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
+            "last_visit_days_ago": "4",
             "name": "haraken@chromium.org"
           },
           {
@@ -840,79 +840,6 @@
         "summary": "run_layout_test.py often crashes on Windows",
         "title": "run_layout_test.py often crashes on Windows",
         "updated": "2018-07-19T19:11:09"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3228155790",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "dcheng@chromium.org"
-        },
-        "blocking": [
-          {
-            "issueId": 756721,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/88915427",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "32",
-            "name": "danakj@chromium.org",
-            "vacation_message": "Vacation back Sept"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/567034358",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "tkent@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2283606655",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "jbroman@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3584865153",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "thakis@chromium.org",
-            "vacation_message": "vacation Aug 27 - Nov 4"
-          }
-        ],
-        "component_modified": "2017-08-18T05:37:21",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 756722,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold",
-          "OS-Mac"
-        ],
-        "owner_modified": "2017-08-18T05:37:21",
-        "projectId": "chromium",
-        "published": "2017-08-18T05:37:21",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-08-28T16:03:28",
-        "summary": "Get rid of C++ style checks in check-webkit-style",
-        "title": "Get rid of C++ style checks in check-webkit-style",
-        "updated": "2018-08-28T16:03:28"
       },
       {
         "author": {
@@ -1853,7 +1780,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 22
+    "totalResults": 21
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
