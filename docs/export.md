@@ -1,6 +1,6 @@
 The [automatic export process](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_platform_tests.md#automatic-export-process) tries to continuously export changes from [LayoutTests/external/wpt](https://cs.chromium.org/chromium/src/third_party/WebKit/LayoutTests/external/wpt/) into [wpt](https://github.com/web-platform-tests/wpt).
 
-If the exporter isn't running, please [file an exporter bug](https://bugs.chromium.org/p/chromium/issues/entry?components=Blink%3EInfra%3EEcosystem&cc=robertma@chromium.org&summary=[WPT%20Import]).
+If the exporter isn't running, please [file an exporter bug](https://bugs.chromium.org/p/chromium/issues/entry?components=Blink%3EInfra%3EEcosystem&cc=robertma@chromium.org&summary=[WPT%20Export]).
 
 When an export run has failed with "The following commit did not apply cleanly", it's often because the CL builds on another which hasn't yet been exported to wpt, so if there are blocked export PRs, handle those first.
 
