@@ -1733,6 +1733,86 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3365229754",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "269",
+          "name": "dglazkov@chromium.org",
+          "vacation_message": "OOO until NaN"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/802588938",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "4",
+            "name": "iannucci@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1752111342",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "68",
+            "name": "dnj@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1939658455",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "3",
+            "name": "jeffcarp@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "dpranke@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/4092810879",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "20",
+            "name": "agable@chromium.org",
+            "vacation_message": "On Sabbatical"
+          }
+        ],
+        "component_modified": "2016-12-04T01:07:40",
+        "components": [
+          "Blink>Infra",
+          "Infra>Client>Infra"
+        ],
+        "id": 670990,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-09-03T17:54:43",
+        "projectId": "chromium",
+        "published": "2016-12-04T01:04:50",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-09-04T16:04:39",
+        "summary": "PYTHONPATH of the recipe environment should not be passed to scripts in recipes (use vpython)",
+        "title": "PYTHONPATH of the recipe environment should not be passed to scripts in recipes (use vpython)",
+        "updated": "2018-09-04T16:04:39"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1322892317",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "2",
@@ -2128,7 +2208,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 25
+    "totalResults": 26
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
