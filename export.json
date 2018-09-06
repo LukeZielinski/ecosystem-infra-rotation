@@ -1,6 +1,13 @@
 {
   "builds": [
     {
+      "build": "https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-exporter/99796",
+      "duration": "8 mins 44 secs",
+      "info": "build successful",
+      "result": "Success",
+      "time": "Thursday, 06-Sep-18 19:42:11 UTC"
+    },
+    {
       "build": "https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-exporter/99795",
       "duration": "8 mins 44 secs",
       "info": "build successful",
@@ -167,15 +174,8 @@
       "info": "build successful",
       "result": "Success",
       "time": "Thursday, 06-Sep-18 16:02:57 UTC"
-    },
-    {
-      "build": "https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-exporter/99771",
-      "duration": "10 mins 43 secs",
-      "info": "build successful\n            \n              \n              exception update_scripts",
-      "result": "Success",
-      "time": "Thursday, 06-Sep-18 15:53:58 UTC"
     }
   ],
-  "last_success": "Thursday, 06-Sep-18 19:32:41 UTC",
+  "last_success": "Thursday, 06-Sep-18 19:42:11 UTC",
   "recent_failures": 0
 }
