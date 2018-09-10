@@ -1128,6 +1128,69 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/2779573485",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "2",
+          "name": "dpranke@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1752111342",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "74",
+            "name": "dnj@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1837693908",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "nodir@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/4049379827",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "maruel@chromium.org"
+          }
+        ],
+        "component_modified": "2017-09-06T18:36:36",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 762633,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-09-06T18:36:36",
+        "projectId": "chromium",
+        "published": "2017-09-06T18:36:36",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-09-10T16:05:01",
+        "summary": "Figure out why webkitpy...test_run_command_with_unicode fails when run directly on LUCI",
+        "title": "Figure out why webkitpy...test_run_command_with_unicode fails when run directly on LUCI",
+        "updated": "2018-09-10T16:05:01"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3228155790",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "3",
@@ -2425,7 +2488,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 30
+    "totalResults": 31
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
