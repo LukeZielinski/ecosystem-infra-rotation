@@ -1743,6 +1743,96 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "1",
+          "name": "qyearsley@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2017-06-08T17:24:56",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 731182,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Task",
+          "Pri-3",
+          "Hotlist-Recharge-Cold",
+          "Hotlist-GoodFirstBug"
+        ],
+        "owner_modified": "2017-06-08T17:24:56",
+        "projectId": "chromium",
+        "published": "2017-06-08T17:24:56",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-09-13T16:03:32",
+        "summary": "Remove the layout test \"archived results dashboard\"",
+        "title": "Remove the layout test \"archived results dashboard\"",
+        "updated": "2018-09-13T16:03:32"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "1",
+          "name": "qyearsley@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/784079466",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "fs@opera.com"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/4187598447",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "35",
+            "name": "wkorman@chromium.org"
+          }
+        ],
+        "component_modified": "2017-05-25T23:19:38",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 726529,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Feature",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-05-25T23:19:38",
+        "projectId": "chromium",
+        "published": "2017-05-25T23:19:38",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-09-13T16:03:34",
+        "summary": "rebaseline-cl: Decide fill-missing vs ignore-baseline behavior based on current baselines",
+        "title": "rebaseline-cl: Decide fill-missing vs ignore-baseline behavior based on current baselines",
+        "updated": "2018-09-13T16:03:34"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1939658455",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "1",
@@ -2641,7 +2731,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/2510948991",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "1",
+            "last_visit_days_ago": "2",
             "name": "jschuh@chromium.org"
           },
           {
@@ -2702,7 +2792,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 31
+    "totalResults": 33
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
