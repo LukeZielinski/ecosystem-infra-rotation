@@ -1069,6 +1069,54 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3195081326",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "foolip@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/209133074",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "szager@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          }
+        ],
+        "component_modified": "2018-09-13T10:44:49",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 883676,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3"
+        ],
+        "owner_modified": "2018-09-13T10:44:49",
+        "projectId": "chromium",
+        "published": "2018-09-13T10:44:49",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-09-13T10:44:49",
+        "summary": "rebaseline-cl created bizarre baseline changes due to platform differences in global-interface-listing-expected.txt",
+        "title": "rebaseline-cl created bizarre baseline changes due to platform differences in global-interface-listing-expected.txt",
+        "updated": "2018-09-13T10:44:49"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1343658315",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -2654,7 +2702,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 30
+    "totalResults": 31
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
