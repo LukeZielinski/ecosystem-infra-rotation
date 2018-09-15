@@ -578,6 +578,51 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/2757933724",
+          "kind": "monorail#issuePerson",
+          "name": "clusterfuzz@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/567034358",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "tkent@chromium.org"
+          }
+        ],
+        "component_modified": "2018-06-05T01:52:22",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 849088,
+        "kind": "monorail#issue",
+        "labels": [
+          "OS-Linux",
+          "Type-Bug",
+          "Reproducible",
+          "Pri-2",
+          "Clusterfuzz",
+          "Stability-UndefinedBehaviorSanitizer",
+          "Test-Predator-Auto-Components"
+        ],
+        "owner_modified": "2018-07-17T09:54:27",
+        "projectId": "chromium",
+        "published": "2018-06-03T11:48:18",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Available",
+        "status_modified": "2018-07-17T09:54:27",
+        "summary": "Bad-cast to blink::WebView from invalid vptr in test_runner::TestRunnerForSpecificView::Reset",
+        "title": "Bad-cast to blink::WebView from invalid vptr in test_runner::TestRunnerForSpecificView::Reset",
+        "updated": "2018-07-17T09:54:27"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/2278400469",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "1",
@@ -1061,7 +1106,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 7
+    "totalResults": 8
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "items": [
