@@ -347,6 +347,77 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/2779573485",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "2",
+          "name": "dpranke@chromium.org"
+        },
+        "blockedOn": [
+          {
+            "issueId": 835690,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "4",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1685932805",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "seanmccullough@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2018-06-11T00:10:59",
+        "components": [
+          "Blink>Infra",
+          "Build"
+        ],
+        "id": 807751,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-1",
+          "Type-Bug",
+          "Build-Tools-TYP"
+        ],
+        "owner_modified": "2018-06-11T00:10:59",
+        "projectId": "chromium",
+        "published": "2018-01-31T21:32:12",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Available",
+        "status_modified": "2018-06-11T00:10:59",
+        "summary": "Switch the layout tests to the new test expectations format",
+        "title": "Switch the layout tests to the new test expectations format",
+        "updated": "2018-07-11T15:36:40"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3098058249",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "1",
@@ -488,7 +559,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 6
+    "totalResults": 7
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
     "items": [
