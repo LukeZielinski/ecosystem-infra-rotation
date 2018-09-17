@@ -548,59 +548,10 @@
         "summary": "Migrate WPT importer/exporter from BuildBot to LUCI",
         "title": "Migrate WPT importer/exporter from BuildBot to LUCI",
         "updated": "2018-07-24T19:24:52"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2368433223",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "3",
-          "name": "hajimehoshi@chromium.org"
-        },
-        "blockedOn": [
-          {
-            "issueId": 858920,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2018-07-18T18:02:41",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 773617,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Windows",
-          "Pri-1",
-          "Type-Bug"
-        ],
-        "owner_modified": "2017-10-11T09:24:10",
-        "projectId": "chromium",
-        "published": "2017-10-11T09:24:10",
-        "starred": false,
-        "stars": 3,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2017-10-11T09:24:10",
-        "summary": "run_layout_test.py often crashes on Windows",
-        "title": "run_layout_test.py often crashes on Windows",
-        "updated": "2018-07-19T19:11:09"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 8
+    "totalResults": 7
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
     "items": [
@@ -1556,55 +1507,6 @@
         "summary": "flakiness_dashboard.html no longer loads layout tests",
         "title": "flakiness_dashboard.html no longer loads layout tests",
         "updated": "2018-08-06T18:11:01"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2368433223",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "3",
-          "name": "hajimehoshi@chromium.org"
-        },
-        "blockedOn": [
-          {
-            "issueId": 858920,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2018-07-18T18:02:41",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 773617,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Windows",
-          "Pri-1",
-          "Type-Bug"
-        ],
-        "owner_modified": "2017-10-11T09:24:10",
-        "projectId": "chromium",
-        "published": "2017-10-11T09:24:10",
-        "starred": false,
-        "stars": 3,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2017-10-11T09:24:10",
-        "summary": "run_layout_test.py often crashes on Windows",
-        "title": "run_layout_test.py often crashes on Windows",
-        "updated": "2018-07-19T19:11:09"
       },
       {
         "author": {
@@ -3038,7 +2940,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/2196431582",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "0",
             "name": "wfh@chromium.org"
           },
           {
@@ -3106,7 +3008,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 36
+    "totalResults": 35
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
