@@ -1233,6 +1233,54 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "robertma@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1506398752",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "nednguyen@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3032437257",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "martiniss@chromium.org"
+          }
+        ],
+        "component_modified": "2018-09-17T17:25:04",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 884783,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-1",
+          "Type-Bug-Regression"
+        ],
+        "owner_modified": "2018-09-17T17:25:04",
+        "projectId": "chromium",
+        "published": "2018-09-17T17:25:04",
+        "starred": false,
+        "stars": 0,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-09-17T17:25:04",
+        "summary": "Result merge/upload is broken in webkit_layout_tests",
+        "title": "Result merge/upload is broken in webkit_layout_tests",
+        "updated": "2018-09-17T17:25:04"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3195081326",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -3017,7 +3065,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 34
+    "totalResults": 35
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
