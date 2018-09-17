@@ -1184,6 +1184,47 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1014188007",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "xiaochengh@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/94346534",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "atotic@chromium.org"
+          }
+        ],
+        "component_modified": "2018-09-17T21:16:56",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 884857,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-1",
+          "Type-Bug-Regression"
+        ],
+        "owner_modified": "2018-09-17T21:16:56",
+        "projectId": "chromium",
+        "published": "2018-09-17T21:16:56",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-09-17T21:16:56",
+        "summary": "CQ reports layout test failure but test result page doesn't give details",
+        "title": "CQ reports layout test failure but test result page doesn't give details",
+        "updated": "2018-09-17T21:16:56"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3098058249",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -2967,7 +3008,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 34
+    "totalResults": 35
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
