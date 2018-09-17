@@ -960,10 +960,224 @@
         "summary": "Audit Blink WPT Bot's privileges on Gerrit",
         "title": "Audit Blink WPT Bot's privileges on Gerrit",
         "updated": "2018-07-12T22:17:52"
+      },
+      {
+        "author": {
+          "email_bouncing": true,
+          "htmlLink": "https://bugs.chromium.org/u/3895802",
+          "kind": "monorail#issuePerson",
+          "name": "joelo@chromium.org"
+        },
+        "blockedOn": [
+          {
+            "issueId": 527267,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 598990,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 601332,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 674333,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 676210,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 688892,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 689730,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 692995,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 693002,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 717344,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 717347,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 719809,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 736257,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "blocking": [
+          {
+            "issueId": 98637,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 485392,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 491386,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 659213,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 659270,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 666119,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 694326,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 694603,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 694747,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 695750,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 703894,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 720623,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/113376574",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "jochen@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "5",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1939658455",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "jeffcarp@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2016800091",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "jsbell@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "4",
+            "name": "dpranke@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/4049379827",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "maruel@chromium.org"
+          }
+        ],
+        "component_modified": "2018-06-21T15:44:05",
+        "components": [
+          "Blink>Infra",
+          "Infra>Platform>Swarming>Admin"
+        ],
+        "id": 524758,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-2",
+          "Type-Feature",
+          "OS-All",
+          "cit-pm-64"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/4006160393",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "3",
+          "name": "jbudorick@chromium.org"
+        },
+        "owner_modified": "2018-01-09T01:41:06",
+        "projectId": "chromium",
+        "published": "2015-08-25T23:57:56",
+        "starred": false,
+        "stars": 11,
+        "state": "open",
+        "status": "Assigned",
+        "status_modified": "2018-01-09T01:41:06",
+        "summary": "Convert WebKit Android (Nexus 4) tests to run under swarming",
+        "title": "Convert WebKit Android (Nexus 4) tests to run under swarming",
+        "updated": "2018-06-21T15:44:05"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 7
+    "totalResults": 8
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "items": [
