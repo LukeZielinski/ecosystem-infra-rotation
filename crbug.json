@@ -1432,7 +1432,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/339614835",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "2",
+          "last_visit_days_ago": "0",
           "name": "pdr@chromium.org"
         },
         "canComment": true,
@@ -1800,6 +1800,67 @@
         "summary": "[WPT import] \"Updating TestExpectations for any removed or renamed tests\" should also update directories",
         "title": "[WPT import] \"Updating TestExpectations for any removed or renamed tests\" should also update directories",
         "updated": "2018-08-14T16:03:12"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1939658455",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "2",
+          "name": "jeffcarp@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "5",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1939658455",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "jeffcarp@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          }
+        ],
+        "component_modified": "2017-07-03T14:18:21",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 738502,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Feature",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "mergedInto": {
+          "issueId": 743149,
+          "kind": "monorail#issueRef",
+          "projectId": "chromium"
+        },
+        "owner_modified": "2017-09-15T20:14:41",
+        "projectId": "chromium",
+        "published": "2017-06-30T17:49:00",
+        "starred": false,
+        "stars": 3,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-09-17T16:03:48",
+        "summary": "[WPT Export] Make valid patch failures more obvious",
+        "title": "[WPT Export] Make valid patch failures more obvious",
+        "updated": "2018-09-17T16:03:48"
       },
       {
         "author": {
@@ -2956,7 +3017,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 33
+    "totalResults": 34
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
@@ -3544,6 +3605,67 @@
             "kind": "monorail#issuePerson",
             "last_visit_days_ago": "2",
             "name": "jeffcarp@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          }
+        ],
+        "component_modified": "2017-07-03T14:18:21",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 738502,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Feature",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "mergedInto": {
+          "issueId": 743149,
+          "kind": "monorail#issueRef",
+          "projectId": "chromium"
+        },
+        "owner_modified": "2017-09-15T20:14:41",
+        "projectId": "chromium",
+        "published": "2017-06-30T17:49:00",
+        "starred": false,
+        "stars": 3,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-09-17T16:03:48",
+        "summary": "[WPT Export] Make valid patch failures more obvious",
+        "title": "[WPT Export] Make valid patch failures more obvious",
+        "updated": "2018-09-17T16:03:48"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1939658455",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "2",
+          "name": "jeffcarp@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "5",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1939658455",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "jeffcarp@chromium.org"
           }
         ],
         "component_modified": "2017-07-03T14:18:19",
@@ -3663,6 +3785,6 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 6
+    "totalResults": 7
   }
 }
