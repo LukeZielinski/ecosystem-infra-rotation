@@ -376,103 +376,10 @@
         "summary": "Switch the layout tests to the new test expectations format",
         "title": "Switch the layout tests to the new test expectations format",
         "updated": "2018-07-11T15:36:40"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3098058249",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "robertma@chromium.org"
-        },
-        "blockedOn": [
-          {
-            "issueId": 790503,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          },
-          {
-            "issueId": 790570,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          },
-          {
-            "issueId": 863229,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/925436157",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "tandrii@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "7",
-            "name": "qyearsley@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1386785815",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "efoo@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2215691275",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "vadimsh@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3195081326",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "foolip@chromium.org"
-          }
-        ],
-        "component_modified": "2018-01-17T16:35:36",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 803111,
-        "kind": "monorail#issue",
-        "labels": [
-          "Pri-1",
-          "Type-Task"
-        ],
-        "owner": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3098058249",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "robertma@chromium.org"
-        },
-        "owner_modified": "2018-03-19T18:22:10",
-        "projectId": "chromium",
-        "published": "2018-01-17T16:35:36",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Assigned",
-        "status_modified": "2018-07-10T00:05:14",
-        "summary": "Migrate WPT importer/exporter from BuildBot to LUCI",
-        "title": "Migrate WPT importer/exporter from BuildBot to LUCI",
-        "updated": "2018-07-24T19:24:52"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 6
+    "totalResults": 5
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
     "items": [
@@ -3119,103 +3026,10 @@
         "summary": "wpt/infrastructure/testdriver/bless.html fails on site-per-process",
         "title": "wpt/infrastructure/testdriver/bless.html fails on site-per-process",
         "updated": "2018-08-17T19:12:40"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3098058249",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "robertma@chromium.org"
-        },
-        "blockedOn": [
-          {
-            "issueId": 790503,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          },
-          {
-            "issueId": 790570,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          },
-          {
-            "issueId": 863229,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/925436157",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "tandrii@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "7",
-            "name": "qyearsley@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1386785815",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "efoo@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2215691275",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "vadimsh@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3195081326",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "foolip@chromium.org"
-          }
-        ],
-        "component_modified": "2018-01-17T16:35:36",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 803111,
-        "kind": "monorail#issue",
-        "labels": [
-          "Pri-1",
-          "Type-Task"
-        ],
-        "owner": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3098058249",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "robertma@chromium.org"
-        },
-        "owner_modified": "2018-03-19T18:22:10",
-        "projectId": "chromium",
-        "published": "2018-01-17T16:35:36",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Assigned",
-        "status_modified": "2018-07-10T00:05:14",
-        "summary": "Migrate WPT importer/exporter from BuildBot to LUCI",
-        "title": "Migrate WPT importer/exporter from BuildBot to LUCI",
-        "updated": "2018-07-24T19:24:52"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 2
+    "totalResults": 1
   },
   "component:Blink>Infra>Ecosystem Pri=2 modified<today-60": {
     "items": [
