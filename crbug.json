@@ -1159,115 +1159,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3195081326",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "foolip@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "3",
-            "name": "qyearsley@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1939658455",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "jeffcarp@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3195081326",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "foolip@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/4293160786",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "drott@chromium.org"
-          }
-        ],
-        "component_modified": "2017-07-03T08:11:54",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 738818,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2017-08-14T15:33:13",
-        "projectId": "chromium",
-        "published": "2017-07-03T08:11:54",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-08-14T16:03:12",
-        "summary": "[WPT import] \"Updating TestExpectations for any removed or renamed tests\" should also update directories",
-        "title": "[WPT import] \"Updating TestExpectations for any removed or renamed tests\" should also update directories",
-        "updated": "2018-08-14T16:03:12"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/816690703",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "reillyg@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "3",
-            "name": "qyearsley@chromium.org"
-          }
-        ],
-        "component_modified": "2017-06-15T21:20:15",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 733822,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Linux",
-          "OS-Windows",
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold",
-          "OS-Chrome",
-          "OS-Mac"
-        ],
-        "owner_modified": "2017-06-15T21:20:15",
-        "projectId": "chromium",
-        "published": "2017-06-15T21:20:15",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-08-13T16:04:11",
-        "summary": "run-blink-httpd only serves from out/Release",
-        "title": "run-blink-httpd only serves from out/Release",
-        "updated": "2018-08-13T16:04:11"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1322892317",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "3",
@@ -1821,7 +1712,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 18
+    "totalResults": 16
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
@@ -2092,72 +1983,9 @@
         "summary": "wpt/infrastructure/testdriver/bless.html fails on site-per-process",
         "title": "wpt/infrastructure/testdriver/bless.html fails on site-per-process",
         "updated": "2018-08-17T19:12:40"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3195081326",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "foolip@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "3",
-            "name": "qyearsley@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1939658455",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "jeffcarp@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3195081326",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "foolip@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/4293160786",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "drott@chromium.org"
-          }
-        ],
-        "component_modified": "2017-07-03T08:11:54",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 738818,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2017-08-14T15:33:13",
-        "projectId": "chromium",
-        "published": "2017-07-03T08:11:54",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-08-14T16:03:12",
-        "summary": "[WPT import] \"Updating TestExpectations for any removed or renamed tests\" should also update directories",
-        "title": "[WPT import] \"Updating TestExpectations for any removed or renamed tests\" should also update directories",
-        "updated": "2018-08-14T16:03:12"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 3
+    "totalResults": 2
   }
 }
