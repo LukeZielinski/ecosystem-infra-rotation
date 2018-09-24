@@ -107,9 +107,8 @@
     }
 
     function fyiTask(info) {
-      // TODO: use prod after https://github.com/web-platform-tests/wpt.fyi/pull/438
-      const apiURL = `https://staging.wpt.fyi/api/runs?label=${info.label}&max-count=1`;
-      const webURL = `https://staging.wpt.fyi/test-runs?label=${info.label}`;
+      const apiURL = `https://wpt.fyi/api/runs?label=${info.label}&max-count=1`;
+      const webURL = `https://wpt.fyi/test-runs?label=${info.label}`;
 
       return {
         name: `${info.label} runs`,
