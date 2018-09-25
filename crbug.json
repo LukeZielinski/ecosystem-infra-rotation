@@ -12,108 +12,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/384153905",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "1",
-          "name": "kbr@chromium.org",
-          "vacation_message": "OOO (conferences) until 9/28"
-        },
-        "blockedOn": [
-          {
-            "issueId": 854710,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3127793378",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "haraken@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3873744099",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "adithyas@chromium.org"
-          }
-        ],
-        "component_modified": "2018-06-22T02:29:30",
-        "components": [
-          "Blink>Infra",
-          "Blink>Internals"
-        ],
-        "id": 855313,
-        "kind": "monorail#issue",
-        "labels": [
-          "Pri-2",
-          "Type-Feature"
-        ],
-        "owner_modified": "2018-06-22T02:29:30",
-        "projectId": "chromium",
-        "published": "2018-06-22T02:29:30",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Available",
-        "status_modified": "2018-06-22T02:29:30",
-        "summary": "Allow access to all base/numerics/ headers in Blink",
-        "title": "Allow access to all base/numerics/ headers in Blink",
-        "updated": "2018-06-22T02:29:30"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2757933724",
-          "kind": "monorail#issuePerson",
-          "name": "clusterfuzz@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/567034358",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "tkent@chromium.org"
-          }
-        ],
-        "component_modified": "2018-06-05T01:52:22",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 849088,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Linux",
-          "Type-Bug",
-          "Reproducible",
-          "Pri-2",
-          "Clusterfuzz",
-          "Stability-UndefinedBehaviorSanitizer",
-          "Test-Predator-Auto-Components"
-        ],
-        "owner_modified": "2018-07-17T09:54:27",
-        "projectId": "chromium",
-        "published": "2018-06-03T11:48:18",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Available",
-        "status_modified": "2018-07-17T09:54:27",
-        "summary": "Bad-cast to blink::WebView from invalid vptr in test_runner::TestRunnerForSpecificView::Reset",
-        "title": "Bad-cast to blink::WebView from invalid vptr in test_runner::TestRunnerForSpecificView::Reset",
-        "updated": "2018-07-17T09:54:27"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1322892317",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -409,7 +307,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 4
+    "totalResults": 2
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "kind": "monorail#issueList",
