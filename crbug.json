@@ -96,8 +96,50 @@
     "totalResults": 1
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
+    "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "qyearsley@chromium.org"
+        },
+        "blockedOn": [
+          {
+            "issueId": 709028,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2017-03-24T22:31:44",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 705125,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-03-24T22:31:44",
+        "projectId": "chromium",
+        "published": "2017-03-24T22:31:44",
+        "starred": false,
+        "stars": 2,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-09-26T16:04:02",
+        "summary": "Some layout tests have test harness errors and results with non-deterministic order.",
+        "title": "Some layout tests have test harness errors and results with non-deterministic order.",
+        "updated": "2018-09-26T16:04:02"
+      }
+    ],
     "kind": "monorail#issueList",
-    "totalResults": 0
+    "totalResults": 1
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
