@@ -176,6 +176,47 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1646712076",
+          "kind": "monorail#issuePerson",
+          "name": "sheriff-o-matic@appspot.gserviceaccount.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3148124688",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "mek@chromium.org"
+          }
+        ],
+        "component_modified": "2018-10-04T23:35:46",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 892437,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-2",
+          "Sheriff-Chromium",
+          "Filed-Via-SoM"
+        ],
+        "owner_modified": "2018-10-04T23:35:29",
+        "projectId": "chromium",
+        "published": "2018-10-04T23:35:29",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-10-04T23:35:46",
+        "summary": "...... too many results, data snipped.... and 40 other(s) in webkit_layout_tests failing on chromium.webkit/WebKit Win10",
+        "title": "...... too many results, data snipped.... and 40 other(s) in webkit_layout_tests failing on chromium.webkit/WebKit Win10",
+        "updated": "2018-10-04T23:35:46"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1255684747",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -563,7 +604,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 7
+    "totalResults": 8
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
