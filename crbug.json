@@ -398,6 +398,64 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "robertma@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/189620131",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "mkwst@chromium.org",
+            "vacation_message": "OOO until 4th"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/497742120",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "192",
+            "name": "bsittler@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          }
+        ],
+        "component_modified": "2017-09-29T18:09:51",
+        "components": [
+          "Blink>Infra",
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 770270,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-09-29T18:09:51",
+        "projectId": "chromium",
+        "published": "2017-09-29T18:09:51",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-10-05T16:04:42",
+        "summary": "Charset of file-based LayoutTests default to UTF-8 while HTTP tests do not",
+        "title": "Charset of file-based LayoutTests default to UTF-8 while HTTP tests do not",
+        "updated": "2018-10-05T16:04:42"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1322892317",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -535,6 +593,100 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "qyearsley@chromium.org"
+        },
+        "blockedOn": [
+          {
+            "issueId": 706118,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/94346534",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "atotic@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1083378408",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "4",
+            "name": "geoffers@gmail.com"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1141176754",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "254",
+            "name": "meade@chromium.org",
+            "vacation_message": "Not working on Chrome any more"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1636536379",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "kojii@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3681370744",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "479",
+            "name": "glebl@chromium.org"
+          }
+        ],
+        "component_modified": "2017-07-03T14:47:19",
+        "components": [
+          "Blink>Infra",
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 656669,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold",
+          "Test-Layout"
+        ],
+        "owner_modified": "2016-10-17T16:23:48",
+        "projectId": "chromium",
+        "published": "2016-10-17T16:23:48",
+        "starred": false,
+        "stars": 4,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-10-05T16:04:49",
+        "summary": "Remove redundant layout tests in LayoutTests/css2.1.",
+        "title": "Remove redundant layout tests in LayoutTests/css2.1.",
+        "updated": "2018-10-05T16:04:49"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3358727237",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "3",
@@ -604,7 +756,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 8
+    "totalResults": 10
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
@@ -784,6 +936,64 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "robertma@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/189620131",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "mkwst@chromium.org",
+            "vacation_message": "OOO until 4th"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/497742120",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "192",
+            "name": "bsittler@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          }
+        ],
+        "component_modified": "2017-09-29T18:09:51",
+        "components": [
+          "Blink>Infra",
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 770270,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-09-29T18:09:51",
+        "projectId": "chromium",
+        "published": "2017-09-29T18:09:51",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-10-05T16:04:42",
+        "summary": "Charset of file-based LayoutTests default to UTF-8 while HTTP tests do not",
+        "title": "Charset of file-based LayoutTests default to UTF-8 while HTTP tests do not",
+        "updated": "2018-10-05T16:04:42"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1322892317",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -867,9 +1077,103 @@
         "summary": "[WPT Import] Trigger CQ builders along with tryserver.blink builders",
         "title": "[WPT Import] Trigger CQ builders along with tryserver.blink builders",
         "updated": "2018-10-04T16:04:20"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "qyearsley@chromium.org"
+        },
+        "blockedOn": [
+          {
+            "issueId": 706118,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/94346534",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "atotic@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1083378408",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "4",
+            "name": "geoffers@gmail.com"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1141176754",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "254",
+            "name": "meade@chromium.org",
+            "vacation_message": "Not working on Chrome any more"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1636536379",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "kojii@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3681370744",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "479",
+            "name": "glebl@chromium.org"
+          }
+        ],
+        "component_modified": "2017-07-03T14:47:19",
+        "components": [
+          "Blink>Infra",
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 656669,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold",
+          "Test-Layout"
+        ],
+        "owner_modified": "2016-10-17T16:23:48",
+        "projectId": "chromium",
+        "published": "2016-10-17T16:23:48",
+        "starred": false,
+        "stars": 4,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-10-05T16:04:49",
+        "summary": "Remove redundant layout tests in LayoutTests/css2.1.",
+        "title": "Remove redundant layout tests in LayoutTests/css2.1.",
+        "updated": "2018-10-05T16:04:49"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 4
+    "totalResults": 6
   }
 }
