@@ -70,9 +70,8 @@
     }
 
     function importExportTask(kind, docs) {
-      return {
+      let task = {
         name: `${kind}er status`,
-        href: `https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-${kind}er/`,
         status: fetchJSON(`${kind}.json`).then(builds => {
           const ms_since_last_success = Date.now() - Date.parse(builds.last_success);
           // flag more than one failure in a row
@@ -87,7 +86,10 @@
           return 0;
         }),
         docs: `${kind}.md`,
-      }
+      };
+      task.href = (kind === "import" ? "https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-importer/" :
+        "https://ci.chromium.org/p/infra/builders/luci.infra.cron/wpt-exporter");
+      return task;
     }
 
     // single fetch that will be shared by tasks
