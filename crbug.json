@@ -609,6 +609,55 @@
         "cc": [
           {
             "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          }
+        ],
+        "component_modified": "2017-10-03T14:34:53",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 771180,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-10-03T14:34:53",
+        "projectId": "chromium",
+        "published": "2017-10-03T14:34:53",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-10-04T16:04:13",
+        "summary": "[WPT Import] Importer finds no initial try job results even though they finish in time",
+        "title": "[WPT Import] Importer finds no initial try job results even though they finish in time",
+        "updated": "2018-10-04T16:04:13"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "robertma@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/3098058249",
             "kind": "monorail#issuePerson",
             "last_visit_days_ago": "0",
@@ -999,7 +1048,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 9
+    "totalResults": 10
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
