@@ -459,6 +459,56 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/384153905",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "1",
+          "name": "kbr@chromium.org",
+          "vacation_message": "OOO - Promo Committee Prep"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3185994615",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "erikchen@chromium.org"
+          }
+        ],
+        "component_modified": "2018-10-05T23:30:42",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 892833,
+        "kind": "monorail#issue",
+        "labels": [
+          "OS-Windows",
+          "Type-Bug",
+          "Pri-3"
+        ],
+        "owner_modified": "2018-10-05T23:30:42",
+        "projectId": "chromium",
+        "published": "2018-10-05T23:30:42",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-10-05T23:30:42",
+        "summary": "Shard of layout tests on win10-blink-rel failed >100 layout tests without detecting misconfiguration",
+        "title": "Shard of layout tests on win10-blink-rel failed >100 layout tests without detecting misconfiguration",
+        "updated": "2018-10-06T01:23:53"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1646712076",
           "kind": "monorail#issuePerson",
           "name": "sheriff-o-matic@appspot.gserviceaccount.com"
@@ -841,6 +891,46 @@
           "last_visit_days_ago": "0",
           "name": "qyearsley@chromium.org"
         },
+        "blocking": [
+          {
+            "issueId": 739522,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2017-07-03T14:18:20",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 728287,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Feature",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-05-31T18:54:23",
+        "projectId": "chromium",
+        "published": "2017-05-31T18:54:23",
+        "starred": false,
+        "stars": 2,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-10-04T16:04:20",
+        "summary": "[WPT Import] Trigger CQ builders along with tryserver.blink builders",
+        "title": "[WPT Import] Trigger CQ builders along with tryserver.blink builders",
+        "updated": "2018-10-04T16:04:20"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "qyearsley@chromium.org"
+        },
         "blockedOn": [
           {
             "issueId": 706118,
@@ -999,7 +1089,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 9
+    "totalResults": 11
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
