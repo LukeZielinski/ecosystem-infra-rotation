@@ -62,7 +62,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/2078885569",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
+          "last_visit_days_ago": "1",
           "name": "hta@chromium.org"
         },
         "canComment": true,
@@ -72,7 +72,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/2078885569",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
+            "last_visit_days_ago": "1",
             "name": "hta@chromium.org"
           },
           {
@@ -135,7 +135,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/2779573485",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "3",
             "name": "dpranke@chromium.org"
           },
           {
@@ -210,7 +210,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/2779573485",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "3",
             "name": "dpranke@chromium.org"
           },
           {
@@ -914,79 +914,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/973448505",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "penghuang@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "component_modified": "2018-10-11T16:30:21",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 894478,
-        "kind": "monorail#issue",
-        "labels": [
-          "Pri-1",
-          "Type-Bug"
-        ],
-        "owner_modified": "2018-10-11T16:30:21",
-        "projectId": "chromium",
-        "published": "2018-10-11T16:30:21",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-10-11T16:30:21",
-        "summary": "blink_tool.py rebaseline-cl failed to fetch layout test result.",
-        "title": "blink_tool.py rebaseline-cl failed to fetch layout test result.",
-        "updated": "2018-10-11T16:30:21"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2271046939",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "fbeaufort@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2018-10-09T07:26:20",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 893466,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Feature",
-          "Pri-3"
-        ],
-        "owner_modified": "2018-10-09T07:26:20",
-        "projectId": "chromium",
-        "published": "2018-10-09T07:26:20",
-        "starred": false,
-        "stars": 3,
-        "state": "open",
-        "status": "Unconfirmed",
-        "status_modified": "2018-10-09T07:26:20",
-        "summary": "Improve Web Platform Tests changes flow",
-        "title": "Improve Web Platform Tests changes flow",
-        "updated": "2018-10-09T07:57:29"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/384153905",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -1036,91 +963,9 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3098058249",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "robertma@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2017-09-29T20:14:08",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 770329,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Task",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2017-09-29T20:14:08",
-        "projectId": "chromium",
-        "published": "2017-09-29T20:14:08",
-        "starred": false,
-        "stars": 2,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-10-01T16:04:01",
-        "summary": "Deprecate Rietveld support from WPT bots",
-        "title": "Deprecate Rietveld support from WPT bots",
-        "updated": "2018-10-01T16:04:01"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1322892317",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "qyearsley@chromium.org"
-        },
-        "blockedOn": [
-          {
-            "issueId": 739522,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "component_modified": "2017-07-03T14:18:20",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 728287,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Feature",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2017-05-31T18:54:23",
-        "projectId": "chromium",
-        "published": "2017-05-31T18:54:23",
-        "starred": false,
-        "stars": 2,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-10-04T16:04:20",
-        "summary": "[WPT Import] Trigger CQ builders along with tryserver.blink builders",
-        "title": "[WPT Import] Trigger CQ builders along with tryserver.blink builders",
-        "updated": "2018-10-09T16:38:42"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3358727237",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "9",
+          "last_visit_days_ago": "10",
           "name": "ojan@chromium.org"
         },
         "blockedOn": [
@@ -1144,7 +989,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/738613947",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "3",
             "name": "japhet@chromium.org"
           },
           {
@@ -1187,7 +1032,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 6
+    "totalResults": 2
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
@@ -1252,7 +1097,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/2078885569",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
+          "last_visit_days_ago": "1",
           "name": "hta@chromium.org"
         },
         "canComment": true,
@@ -1262,7 +1107,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/2078885569",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
+            "last_visit_days_ago": "1",
             "name": "hta@chromium.org"
           },
           {
@@ -1492,132 +1337,7 @@
     "totalResults": 5
   },
   "component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged": {
-    "items": [
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2271046939",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "fbeaufort@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2018-10-09T07:26:20",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 893466,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Feature",
-          "Pri-3"
-        ],
-        "owner_modified": "2018-10-09T07:26:20",
-        "projectId": "chromium",
-        "published": "2018-10-09T07:26:20",
-        "starred": false,
-        "stars": 3,
-        "state": "open",
-        "status": "Unconfirmed",
-        "status_modified": "2018-10-09T07:26:20",
-        "summary": "Improve Web Platform Tests changes flow",
-        "title": "Improve Web Platform Tests changes flow",
-        "updated": "2018-10-09T07:57:29"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3098058249",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "robertma@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2017-09-29T20:14:08",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 770329,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Task",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2017-09-29T20:14:08",
-        "projectId": "chromium",
-        "published": "2017-09-29T20:14:08",
-        "starred": false,
-        "stars": 2,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-10-01T16:04:01",
-        "summary": "Deprecate Rietveld support from WPT bots",
-        "title": "Deprecate Rietveld support from WPT bots",
-        "updated": "2018-10-01T16:04:01"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1322892317",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "qyearsley@chromium.org"
-        },
-        "blockedOn": [
-          {
-            "issueId": 739522,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "component_modified": "2017-07-03T14:18:20",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 728287,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Feature",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2017-05-31T18:54:23",
-        "projectId": "chromium",
-        "published": "2017-05-31T18:54:23",
-        "starred": false,
-        "stars": 2,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-10-04T16:04:20",
-        "summary": "[WPT Import] Trigger CQ builders along with tryserver.blink builders",
-        "title": "[WPT Import] Trigger CQ builders along with tryserver.blink builders",
-        "updated": "2018-10-09T16:38:42"
-      }
-    ],
     "kind": "monorail#issueList",
-    "totalResults": 3
+    "totalResults": 0
   }
 }
