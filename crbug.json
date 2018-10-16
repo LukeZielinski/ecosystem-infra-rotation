@@ -12,6 +12,70 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1646712076",
+          "kind": "monorail#issuePerson",
+          "name": "sheriff-o-matic@appspot.gserviceaccount.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/472221124",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "yhirano@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "dpranke@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3626596022",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "toyoshim@chromium.org"
+          }
+        ],
+        "component_modified": "2018-08-17T18:11:11",
+        "components": [
+          "Blink>Infra",
+          "Blink>Scroll"
+        ],
+        "id": 869662,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-2",
+          "Type-Bug-Regression",
+          "OS-Mac",
+          "Filed-Via-SoM"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3285626211",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "bokan@chromium.org"
+        },
+        "owner_modified": "2018-08-15T14:15:09",
+        "projectId": "chromium",
+        "published": "2018-07-31T23:17:03",
+        "starred": false,
+        "stars": 2,
+        "state": "open",
+        "status": "Assigned",
+        "status_modified": "2018-08-17T18:10:57",
+        "summary": "virtual/threaded/fast/scrolling/overflow-scrollability.html are slow on mac 10.13",
+        "title": "virtual/threaded/fast/scrolling/overflow-scrollability.html are slow on mac 10.13",
+        "updated": "2018-08-17T18:11:11"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3098058249",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "1",
@@ -907,7 +971,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 8
+    "totalResults": 9
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "items": [
