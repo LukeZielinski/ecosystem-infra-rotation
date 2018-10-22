@@ -1029,6 +1029,75 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3273923485",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "nednguyen@google.com"
+        },
+        "blocking": [
+          {
+            "issueId": 816629,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "dpranke@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "7",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2018-10-22T17:24:16",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 897803,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3273923485",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "nednguyen@google.com"
+        },
+        "owner_modified": "2018-10-22T17:26:32",
+        "projectId": "chromium",
+        "published": "2018-10-22T17:24:16",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-10-22T17:24:16",
+        "summary": "Implement generic wrapper scripts for third_party/blink/tools/run_web_tests.py",
+        "title": "Implement generic wrapper scripts for third_party/blink/tools/run_web_tests.py",
+        "updated": "2018-10-22T17:26:32"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/384153905",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -1205,7 +1274,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 3
+    "totalResults": 4
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
