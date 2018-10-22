@@ -1029,6 +1029,75 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3273923485",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "nednguyen@google.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1151644111",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "wangxianzhu@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "dpranke@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "7",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/4006160393",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "jbudorick@chromium.org"
+          }
+        ],
+        "component_modified": "2018-10-22T15:46:46",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 897761,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3273923485",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "nednguyen@google.com"
+        },
+        "owner_modified": "2018-10-22T15:46:46",
+        "projectId": "chromium",
+        "published": "2018-10-22T15:46:46",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-10-22T15:46:46",
+        "summary": "Add extra trybots for CLs in third_party/blink/tools/",
+        "title": "Add extra trybots for CLs in third_party/blink/tools/",
+        "updated": "2018-10-22T15:46:46"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/384153905",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "2",
@@ -1147,7 +1216,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 2
+    "totalResults": 3
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
