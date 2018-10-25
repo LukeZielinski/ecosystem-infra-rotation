@@ -1276,6 +1276,41 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1269516349",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "eugene70kim@gmail.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2018-10-25T12:03:01",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 892229,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2",
+          "OS-Mac",
+          "Via-Wizard-DeveloperTools",
+          "Needs-Milestone"
+        ],
+        "owner_modified": "2018-10-04T17:25:52",
+        "projectId": "chromium",
+        "published": "2018-10-04T17:25:52",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Unconfirmed",
+        "status_modified": "2018-10-04T17:25:52",
+        "summary": "git cl upload failure on macOS 10.14",
+        "title": "git cl upload failure on macOS 10.14",
+        "updated": "2018-10-25T12:03:01"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/356701551",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "317",
@@ -1403,7 +1438,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 6
+    "totalResults": 7
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
