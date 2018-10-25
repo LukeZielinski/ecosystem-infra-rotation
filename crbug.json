@@ -1235,69 +1235,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1939658455",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "jeffcarp@chromium.org"
-        },
-        "blocking": [
-          {
-            "issueId": 707006,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "qyearsley@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1939658455",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "jeffcarp@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "9",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2017-08-01T00:03:50",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 750942,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2017-08-01T00:03:50",
-        "projectId": "chromium",
-        "published": "2017-08-01T00:03:50",
-        "starred": false,
-        "stars": 5,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-10-24T16:13:29",
-        "summary": "[WPT Export] If a CL no longer has exportable changes the upstream PR is forgotten",
-        "title": "[WPT Export] If a CL no longer has exportable changes the upstream PR is forgotten",
-        "updated": "2018-10-24T16:13:29"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/356701551",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "317",
@@ -1425,7 +1362,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 6
+    "totalResults": 5
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
@@ -1819,72 +1756,9 @@
         "summary": "Document instructions for debugging content_shell locally with wpt",
         "title": "Document instructions for debugging content_shell locally with wpt",
         "updated": "2018-10-23T04:37:03"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1939658455",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "jeffcarp@chromium.org"
-        },
-        "blocking": [
-          {
-            "issueId": 707006,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "qyearsley@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1939658455",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "jeffcarp@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "9",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2017-08-01T00:03:50",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 750942,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2017-08-01T00:03:50",
-        "projectId": "chromium",
-        "published": "2017-08-01T00:03:50",
-        "starred": false,
-        "stars": 5,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-10-24T16:13:29",
-        "summary": "[WPT Export] If a CL no longer has exportable changes the upstream PR is forgotten",
-        "title": "[WPT Export] If a CL no longer has exportable changes the upstream PR is forgotten",
-        "updated": "2018-10-24T16:13:29"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 2
+    "totalResults": 1
   }
 }
