@@ -1442,6 +1442,62 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1459596405",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "1",
+          "name": "raphael.kubo.da.costa@intel.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "4",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2017-10-27T15:31:21",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 779095,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Task",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-10-27T15:31:21",
+        "projectId": "chromium",
+        "published": "2017-10-27T15:31:21",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-10-30T16:04:39",
+        "summary": "[WPT import] Check Blink trybot failure reason?",
+        "title": "[WPT import] Check Blink trybot failure reason?",
+        "updated": "2018-10-30T16:04:39"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/356701551",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "322",
@@ -1569,7 +1625,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 8
+    "totalResults": 9
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
@@ -2004,9 +2060,65 @@
         "summary": "Document instructions for debugging content_shell locally with wpt",
         "title": "Document instructions for debugging content_shell locally with wpt",
         "updated": "2018-10-23T04:37:03"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1459596405",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "1",
+          "name": "raphael.kubo.da.costa@intel.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "4",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2017-10-27T15:31:21",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 779095,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Task",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-10-27T15:31:21",
+        "projectId": "chromium",
+        "published": "2017-10-27T15:31:21",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-10-30T16:04:39",
+        "summary": "[WPT import] Check Blink trybot failure reason?",
+        "title": "[WPT import] Check Blink trybot failure reason?",
+        "updated": "2018-10-30T16:04:39"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 2
+    "totalResults": 3
   }
 }
