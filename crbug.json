@@ -202,6 +202,54 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "robertma@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2427777392",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "futhark@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2018-08-28T18:29:36",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 878467,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-2",
+          "Type-Feature"
+        ],
+        "owner_modified": "2018-08-28T18:29:36",
+        "projectId": "chromium",
+        "published": "2018-08-28T18:29:36",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Available",
+        "status_modified": "2018-08-28T18:29:36",
+        "summary": "[Import Notifier] CC recent authors of the new failing tests in bugs",
+        "title": "[Import Notifier] CC recent authors of the new failing tests in bugs",
+        "updated": "2018-09-03T17:44:17"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1646712076",
           "kind": "monorail#issuePerson",
           "name": "sheriff-o-matic@appspot.gserviceaccount.com"
@@ -1223,7 +1271,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 10
+    "totalResults": 11
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "items": [
@@ -1810,6 +1858,54 @@
         "cc": [
           {
             "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2427777392",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "futhark@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2018-08-28T18:29:36",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 878467,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-2",
+          "Type-Feature"
+        ],
+        "owner_modified": "2018-08-28T18:29:36",
+        "projectId": "chromium",
+        "published": "2018-08-28T18:29:36",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Available",
+        "status_modified": "2018-08-28T18:29:36",
+        "summary": "[Import Notifier] CC recent authors of the new failing tests in bugs",
+        "title": "[Import Notifier] CC recent authors of the new failing tests in bugs",
+        "updated": "2018-09-03T17:44:17"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "robertma@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/3195081326",
             "kind": "monorail#issuePerson",
             "last_visit_days_ago": "0",
@@ -2149,7 +2245,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 6
+    "totalResults": 7
   },
   "component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged": {
     "items": [
