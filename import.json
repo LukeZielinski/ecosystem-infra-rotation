@@ -1,6 +1,13 @@
 {
   "builds": [
     {
+      "build": "https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-importer/27233",
+      "duration": "10 mins 33 secs",
+      "info": "build successful",
+      "result": "Success",
+      "time": "Sunday, 04-Nov-18 11:34:37 UTC"
+    },
+    {
       "build": "https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-importer/27232",
       "duration": "10 mins 29 secs",
       "info": "build successful",
@@ -167,15 +174,8 @@
       "info": "build successful",
       "result": "Success",
       "time": "Sunday, 04-Nov-18 06:54:43 UTC"
-    },
-    {
-      "build": "https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-importer/27208",
-      "duration": "10 mins 45 secs",
-      "info": "build successful",
-      "result": "Success",
-      "time": "Sunday, 04-Nov-18 06:42:41 UTC"
     }
   ],
-  "last_success": "Sunday, 04-Nov-18 11:23:08 UTC",
+  "last_success": "Sunday, 04-Nov-18 11:34:37 UTC",
   "recent_failures": 0
 }
