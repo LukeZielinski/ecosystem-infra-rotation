@@ -87,8 +87,7 @@
         }),
         docs: `${kind}.md`,
       };
-      task.href = (kind === "import" ? "https://ci.chromium.org/buildbot/chromium.infra.cron/wpt-importer/" :
-        "https://ci.chromium.org/p/infra/builders/luci.infra.cron/wpt-exporter");
+      task.href = `https://ci.chromium.org/p/infra/builders/luci.infra.cron/wpt-${kind}er`;
       return task;
     }
 
