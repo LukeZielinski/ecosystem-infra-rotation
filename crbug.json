@@ -92,92 +92,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1646712076",
-          "kind": "monorail#issuePerson",
-          "name": "sheriff-o-matic@appspot.gserviceaccount.com"
-        },
-        "blocking": [
-          {
-            "issueId": 873045,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/422849203",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "guidou@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1141176754",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "286",
-            "name": "meade@chromium.org",
-            "vacation_message": "Not working on Chrome any more"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2449473077",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "4",
-            "name": "waffles@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3195081326",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "foolip@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3439824626",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "shend@chromium.org"
-          }
-        ],
-        "component_modified": "2018-07-12T03:50:50",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 856601,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Linux",
-          "Pri-1",
-          "Type-Bug",
-          "Stability-Memory-MemorySanitizer",
-          "Filed-Via-SoM"
-        ],
-        "owner": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3098058249",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "robertma@chromium.org"
-        },
-        "owner_modified": "2018-09-19T17:48:23",
-        "projectId": "chromium",
-        "published": "2018-06-26T12:40:09",
-        "starred": false,
-        "stars": 3,
-        "state": "open",
-        "status": "Assigned",
-        "status_modified": "2018-07-12T03:55:04",
-        "summary": "Many *idlharness* WPT tests fail on chromium.webkit/WebKit Linux Trusty MSAN",
-        "title": "Many *idlharness* WPT tests fail on chromium.webkit/WebKit Linux Trusty MSAN",
-        "updated": "2018-10-05T21:49:02"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/2368433223",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "5",
@@ -226,7 +140,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 3
+    "totalResults": 2
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
     "items": [
@@ -1548,96 +1462,8 @@
     "totalResults": 0
   },
   "component:Blink>Infra>Ecosystem Pri=1 modified<today-30": {
-    "items": [
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1646712076",
-          "kind": "monorail#issuePerson",
-          "name": "sheriff-o-matic@appspot.gserviceaccount.com"
-        },
-        "blocking": [
-          {
-            "issueId": 873045,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/422849203",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "guidou@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1141176754",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "286",
-            "name": "meade@chromium.org",
-            "vacation_message": "Not working on Chrome any more"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2449473077",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "4",
-            "name": "waffles@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3195081326",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "foolip@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3439824626",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "shend@chromium.org"
-          }
-        ],
-        "component_modified": "2018-07-12T03:50:50",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 856601,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Linux",
-          "Pri-1",
-          "Type-Bug",
-          "Stability-Memory-MemorySanitizer",
-          "Filed-Via-SoM"
-        ],
-        "owner": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3098058249",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "robertma@chromium.org"
-        },
-        "owner_modified": "2018-09-19T17:48:23",
-        "projectId": "chromium",
-        "published": "2018-06-26T12:40:09",
-        "starred": false,
-        "stars": 3,
-        "state": "open",
-        "status": "Assigned",
-        "status_modified": "2018-07-12T03:55:04",
-        "summary": "Many *idlharness* WPT tests fail on chromium.webkit/WebKit Linux Trusty MSAN",
-        "title": "Many *idlharness* WPT tests fail on chromium.webkit/WebKit Linux Trusty MSAN",
-        "updated": "2018-10-05T21:49:02"
-      }
-    ],
     "kind": "monorail#issueList",
-    "totalResults": 1
+    "totalResults": 0
   },
   "component:Blink>Infra>Ecosystem Pri=2 modified<today-60": {
     "items": [
