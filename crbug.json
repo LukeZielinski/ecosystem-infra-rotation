@@ -16,6 +16,54 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3584865153",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "thakis@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/665198580",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "8",
+            "name": "dpranke@google.com"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1386785815",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "efoo@chromium.org"
+          }
+        ],
+        "component_modified": "2018-11-21T17:46:28",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 907562,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner_modified": "2018-11-21T17:46:28",
+        "projectId": "chromium",
+        "published": "2018-11-21T17:46:28",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-11-21T17:46:28",
+        "summary": "\"WebKit Win Builder\" and \"WebKit Mac Builder\" bots are on main waterfall but 404",
+        "title": "\"WebKit Win Builder\" and \"WebKit Mac Builder\" bots are on main waterfall but 404",
+        "updated": "2018-11-21T17:46:28"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3259782461",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -57,7 +105,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 1
+    "totalResults": 2
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
