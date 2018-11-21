@@ -16,6 +16,54 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1957428729",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "maxlg@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1459596405",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "raphael.kubo.da.costa@intel.com"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "robertma@chromium.org"
+          }
+        ],
+        "component_modified": "2018-11-21T19:01:53",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 907584,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3"
+        ],
+        "owner_modified": "2018-11-21T19:01:53",
+        "projectId": "chromium",
+        "published": "2018-11-21T19:01:53",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-11-21T19:01:53",
+        "summary": "[run_web_tests] Configuration failed for virtual tests",
+        "title": "[run_web_tests] Configuration failed for virtual tests",
+        "updated": "2018-11-21T19:02:20"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3584865153",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -105,7 +153,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 2
+    "totalResults": 3
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
