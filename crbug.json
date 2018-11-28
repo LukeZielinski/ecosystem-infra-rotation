@@ -283,68 +283,11 @@
         "status_modified": "2018-11-21T17:46:28",
         "summary": "\"WebKit Win Builder\" and \"WebKit Mac Builder\" bots are on main waterfall but 404",
         "title": "\"WebKit Win Builder\" and \"WebKit Mac Builder\" bots are on main waterfall but 404",
-        "updated": "2018-11-27T01:03:47"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2928714875",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "lukasza@chromium.org"
-        },
-        "blocking": [
-          {
-            "issueId": 707649,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/421872470",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
-            "name": "jianli@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3195081326",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "foolip@chromium.org"
-          }
-        ],
-        "component_modified": "2017-09-06T14:56:03",
-        "components": [
-          "Blink>Infra>Ecosystem",
-          "Blink>SavePage"
-        ],
-        "id": 762547,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2017-09-06T14:56:03",
-        "projectId": "chromium",
-        "published": "2017-09-06T14:56:03",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-11-22T17:03:58",
-        "summary": "MHTML should be tested via web-platform-tests",
-        "title": "MHTML should be tested via web-platform-tests",
-        "updated": "2018-11-22T17:03:58"
+        "updated": "2018-11-28T23:02:42"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 4
+    "totalResults": 3
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
@@ -522,66 +465,9 @@
         "summary": "[WPT] New failures introduced in external/wpt/infrastructure by import https://crrev.com/c/1347793",
         "title": "[WPT] New failures introduced in external/wpt/infrastructure by import https://crrev.com/c/1347793",
         "updated": "2018-11-22T05:16:47"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2928714875",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "lukasza@chromium.org"
-        },
-        "blocking": [
-          {
-            "issueId": 707649,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/421872470",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
-            "name": "jianli@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3195081326",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "foolip@chromium.org"
-          }
-        ],
-        "component_modified": "2017-09-06T14:56:03",
-        "components": [
-          "Blink>Infra>Ecosystem",
-          "Blink>SavePage"
-        ],
-        "id": 762547,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2017-09-06T14:56:03",
-        "projectId": "chromium",
-        "published": "2017-09-06T14:56:03",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-11-22T17:03:58",
-        "summary": "MHTML should be tested via web-platform-tests",
-        "title": "MHTML should be tested via web-platform-tests",
-        "updated": "2018-11-22T17:03:58"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 3
+    "totalResults": 2
   }
 }
