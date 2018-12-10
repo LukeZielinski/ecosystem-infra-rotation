@@ -1,6 +1,13 @@
 {
   "builds": [
     {
+      "build": "https://ci.chromium.org/b/8927550001068834592",
+      "duration": "1 hrs 31 mins",
+      "info": "Failure Import changes from WPT to Chromium",
+      "result": "Failed",
+      "time": "Monday, 10-Dec-18 07:35:54 UTC"
+    },
+    {
       "build": "https://ci.chromium.org/b/8927555816186018368",
       "duration": "1 hrs 31 mins",
       "info": "Failure Import changes from WPT to Chromium",
@@ -342,15 +349,8 @@
       "info": "",
       "result": "Success",
       "time": "Saturday, 08-Dec-18 01:55:10 UTC"
-    },
-    {
-      "build": "https://ci.chromium.org/b/8927747773152962976",
-      "duration": "6 mins 15 secs",
-      "info": "",
-      "result": "Success",
-      "time": "Saturday, 08-Dec-18 01:47:30 UTC"
     }
   ],
   "last_success": "Saturday, 08-Dec-18 04:01:31 UTC",
-  "recent_failures": 31
+  "recent_failures": 32
 }
