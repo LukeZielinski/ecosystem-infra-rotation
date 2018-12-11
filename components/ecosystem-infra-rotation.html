@@ -108,7 +108,7 @@
     }
 
     function fyiTask(info) {
-      const apiURL = `https://wpt.fyi/api/runs?label=${info.query}&max-count=1`;
+      const apiURL = `https://wpt.fyi/api/runs?${info.query}&max-count=1`;
       const webURL = `https://wpt.fyi/runs?${info.query}`;
 
       return {
