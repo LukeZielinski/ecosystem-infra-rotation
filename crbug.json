@@ -183,6 +183,62 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3419636982",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "michaelpg@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/567034358",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "tkent@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/700703113",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "siggi@chromium.org"
+          }
+        ],
+        "component_modified": "2018-12-12T18:29:28",
+        "components": [
+          "Blink>Infra",
+          "Platform>Apps>BrowserTag"
+        ],
+        "id": 913089,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/2278400469",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "1",
+          "name": "keishi@chromium.org"
+        },
+        "owner_modified": "2018-12-07T21:49:36",
+        "projectId": "chromium",
+        "published": "2018-12-07T21:49:36",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-12-07T21:49:36",
+        "summary": "DCHECK failure in idb_request.cc when using <webview> in WebUI",
+        "title": "DCHECK failure in idb_request.cc when using <webview> in WebUI",
+        "updated": "2018-12-12T18:29:28"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3361936865",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "3",
@@ -477,7 +533,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 5
+    "totalResults": 6
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
