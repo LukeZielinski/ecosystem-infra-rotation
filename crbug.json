@@ -398,6 +398,48 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "qyearsley@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          }
+        ],
+        "component_modified": "2017-12-12T17:54:28",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 794208,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Task",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-12-12T17:54:28",
+        "projectId": "chromium",
+        "published": "2017-12-12T17:54:28",
+        "starred": false,
+        "stars": 2,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-12-13T17:02:34",
+        "summary": "WPT Import: Use Buildbucket directly to trigger and collect tryjob results",
+        "title": "WPT Import: Use Buildbucket directly to trigger and collect tryjob results",
+        "updated": "2018-12-13T17:02:34"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3098058249",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -427,10 +469,83 @@
         "summary": "[Code Health] Make \"path\" an optional argument in common.checkout.git.*",
         "title": "[Code Health] Make \"path\" an optional argument in common.checkout.git.*",
         "updated": "2018-12-10T17:03:55"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/761288292",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "engedy@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1141176754",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "323",
+            "name": "meade@chromium.org",
+            "vacation_message": "Not working on Chrome any more"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2057383901",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "blundell@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "dpranke@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          }
+        ],
+        "component_modified": "2017-09-21T03:33:52",
+        "components": [
+          "Blink>Infra",
+          "Blink>WebAudio"
+        ],
+        "id": 729136,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold",
+          "Test-Layout"
+        ],
+        "owner_modified": "2017-10-26T03:17:37",
+        "projectId": "chromium",
+        "published": "2017-06-02T19:31:57",
+        "starred": false,
+        "stars": 2,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-12-13T17:02:42",
+        "summary": "Allow \"Slow\" expectations in MSANExpectations",
+        "title": "Allow \"Slow\" expectations in MSANExpectations",
+        "updated": "2018-12-13T17:02:42"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 4
+    "totalResults": 6
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
@@ -562,6 +677,48 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "qyearsley@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          }
+        ],
+        "component_modified": "2017-12-12T17:54:28",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 794208,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Task",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-12-12T17:54:28",
+        "projectId": "chromium",
+        "published": "2017-12-12T17:54:28",
+        "starred": false,
+        "stars": 2,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-12-13T17:02:34",
+        "summary": "WPT Import: Use Buildbucket directly to trigger and collect tryjob results",
+        "title": "WPT Import: Use Buildbucket directly to trigger and collect tryjob results",
+        "updated": "2018-12-13T17:02:34"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3098058249",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -594,6 +751,6 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 2
+    "totalResults": 3
   }
 }
