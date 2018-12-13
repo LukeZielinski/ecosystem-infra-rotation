@@ -307,6 +307,97 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/98008053",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "atul.moglewar@synerzip.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/188606541",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "mlippautz@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1253664403",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "99",
+            "name": "nagmani.prasad@synerzip.com"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1404024968",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "69",
+            "name": "snopanen@google.com"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3434525285",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "sdoerner@google.com"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3982175106",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "phanindra.mandapaka@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/4187517203",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "chrishtr@chromium.org"
+          }
+        ],
+        "component_modified": "2018-12-13T14:25:05",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 878336,
+        "kind": "monorail#issue",
+        "labels": [
+          "OS-Linux",
+          "OS-Windows",
+          "Pri-3",
+          "Needs-Bisect",
+          "Type-Bug-Regression",
+          "OS-Mac",
+          "Triaged-ET",
+          "FoundIn-69",
+          "FoundIn-70",
+          "RegressedIn-67",
+          "Target-69",
+          "Target-70",
+          "M-71",
+          "Hotlist-Partner-GSuite",
+          "Needs-Triage-M69",
+          "Target-71",
+          "FoundIn-71"
+        ],
+        "owner_modified": "2018-12-13T14:25:05",
+        "projectId": "chromium",
+        "published": "2018-08-28T10:54:31",
+        "starred": false,
+        "stars": 2,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-12-13T14:25:05",
+        "summary": "Rendering time (compared to Chrome 66) increased by 30% on Chrome 68 and by 100% on Chrome Beta 69",
+        "title": "Rendering time (compared to Chrome 66) increased by 30% on Chrome 68 and by 100% on Chrome Beta 69",
+        "updated": "2018-12-13T14:25:05"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3098058249",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -339,7 +430,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 3
+    "totalResults": 4
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
