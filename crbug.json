@@ -173,10 +173,137 @@
         "summary": "WebKit Android bots aren't running any layout tests (but still green)",
         "title": "WebKit Android bots aren't running any layout tests (but still green)",
         "updated": "2018-10-03T23:42:41"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3228155790",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "1",
+          "name": "dcheng@chromium.org"
+        },
+        "blocking": [
+          {
+            "issueId": 719827,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/301975406",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "billorr@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/770471953",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "103",
+            "name": "kereliuk@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/816690703",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "reillyg@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1572007341",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "bajones@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1614812178",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "ddorwin@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2312966084",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "rockot@google.com"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2342516889",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "odejesush@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3156743724",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "113",
+            "name": "offenwanger@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "5",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2018-03-13T17:50:00",
+        "components": [
+          "Blink>Infra",
+          "Internals>Mojo>Bindings"
+        ],
+        "id": 821496,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2",
+          "Proj-XR"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3228155790",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "1",
+          "name": "dcheng@chromium.org"
+        },
+        "owner_modified": "2018-07-20T22:03:00",
+        "projectId": "chromium",
+        "published": "2018-03-13T17:50:00",
+        "starred": false,
+        "stars": 5,
+        "state": "open",
+        "status": "Assigned",
+        "status_modified": "2018-07-18T22:53:52",
+        "summary": "http/wpt layout tests can't use generated mojom JS stubs",
+        "title": "http/wpt layout tests can't use generated mojom JS stubs",
+        "updated": "2018-10-17T17:13:13"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 3
+    "totalResults": 4
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "items": [
