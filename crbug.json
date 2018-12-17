@@ -317,6 +317,15 @@
         },
         "canComment": true,
         "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          }
+        ],
         "component_modified": "2018-12-17T20:36:58",
         "components": [
           "Blink>Infra"
@@ -327,7 +336,14 @@
           "Pri-1",
           "Type-Bug"
         ],
-        "owner_modified": "2018-12-17T20:36:58",
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "robertma@chromium.org"
+        },
+        "owner_modified": "2018-12-17T20:43:45",
         "projectId": "chromium",
         "published": "2018-12-17T20:36:58",
         "starred": false,
@@ -337,7 +353,7 @@
         "status_modified": "2018-12-17T20:36:58",
         "summary": "rebaseline-cl fails to download results",
         "title": "rebaseline-cl fails to download results",
-        "updated": "2018-12-17T20:36:58"
+        "updated": "2018-12-17T20:43:45"
       },
       {
         "author": {
