@@ -310,6 +310,48 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/4013605722",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "caryclark@google.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3916530482",
+            "kind": "monorail#issuePerson",
+            "name": "chrome-trooper-bugs@chromium.org"
+          }
+        ],
+        "component_modified": "2018-12-18T13:13:47",
+        "components": [
+          "Blink>Infra",
+          "Blink>Layout",
+          "Infra>Client>Chrome"
+        ],
+        "id": 916109,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner_modified": "2018-12-18T13:13:47",
+        "projectId": "chromium",
+        "published": "2018-12-18T13:13:47",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-12-18T13:13:47",
+        "summary": "rebaseline-cl fails with HTTP status 308",
+        "title": "rebaseline-cl fails with HTTP status 308",
+        "updated": "2018-12-18T13:13:47"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/784079466",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -962,7 +1004,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 11
+    "totalResults": 12
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
