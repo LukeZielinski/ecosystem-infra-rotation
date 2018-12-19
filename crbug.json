@@ -359,6 +359,39 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1931360713",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "thestig@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2018-12-19T14:43:21",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 916335,
+        "kind": "monorail#issue",
+        "labels": [
+          "OS-Windows",
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner_modified": "2018-12-19T00:23:05",
+        "projectId": "chromium",
+        "published": "2018-12-19T00:23:05",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-12-19T00:23:05",
+        "summary": "100+ layout tests occasioanlly failing on WebKit Win10",
+        "title": "100+ layout tests occasioanlly failing on WebKit Win10",
+        "updated": "2018-12-19T14:43:21"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/784079466",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -1165,7 +1198,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 15
+    "totalResults": 16
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
