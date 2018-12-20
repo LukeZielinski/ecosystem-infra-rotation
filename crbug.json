@@ -342,6 +342,39 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3060553879",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "andrescj@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2018-12-20T21:14:53",
+        "components": [
+          "Blink>Infra",
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 917130,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3"
+        ],
+        "owner_modified": "2018-12-20T21:14:53",
+        "projectId": "chromium",
+        "published": "2018-12-20T21:14:53",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-12-20T21:14:53",
+        "summary": "Cannot rebaseline image result for reftest: compositing/background-color/background-color-alpha.html",
+        "title": "Cannot rebaseline image result for reftest: compositing/background-color/background-color-alpha.html",
+        "updated": "2018-12-20T21:14:53"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1846683379",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -1338,7 +1371,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 19
+    "totalResults": 20
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
@@ -1412,6 +1445,39 @@
   },
   "component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged": {
     "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3060553879",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "andrescj@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2018-12-20T21:14:53",
+        "components": [
+          "Blink>Infra",
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 917130,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3"
+        ],
+        "owner_modified": "2018-12-20T21:14:53",
+        "projectId": "chromium",
+        "published": "2018-12-20T21:14:53",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-12-20T21:14:53",
+        "summary": "Cannot rebaseline image result for reftest: compositing/background-color/background-color-alpha.html",
+        "title": "Cannot rebaseline image result for reftest: compositing/background-color/background-color-alpha.html",
+        "updated": "2018-12-20T21:14:53"
+      },
       {
         "author": {
           "email_bouncing": false,
@@ -1619,6 +1685,6 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 5
+    "totalResults": 6
   }
 }
