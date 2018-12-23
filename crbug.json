@@ -12,6 +12,54 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1151644111",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "wangxianzhu@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1506398752",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "9",
+            "name": "nednguyen@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "robertma@chromium.org"
+          }
+        ],
+        "component_modified": "2018-10-24T17:35:47",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 898562,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner_modified": "2018-10-24T17:35:47",
+        "projectId": "chromium",
+        "published": "2018-10-24T17:35:47",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Available",
+        "status_modified": "2018-10-24T17:35:47",
+        "summary": "webkit_python_tests (without patch) TEST RESULTS WERE INVALID",
+        "title": "webkit_python_tests (without patch) TEST RESULTS WERE INVALID",
+        "updated": "2018-10-24T17:35:47"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/2299273954",
           "kind": "monorail#issuePerson",
           "name": "vomit.google.com@appspot.gserviceaccount.com"
@@ -335,7 +383,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 5
+    "totalResults": 6
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "items": [
