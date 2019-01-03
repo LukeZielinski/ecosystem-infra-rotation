@@ -1160,6 +1160,97 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "qyearsley@chromium.org"
+        },
+        "blockedOn": [
+          {
+            "issueId": 567947,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "dpranke@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/4006160393",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "13",
+            "name": "jbudorick@chromium.org"
+          }
+        ],
+        "component_modified": "2017-06-15T23:26:50",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 733860,
+        "kind": "monorail#issue",
+        "labels": [
+          "OS-Android",
+          "Type-Task",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-06-15T23:26:50",
+        "projectId": "chromium",
+        "published": "2017-06-15T23:26:50",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2019-01-03T17:04:16",
+        "summary": "Add builders to run layout tests on new versions of Android.",
+        "title": "Add builders to run layout tests on new versions of Android.",
+        "updated": "2019-01-03T17:04:16"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "qyearsley@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2018-01-02T22:50:34",
+        "components": [
+          "Blink>Infra",
+          "Infra>Flakiness>Dashboard"
+        ],
+        "id": 730048,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-06-06T16:12:44",
+        "projectId": "chromium",
+        "published": "2017-06-06T16:12:44",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2019-01-03T17:04:17",
+        "summary": "Several builders failing to upload layout test results JSON",
+        "title": "Several builders failing to upload layout test results JSON",
+        "updated": "2019-01-03T17:04:17"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/761288292",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "3",
@@ -1229,6 +1320,64 @@
         "summary": "Allow \"Slow\" expectations in MSANExpectations",
         "title": "Allow \"Slow\" expectations in MSANExpectations",
         "updated": "2018-12-13T17:02:42"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/356701551",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "387",
+          "name": "tansell@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1328909474",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "mstensho@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "dpranke@chromium.org"
+          }
+        ],
+        "component_modified": "2017-02-16T01:24:31",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 692866,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Hotlist-CodeHealth",
+          "Pri-3",
+          "Hotlist-Recharge-Cold",
+          "Hotlist-GoodFirstBug"
+        ],
+        "owner_modified": "2017-08-09T16:47:43",
+        "projectId": "chromium",
+        "published": "2017-02-16T01:24:31",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2019-01-03T17:04:18",
+        "summary": "Remove --fully-parallel flag of run-webkit-tests",
+        "title": "Remove --fully-parallel flag of run-webkit-tests",
+        "updated": "2019-01-03T17:04:18"
       },
       {
         "author": {
@@ -1451,7 +1600,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 19
+    "totalResults": 22
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
