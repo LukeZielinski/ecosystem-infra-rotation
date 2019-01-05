@@ -12,6 +12,54 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "2",
+          "name": "robertma@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3273923485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "nednguyen@google.com"
+          }
+        ],
+        "component_modified": "2018-11-06T19:11:44",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 902415,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3273923485",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "nednguyen@google.com"
+        },
+        "owner_modified": "2018-11-06T19:32:00",
+        "projectId": "chromium",
+        "published": "2018-11-06T19:11:44",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Available",
+        "status_modified": "2018-11-06T19:11:44",
+        "summary": "rebaseline-cl fails when a new test fails but its virtual variant passes",
+        "title": "rebaseline-cl fails when a new test fails but its virtual variant passes",
+        "updated": "2018-11-06T19:34:19"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1151644111",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "1",
@@ -433,7 +481,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 7
+    "totalResults": 8
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "items": [
