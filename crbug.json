@@ -14,7 +14,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1151644111",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
+          "last_visit_days_ago": "1",
           "name": "wangxianzhu@chromium.org"
         },
         "canComment": true,
@@ -1557,6 +1557,56 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1459596405",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "14",
+          "name": "raphael.kubo.da.costa@intel.com",
+          "vacation_message": "OoO until Jan 7th"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "15",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2018-10-16T10:14:35",
+        "components": [
+          "Blink>Infra",
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 895777,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner_modified": "2018-10-16T10:14:35",
+        "projectId": "chromium",
+        "published": "2018-10-16T10:14:35",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Available",
+        "status_modified": "2018-10-16T10:14:35",
+        "summary": "[wpt import] content_shell crashes on reftests with href=about:blank when run via r-w-t",
+        "title": "[wpt import] content_shell crashes on reftests with href=about:blank when run via r-w-t",
+        "updated": "2018-10-31T12:02:37"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/351843483",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -1612,7 +1662,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 1
+    "totalResults": 2
   },
   "component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged": {
     "items": [
