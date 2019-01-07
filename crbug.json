@@ -1081,6 +1081,62 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1459596405",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "raphael.kubo.da.costa@intel.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "4",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "17",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2017-08-09T12:11:52",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 753769,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-08-09T12:11:52",
+        "projectId": "chromium",
+        "published": "2017-08-09T12:11:52",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2019-01-07T17:04:12",
+        "summary": "[WPT Import] Gerrit CLs aren't always closed on failure",
+        "title": "[WPT Import] Gerrit CLs aren't always closed on failure",
+        "updated": "2019-01-07T17:04:12"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1322892317",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -1588,7 +1644,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 21
+    "totalResults": 22
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
@@ -1922,9 +1978,65 @@
         "summary": "[Code Health] Make \"path\" an optional argument in common.checkout.git.*",
         "title": "[Code Health] Make \"path\" an optional argument in common.checkout.git.*",
         "updated": "2018-12-10T17:03:55"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1459596405",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "raphael.kubo.da.costa@intel.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "4",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "17",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2017-08-09T12:11:52",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 753769,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-08-09T12:11:52",
+        "projectId": "chromium",
+        "published": "2017-08-09T12:11:52",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2019-01-07T17:04:12",
+        "summary": "[WPT Import] Gerrit CLs aren't always closed on failure",
+        "title": "[WPT Import] Gerrit CLs aren't always closed on failure",
+        "updated": "2019-01-07T17:04:12"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 5
+    "totalResults": 6
   }
 }
