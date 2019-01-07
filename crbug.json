@@ -490,11 +490,20 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/2428617074",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "2",
+          "last_visit_days_ago": "0",
           "name": "neis@chromium.org"
         },
         "canComment": true,
         "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/384153905",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "kbr@chromium.org"
+          }
+        ],
         "component_modified": "2019-01-02T14:39:09",
         "components": [
           "Blink>Infra"
@@ -505,14 +514,7 @@
           "Type-Bug",
           "Pri-3"
         ],
-        "owner": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2428617074",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "2",
-          "name": "neis@chromium.org"
-        },
-        "owner_modified": "2019-01-02T14:32:57",
+        "owner_modified": "2019-01-07T09:11:06",
         "projectId": "chromium",
         "published": "2019-01-02T14:27:12",
         "starred": false,
@@ -522,7 +524,7 @@
         "status_modified": "2019-01-02T14:32:57",
         "summary": "reproducing layout test failure kills entire X session",
         "title": "reproducing layout test failure kills entire X session",
-        "updated": "2019-01-02T14:39:09"
+        "updated": "2019-01-07T09:11:06"
       },
       {
         "author": {
