@@ -501,15 +501,24 @@
             "kind": "monorail#issuePerson",
             "last_visit_days_ago": "0",
             "name": "kbr@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "dpranke@chromium.org"
           }
         ],
-        "component_modified": "2019-01-02T14:39:09",
+        "component_modified": "2019-01-07T18:52:36",
         "components": [
-          "Blink>Infra"
+          "Blink>Infra",
+          "Test>LayoutTests"
         ],
         "id": 918514,
         "kind": "monorail#issue",
         "labels": [
+          "OS-Linux",
           "Type-Bug",
           "Pri-3"
         ],
@@ -523,7 +532,7 @@
         "status_modified": "2019-01-02T14:32:57",
         "summary": "reproducing layout test failure kills entire X session",
         "title": "reproducing layout test failure kills entire X session",
-        "updated": "2019-01-07T09:11:06"
+        "updated": "2019-01-07T18:52:36"
       },
       {
         "author": {
