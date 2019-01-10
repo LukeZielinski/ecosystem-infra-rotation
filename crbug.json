@@ -1369,6 +1369,69 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/984414433",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "nzolghadr@chromium.org"
+        },
+        "blocking": [
+          {
+            "issueId": 629722,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1364632131",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "rbyers@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2017-02-03T19:14:55",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 688468,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-02-03T19:14:55",
+        "projectId": "chromium",
+        "published": "2017-02-03T19:14:55",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2019-01-10T17:04:34",
+        "summary": "content_shell seems times out for automated wpt inputs",
+        "title": "content_shell seems times out for automated wpt inputs",
+        "updated": "2019-01-10T17:04:34"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3517862689",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -1586,7 +1649,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 19
+    "totalResults": 20
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
