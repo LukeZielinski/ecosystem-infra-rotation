@@ -977,6 +977,62 @@
         "cc": [
           {
             "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/209133074",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "20",
+            "name": "szager@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          }
+        ],
+        "component_modified": "2017-09-21T00:35:45",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 767264,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2017-09-21T00:35:45",
+        "projectId": "chromium",
+        "published": "2017-09-21T00:35:45",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-12-17T17:04:09",
+        "summary": "rebaseline-cl: When rebaselining a test with text diff but no image diff, only txt baseline should be downloaded",
+        "title": "rebaseline-cl: When rebaselining a test with text diff but no image diff, only txt baseline should be downloaded",
+        "updated": "2018-12-17T17:04:09"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "qyearsley@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/567034358",
             "kind": "monorail#issuePerson",
             "last_visit_days_ago": "1",
@@ -1398,6 +1454,69 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3593919584",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "eae@chromium.org"
+        },
+        "blocking": [
+          {
+            "issueId": 521096,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": true,
+            "htmlLink": "https://bugs.chromium.org/u/3895802",
+            "kind": "monorail#issuePerson",
+            "name": "joelo@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/719046034",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "272",
+            "name": "leviw@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3593919584",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "eae@chromium.org"
+          }
+        ],
+        "component_modified": "2013-10-08T20:17:54",
+        "components": [
+          "Blink>Infra",
+          "Blink>Storage"
+        ],
+        "id": 305357,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Feature",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2013-10-08T20:17:54",
+        "projectId": "chromium",
+        "published": "2013-10-08T20:17:54",
+        "starred": false,
+        "stars": 3,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-12-18T17:04:05",
+        "summary": "Test runner should clear sessionStorage and localStorage after runs",
+        "title": "Test runner should clear sessionStorage and localStorage after runs",
+        "updated": "2018-12-18T17:04:05"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3358727237",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "49",
@@ -1467,7 +1586,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 17
+    "totalResults": 19
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
