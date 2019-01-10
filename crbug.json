@@ -567,6 +567,7 @@
             "name": "tnagel@chromium.org"
           }
         ],
+        "closed": "2019-01-10T11:28:38",
         "component_modified": "2019-01-09T15:59:24",
         "components": [
           "Blink>Infra>Ecosystem",
@@ -593,12 +594,12 @@
         "published": "2019-01-09T12:39:05",
         "starred": false,
         "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2019-01-09T12:39:05",
+        "state": "closed",
+        "status": "Fixed",
+        "status_modified": "2019-01-10T11:28:38",
         "summary": "external/wpt/webrtc/idlharness.https.window.html is flaky",
         "title": "external/wpt/webrtc/idlharness.https.window.html is flaky",
-        "updated": "2019-01-09T15:59:24"
+        "updated": "2019-01-10T11:28:38"
       },
       {
         "author": {
@@ -923,81 +924,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1322892317",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "qyearsley@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2017-12-12T17:54:28",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 794208,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Task",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2017-12-12T17:54:28",
-        "projectId": "chromium",
-        "published": "2017-12-12T17:54:28",
-        "starred": false,
-        "stars": 2,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-12-13T17:02:34",
-        "summary": "WPT Import: Use Buildbucket directly to trigger and collect tryjob results",
-        "title": "WPT Import: Use Buildbucket directly to trigger and collect tryjob results",
-        "updated": "2018-12-13T17:02:34"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3098058249",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "robertma@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "component_modified": "2017-12-07T23:50:31",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 793130,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2017-12-07T23:50:31",
-        "projectId": "chromium",
-        "published": "2017-12-07T23:50:31",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-12-10T17:03:55",
-        "summary": "[Code Health] Make \"path\" an optional argument in common.checkout.git.*",
-        "title": "[Code Health] Make \"path\" an optional argument in common.checkout.git.*",
-        "updated": "2018-12-10T17:03:55"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/777339296",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -1218,40 +1144,6 @@
         "summary": "Change \"chromium_revision\" in layout test json results to commit position number only",
         "title": "Change \"chromium_revision\" in layout test json results to commit position number only",
         "updated": "2018-12-18T17:04:01"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2621302795",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "ellyjones@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "component_modified": "2017-07-06T13:49:13",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 739721,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Linux",
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2017-07-06T13:49:13",
-        "projectId": "chromium",
-        "published": "2017-07-06T13:49:13",
-        "starred": false,
-        "stars": 2,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-12-17T17:04:17",
-        "summary": "webkit python unittest \"test_timeout_exceeded_exit_code\" flaked",
-        "title": "webkit python unittest \"test_timeout_exceeded_exit_code\" flaked",
-        "updated": "2018-12-17T17:04:17"
       },
       {
         "author": {
@@ -1621,80 +1513,10 @@
         "summary": "Test runner should clear sessionStorage and localStorage after runs",
         "title": "Test runner should clear sessionStorage and localStorage after runs",
         "updated": "2018-12-18T17:04:05"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3358727237",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "49",
-          "name": "ojan@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2283606655",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "jbroman@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2779573485",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "1",
-            "name": "dpranke@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3002369578",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "adamk@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3141860624",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "esprehn@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3584865153",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "thakis@chromium.org"
-          }
-        ],
-        "component_modified": "2013-08-23T23:05:56",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 278596,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2013-08-23T23:05:56",
-        "projectId": "chromium",
-        "published": "2013-08-23T23:05:56",
-        "starred": false,
-        "stars": 4,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-12-17T17:05:01",
-        "summary": "run-webkit-tests image_diff fails if profiling=1 and component=shared_library",
-        "title": "run-webkit-tests image_diff fails if profiling=1 and component=shared_library",
-        "updated": "2018-12-17T17:05:01"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 21
+    "totalResults": 17
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
