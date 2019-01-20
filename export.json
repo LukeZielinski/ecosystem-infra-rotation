@@ -1,6 +1,13 @@
 {
   "builds": [
     {
+      "build": "https://ci.chromium.org/b/8923816613271660512",
+      "duration": "1 mins 8 secs",
+      "info": "Failure bot_update\n            \n              \n              Failure Uncaught Exception",
+      "result": "Infra Failure",
+      "time": "Sunday, 20-Jan-19 11:06:57 UTC"
+    },
+    {
       "build": "https://ci.chromium.org/b/8923817024178354032",
       "duration": "5 mins 13 secs",
       "info": "",
@@ -1392,15 +1399,8 @@
       "info": "",
       "result": "Success",
       "time": "Saturday, 19-Jan-19 14:02:35 UTC"
-    },
-    {
-      "build": "https://ci.chromium.org/b/8923897026586845408",
-      "duration": "8 mins 55 secs",
-      "info": "",
-      "result": "Success",
-      "time": "Saturday, 19-Jan-19 13:56:02 UTC"
     }
   ],
   "last_success": "Sunday, 20-Jan-19 11:04:07 UTC",
-  "recent_failures": 0
+  "recent_failures": 1
 }
