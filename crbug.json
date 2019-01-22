@@ -119,6 +119,62 @@
         },
         "blocking": [
           {
+            "issueId": 896013,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "4",
+            "name": "dpranke@chromium.org"
+          }
+        ],
+        "component_modified": "2018-11-15T22:35:38",
+        "components": [
+          "Blink>Infra",
+          "Internals>Network>SSL"
+        ],
+        "id": 905831,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-1",
+          "OS-Mac",
+          "Filed-Via-SoM"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/294852074",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "davidben@chromium.org"
+        },
+        "owner_modified": "2018-11-15T22:00:58",
+        "projectId": "chromium",
+        "published": "2018-11-15T21:58:29",
+        "starred": false,
+        "stars": 2,
+        "state": "open",
+        "status": "Assigned",
+        "status_modified": "2018-11-15T22:00:58",
+        "summary": "Mac10.10 bot has out-of-date Apache/OpenSSL which don't support TLS 1.0 and 1.1",
+        "title": "Mac10.10 bot has out-of-date Apache/OpenSSL which don't support TLS 1.0 and 1.1",
+        "updated": "2018-12-11T02:01:22"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1646712076",
+          "kind": "monorail#issuePerson",
+          "name": "sheriff-o-matic@appspot.gserviceaccount.com"
+        },
+        "blocking": [
+          {
             "issueId": 873045,
             "kind": "monorail#issueRef",
             "projectId": "chromium"
@@ -219,7 +275,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 2
+    "totalResults": 3
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
     "items": [
@@ -1505,6 +1561,56 @@
     "items": [
       {
         "author": {
+          "email_bouncing": true,
+          "htmlLink": "https://bugs.chromium.org/u/248170436",
+          "kind": "monorail#issuePerson",
+          "name": "wpt-autoroller@chops-service-accounts.iam.gserviceaccount.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/777339296",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "smcgruer@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2019-01-22T20:18:28",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 924261,
+        "kind": "monorail#issue",
+        "owner_modified": "2019-01-22T20:18:28",
+        "projectId": "chromium",
+        "published": "2019-01-22T20:18:28",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2019-01-22T20:18:28",
+        "summary": "[WPT] New failures introduced in external/wpt/infrastructure by import https://crrev.com/c/1426921",
+        "title": "[WPT] New failures introduced in external/wpt/infrastructure by import https://crrev.com/c/1426921",
+        "updated": "2019-01-22T20:18:28"
+      },
+      {
+        "author": {
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3098058249",
           "kind": "monorail#issuePerson",
@@ -2610,7 +2716,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 21
+    "totalResults": 22
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
@@ -3077,6 +3183,56 @@
     "items": [
       {
         "author": {
+          "email_bouncing": true,
+          "htmlLink": "https://bugs.chromium.org/u/248170436",
+          "kind": "monorail#issuePerson",
+          "name": "wpt-autoroller@chops-service-accounts.iam.gserviceaccount.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/777339296",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "smcgruer@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2019-01-22T20:18:28",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 924261,
+        "kind": "monorail#issue",
+        "owner_modified": "2019-01-22T20:18:28",
+        "projectId": "chromium",
+        "published": "2019-01-22T20:18:28",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2019-01-22T20:18:28",
+        "summary": "[WPT] New failures introduced in external/wpt/infrastructure by import https://crrev.com/c/1426921",
+        "title": "[WPT] New failures introduced in external/wpt/infrastructure by import https://crrev.com/c/1426921",
+        "updated": "2019-01-22T20:18:28"
+      },
+      {
+        "author": {
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/784079466",
           "kind": "monorail#issuePerson",
@@ -3207,6 +3363,6 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 3
+    "totalResults": 4
   }
 }
