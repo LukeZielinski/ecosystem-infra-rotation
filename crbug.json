@@ -63,7 +63,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1696146707",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "1",
+            "last_visit_days_ago": "2",
             "name": "slightlyoff@chromium.org"
           },
           {
@@ -109,117 +109,10 @@
         "summary": "Some intents missing from https://bit.ly/blinkintents",
         "title": "Some intents missing from https://bit.ly/blinkintents",
         "updated": "2018-12-12T21:29:03"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1646712076",
-          "kind": "monorail#issuePerson",
-          "name": "sheriff-o-matic@appspot.gserviceaccount.com"
-        },
-        "blocking": [
-          {
-            "issueId": 873045,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/422849203",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "guidou@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1141176754",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "366",
-            "name": "meade@chromium.org",
-            "vacation_message": "Not working on Chrome any more"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2449473077",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "waffles@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2621302795",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "ellyjones@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3036393033",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "dgozman@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3195081326",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "1",
-            "name": "foolip@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3439824626",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "shend@chromium.org"
-          }
-        ],
-        "component_modified": "2018-07-12T03:50:50",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 856601,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Linux",
-          "Pri-1",
-          "Type-Bug",
-          "Stability-Memory-MemorySanitizer",
-          "Filed-Via-SoM"
-        ],
-        "owner": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1710846683",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "3",
-          "name": "kyleju@chromium.org"
-        },
-        "owner_modified": "2018-11-15T22:55:57",
-        "projectId": "chromium",
-        "published": "2018-06-26T12:40:09",
-        "starred": false,
-        "stars": 4,
-        "state": "open",
-        "status": "Assigned",
-        "status_modified": "2018-07-12T03:55:04",
-        "summary": "Many *idlharness* WPT tests fail on chromium.webkit/WebKit Linux Trusty MSAN",
-        "title": "Many *idlharness* WPT tests fail on chromium.webkit/WebKit Linux Trusty MSAN",
-        "updated": "2018-12-14T01:13:00"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 2
+    "totalResults": 1
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
     "items": [
@@ -400,69 +293,6 @@
         "summary": "[Import Notifier] CC recent authors of the new failing tests in bugs",
         "title": "[Import Notifier] CC recent authors of the new failing tests in bugs",
         "updated": "2018-11-13T09:53:28"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3032437257",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "martiniss@chromium.org"
-        },
-        "blocking": [
-          {
-            "issueId": 831847,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2779573485",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "7",
-            "name": "dpranke@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/4049379827",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "maruel@chromium.org"
-          }
-        ],
-        "component_modified": "2018-05-07T15:57:44",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 839183,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Windows",
-          "Type-Bug",
-          "Pri-2"
-        ],
-        "owner": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3098058249",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "robertma@chromium.org"
-        },
-        "owner_modified": "2018-05-03T00:49:16",
-        "projectId": "chromium",
-        "published": "2018-05-03T00:47:51",
-        "starred": false,
-        "stars": 3,
-        "state": "open",
-        "status": "Assigned",
-        "status_modified": "2018-05-03T00:49:16",
-        "summary": "Shorten virtual test names",
-        "title": "Shorten virtual test names",
-        "updated": "2018-11-13T10:13:11"
       },
       {
         "author": {
@@ -1499,7 +1329,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 14
+    "totalResults": 13
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "items": [
@@ -1970,7 +1800,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1791796542",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
+          "last_visit_days_ago": "1",
           "name": "fmalita@chromium.org"
         },
         "blockedOn": [
@@ -2653,117 +2483,8 @@
     "totalResults": 0
   },
   "component:Blink>Infra>Ecosystem Pri=1 modified<today-30": {
-    "items": [
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1646712076",
-          "kind": "monorail#issuePerson",
-          "name": "sheriff-o-matic@appspot.gserviceaccount.com"
-        },
-        "blocking": [
-          {
-            "issueId": 873045,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/422849203",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "guidou@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1141176754",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "366",
-            "name": "meade@chromium.org",
-            "vacation_message": "Not working on Chrome any more"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2449473077",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "waffles@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2621302795",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "ellyjones@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3036393033",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "dgozman@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3195081326",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "1",
-            "name": "foolip@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3439824626",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "shend@chromium.org"
-          }
-        ],
-        "component_modified": "2018-07-12T03:50:50",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 856601,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Linux",
-          "Pri-1",
-          "Type-Bug",
-          "Stability-Memory-MemorySanitizer",
-          "Filed-Via-SoM"
-        ],
-        "owner": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1710846683",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "3",
-          "name": "kyleju@chromium.org"
-        },
-        "owner_modified": "2018-11-15T22:55:57",
-        "projectId": "chromium",
-        "published": "2018-06-26T12:40:09",
-        "starred": false,
-        "stars": 4,
-        "state": "open",
-        "status": "Assigned",
-        "status_modified": "2018-07-12T03:55:04",
-        "summary": "Many *idlharness* WPT tests fail on chromium.webkit/WebKit Linux Trusty MSAN",
-        "title": "Many *idlharness* WPT tests fail on chromium.webkit/WebKit Linux Trusty MSAN",
-        "updated": "2018-12-14T01:13:00"
-      }
-    ],
     "kind": "monorail#issueList",
-    "totalResults": 1
+    "totalResults": 0
   },
   "component:Blink>Infra>Ecosystem Pri=2 modified<today-60": {
     "items": [
