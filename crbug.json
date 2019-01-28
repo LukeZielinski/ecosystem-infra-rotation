@@ -629,6 +629,109 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/113376574",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "3",
+          "name": "jochen@chromium.org"
+        },
+        "blocking": [
+          {
+            "issueId": 892106,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 910057,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/469491433",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "118",
+            "name": "jparent@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1168406743",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "markdittmer@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1364632131",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "rbyers@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "dpranke@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "3",
+            "name": "foolip@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3561092501",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "220",
+            "name": "dknox@chromium.org"
+          }
+        ],
+        "component_modified": "2018-01-29T21:15:11",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 806680,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2",
+          "Postmortem-Followup"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1364632131",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "1",
+          "name": "rbyers@chromium.org"
+        },
+        "owner_modified": "2018-01-31T16:48:06",
+        "projectId": "chromium",
+        "published": "2018-01-29T07:47:27",
+        "starred": false,
+        "stars": 3,
+        "state": "open",
+        "status": "Assigned",
+        "status_modified": "2018-01-31T08:02:16",
+        "summary": "The Blink Intent Tracker should be owned by a central team",
+        "title": "The Blink Intent Tracker should be owned by a central team",
+        "updated": "2018-11-29T10:09:18"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3098058249",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "2",
@@ -1321,7 +1424,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 14
+    "totalResults": 15
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "items": [
