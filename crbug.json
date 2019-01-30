@@ -60,38 +60,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2299273954",
-          "kind": "monorail#issuePerson",
-          "name": "vomit.google.com@appspot.gserviceaccount.com"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "component_modified": "2018-10-20T15:37:47",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 897415,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Vomit",
-          "Pri-2"
-        ],
-        "owner_modified": "2018-10-20T12:00:03",
-        "projectId": "chromium",
-        "published": "2018-10-20T12:00:03",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Available",
-        "status_modified": "2018-10-20T15:37:47",
-        "summary": "Chromium: Vulnerability reported in apache-win32",
-        "title": "Chromium: Vulnerability reported in apache-win32",
-        "updated": "2018-10-20T15:37:47"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1459596405",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "14",
@@ -241,118 +209,6 @@
         "summary": "[Import Notifier] CC recent authors of the new failing tests in bugs",
         "title": "[Import Notifier] CC recent authors of the new failing tests in bugs",
         "updated": "2018-11-13T09:53:28"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1459596405",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "14",
-          "name": "raphael.kubo.da.costa@intel.com",
-          "vacation_message": "OoO until Feb 4th"
-        },
-        "blockedOn": [
-          {
-            "issueId": 891897,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2018-07-31T12:00:54",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 869360,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-2"
-        ],
-        "owner": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1710846683",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "1",
-          "name": "kyleju@chromium.org"
-        },
-        "owner_modified": "2018-11-28T19:11:59",
-        "projectId": "chromium",
-        "published": "2018-07-31T12:00:54",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Assigned",
-        "status_modified": "2018-08-06T17:56:26",
-        "summary": "wpt import: rebaseline-cl failed to collapse expectations",
-        "title": "wpt import: rebaseline-cl failed to collapse expectations",
-        "updated": "2018-11-28T19:11:59"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/351843483",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "avi@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/351843483",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "avi@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "qyearsley@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2018-04-16T17:40:24",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 833112,
-        "kind": "monorail#issue",
-        "labels": [
-          "Pri-2",
-          "Type-Feature",
-          "WPT"
-        ],
-        "owner_modified": "2018-04-16T17:40:24",
-        "projectId": "chromium",
-        "published": "2018-04-15T03:54:02",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Available",
-        "status_modified": "2018-04-16T17:40:24",
-        "summary": "WPT importer is not aggressive enough in deciding which platforms to mark as flaky/fail",
-        "title": "WPT importer is not aggressive enough in deciding which platforms to mark as flaky/fail",
-        "updated": "2018-09-25T12:32:23"
       },
       {
         "author": {
@@ -1317,7 +1173,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 15
+    "totalResults": 12
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "items": [
