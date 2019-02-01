@@ -2,7 +2,7 @@ The [automatic export process](https://chromium.googlesource.com/chromium/src/+/
 
 If the exporter isn't running, please [file an exporter bug](https://bugs.chromium.org/p/chromium/issues/entry?components=Blink%3EInfra%3EEcosystem&cc=robertma@chromium.org&summary=[WPT%20Export]).
 
-When an export run has failed with "The following commit did not apply cleanly", it's often because the CL builds on another which hasn't yet been exported to wpt, so if there are blocked export PRs, handle those first.
+When an export run has failed with "The following commit did not apply cleanly", it's often because the CL builds on another which hasn't yet been exported to wpt, so if there are blocked export PRs, handle those first. If a Chromium CL has been reverted but original CL hasn't been successfully exported to wpt yet, then both can be skipped by closing the original export PR and changing its description, see [example PR](https://github.com/web-platform-tests/wpt/pull/11357).
 
 Very rarely there can also be conflicts with *upstream* changes. In this case the exporter will not be able to even create a PR, and we must manually export it:
 ```bash
