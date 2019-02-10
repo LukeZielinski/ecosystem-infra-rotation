@@ -116,6 +116,38 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3361936865",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "32",
+          "name": "jyasskin@google.com"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2018-12-05T17:59:08",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 912192,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-2",
+          "Type-Feature"
+        ],
+        "owner_modified": "2018-12-05T17:57:55",
+        "projectId": "chromium",
+        "published": "2018-12-05T17:57:55",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Available",
+        "status_modified": "2018-12-12T21:28:07",
+        "summary": "\"Image diff\" is not a useful failure message.",
+        "title": "\"Image diff\" is not a useful failure message.",
+        "updated": "2018-12-12T21:28:07"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1151644111",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "1",
@@ -1740,7 +1772,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 20
+    "totalResults": 21
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "items": [
