@@ -1947,6 +1947,54 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1151644111",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "wangxianzhu@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "qyearsley@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          }
+        ],
+        "component_modified": "2019-02-19T20:31:08",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 933483,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner_modified": "2019-02-19T20:31:08",
+        "projectId": "chromium",
+        "published": "2019-02-19T20:31:08",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2019-02-19T20:31:08",
+        "summary": "layout test result link is broken",
+        "title": "layout test result link is broken",
+        "updated": "2019-02-19T20:31:08"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/567034358",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -3307,7 +3355,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 27
+    "totalResults": 28
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
