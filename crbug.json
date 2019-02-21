@@ -2248,6 +2248,48 @@
         },
         "canComment": true,
         "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2019-02-08T22:10:52",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 877031,
+        "kind": "monorail#issue",
+        "labels": [
+          "Test-Flaky",
+          "Type-Bug",
+          "Pri-3"
+        ],
+        "owner_modified": "2018-08-23T11:34:44",
+        "projectId": "chromium",
+        "published": "2018-08-23T11:34:44",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-08-23T11:34:44",
+        "summary": "Fix tests that are disabled in Chromium",
+        "title": "Fix tests that are disabled in Chromium",
+        "updated": "2019-02-08T22:10:52"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1471347113",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "7",
+          "name": "zcorpan@gmail.com"
+        },
+        "canComment": true,
+        "canEdit": true,
         "component_modified": "2019-02-11T19:33:00",
         "components": [
           "Blink>Infra>Ecosystem"
@@ -3346,7 +3388,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 28
+    "totalResults": 29
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
