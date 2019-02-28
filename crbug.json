@@ -1796,45 +1796,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/660699520",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "kyleju@google.com"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "component_modified": "2019-02-28T17:34:24",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 936893,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-2"
-        ],
-        "owner": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1710846683",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "kyleju@chromium.org"
-        },
-        "owner_modified": "2019-02-28T17:34:24",
-        "projectId": "chromium",
-        "published": "2019-02-28T17:34:24",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2019-02-28T17:34:24",
-        "summary": "run_webdriver_test exit code should be non zero when detect unexpected failures",
-        "title": "run_webdriver_test exit code should be non zero when detect unexpected failures",
-        "updated": "2019-02-28T17:34:24"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1710846683",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -1849,6 +1810,15 @@
         ],
         "canComment": true,
         "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1710846683",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "kyleju@chromium.org"
+          }
+        ],
         "component_modified": "2019-02-22T18:53:04",
         "components": [
           "Blink>Infra>Ecosystem"
@@ -1870,13 +1840,13 @@
         "projectId": "chromium",
         "published": "2019-02-22T18:53:04",
         "starred": false,
-        "stars": 1,
+        "stars": 2,
         "state": "open",
         "status": "Untriaged",
         "status_modified": "2019-02-22T18:53:04",
         "summary": "Set is_unexpected on run_webdriver_tests.py once expectation is created",
         "title": "Set is_unexpected on run_webdriver_tests.py once expectation is created",
-        "updated": "2019-02-22T18:59:49"
+        "updated": "2019-02-28T22:37:44"
       },
       {
         "author": {
@@ -3323,7 +3293,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 31
+    "totalResults": 30
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
@@ -4136,45 +4106,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/660699520",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "kyleju@google.com"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "component_modified": "2019-02-28T17:34:24",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 936893,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-2"
-        ],
-        "owner": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1710846683",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "kyleju@chromium.org"
-        },
-        "owner_modified": "2019-02-28T17:34:24",
-        "projectId": "chromium",
-        "published": "2019-02-28T17:34:24",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2019-02-28T17:34:24",
-        "summary": "run_webdriver_test exit code should be non zero when detect unexpected failures",
-        "title": "run_webdriver_test exit code should be non zero when detect unexpected failures",
-        "updated": "2019-02-28T17:34:24"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1710846683",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -4189,6 +4120,15 @@
         ],
         "canComment": true,
         "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1710846683",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "kyleju@chromium.org"
+          }
+        ],
         "component_modified": "2019-02-22T18:53:04",
         "components": [
           "Blink>Infra>Ecosystem"
@@ -4210,13 +4150,13 @@
         "projectId": "chromium",
         "published": "2019-02-22T18:53:04",
         "starred": false,
-        "stars": 1,
+        "stars": 2,
         "state": "open",
         "status": "Untriaged",
         "status_modified": "2019-02-22T18:53:04",
         "summary": "Set is_unexpected on run_webdriver_tests.py once expectation is created",
         "title": "Set is_unexpected on run_webdriver_tests.py once expectation is created",
-        "updated": "2019-02-22T18:59:49"
+        "updated": "2019-02-28T22:37:44"
       },
       {
         "author": {
@@ -4571,6 +4511,6 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 10
+    "totalResults": 9
   }
 }
