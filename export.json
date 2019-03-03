@@ -1,6 +1,13 @@
 {
   "builds": [
     {
+      "build": "https://ci.chromium.org/b/8919967078304045760",
+      "duration": "10 mins 1 secs",
+      "info": "Failure Export Chromium commits and in-flight CLs to WPT",
+      "result": "Failed",
+      "time": "Sunday, 03-Mar-19 23:02:09 UTC"
+    },
+    {
       "build": "https://ci.chromium.org/b/8919967786233524288",
       "duration": "9 mins 45 secs",
       "info": "Failure Export Chromium commits and in-flight CLs to WPT",
@@ -1392,13 +1399,6 @@
       "info": "Failure Export Chromium commits and in-flight CLs to WPT",
       "result": "Failed",
       "time": "Saturday, 02-Mar-19 09:29:00 UTC"
-    },
-    {
-      "build": "https://ci.chromium.org/b/8920109536688131952",
-      "duration": "9 mins 33 secs",
-      "info": "Failure Export Chromium commits and in-flight CLs to WPT",
-      "result": "Failed",
-      "time": "Saturday, 02-Mar-19 09:17:23 UTC"
     }
   ],
   "last_success": null,
