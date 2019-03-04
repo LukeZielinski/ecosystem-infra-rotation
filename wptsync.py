@@ -51,7 +51,7 @@ def main():
     import_result = sys.argv[1]
     export_result = sys.argv[2]
     browser = mechanicalsoup.StatefulBrowser()
-    scrape_buildbot(browser, BASE_URL + '/p/infra/builders/luci.infra.cron/wpt-importer?limit=50', import_result)
+    scrape_buildbot(browser, BASE_URL + '/p/infra/builders/luci.infra.cron/wpt-importer?limit=200', import_result)
     scrape_buildbot(browser, BASE_URL + '/p/infra/builders/luci.infra.cron/wpt-exporter?limit=200', export_result)
 
 
