@@ -316,6 +316,85 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/2757933724",
+          "kind": "monorail#issuePerson",
+          "name": "clusterfuzz@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/567034358",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "tkent@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1091219484",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "yangguo@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1350301754",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "jgruber@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1941368613",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "iclelland@chromium.org"
+          }
+        ],
+        "component_modified": "2018-12-14T02:23:56",
+        "components": [
+          "Blink>Infra"
+        ],
+        "fieldValues": [
+          {
+            "derived": false,
+            "fieldName": "NextAction",
+            "fieldValue": "2018-12-13"
+          }
+        ],
+        "id": 906425,
+        "kind": "monorail#issue",
+        "labels": [
+          "OS-Linux",
+          "Type-Bug",
+          "Pri-2",
+          "Stability-Memory-AddressSanitizer",
+          "Stability-Memory-LeakSanitizer",
+          "Needs-Feedback",
+          "Clusterfuzz",
+          "Unreproducible",
+          "ClusterFuzz-Wrong",
+          "Stability-AFL",
+          "Test-Predator-Auto-Components",
+          "Test-Predator-Auto-Owner",
+          "ClusterFuzz-Auto-CC"
+        ],
+        "owner_modified": "2018-12-14T02:23:56",
+        "projectId": "chromium",
+        "published": "2018-11-18T10:03:46",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Available",
+        "status_modified": "2018-12-14T02:23:56",
+        "summary": "Direct-leak in v8::internal::NativesExternalStringResource::DecodeForDeserialization",
+        "title": "Direct-leak in v8::internal::NativesExternalStringResource::DecodeForDeserialization",
+        "updated": "2018-12-14T02:23:56"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1151644111",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -464,7 +543,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/984414433",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "1",
+            "last_visit_days_ago": "0",
             "name": "nzolghadr@chromium.org"
           },
           {
@@ -652,6 +731,54 @@
         "summary": "[WPT] Refactoring wpt_expectations_updater.py using text expectations parser",
         "title": "[WPT] Refactoring wpt_expectations_updater.py using text expectations parser",
         "updated": "2018-11-28T19:11:36"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "2",
+          "name": "robertma@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2427777392",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "futhark@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2018-08-28T18:29:36",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 878467,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-2",
+          "Type-Feature"
+        ],
+        "owner_modified": "2018-08-28T18:29:36",
+        "projectId": "chromium",
+        "published": "2018-08-28T18:29:36",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Available",
+        "status_modified": "2018-08-28T18:29:36",
+        "summary": "[Import Notifier] CC recent authors of the new failing tests in bugs",
+        "title": "[Import Notifier] CC recent authors of the new failing tests in bugs",
+        "updated": "2018-11-13T09:53:28"
       },
       {
         "author": {
@@ -976,6 +1103,110 @@
         "summary": "[WPT] jsharness tests being mistakenly interpreted as reftests",
         "title": "[WPT] jsharness tests being mistakenly interpreted as reftests",
         "updated": "2018-11-16T13:51:20"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/113376574",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "3",
+          "name": "jochen@chromium.org",
+          "vacation_message": "OOO"
+        },
+        "blocking": [
+          {
+            "issueId": 892106,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 910057,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/469491433",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "153",
+            "name": "jparent@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1168406743",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "37",
+            "name": "markdittmer@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1364632131",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "5",
+            "name": "rbyers@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "1",
+            "name": "dpranke@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "2",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3561092501",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "255",
+            "name": "dknox@chromium.org"
+          }
+        ],
+        "component_modified": "2018-01-29T21:15:11",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 806680,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2",
+          "Postmortem-Followup"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1364632131",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "5",
+          "name": "rbyers@chromium.org"
+        },
+        "owner_modified": "2018-01-31T16:48:06",
+        "projectId": "chromium",
+        "published": "2018-01-29T07:47:27",
+        "starred": false,
+        "stars": 3,
+        "state": "open",
+        "status": "Assigned",
+        "status_modified": "2018-01-31T08:02:16",
+        "summary": "The Blink Intent Tracker should be owned by a central team",
+        "title": "The Blink Intent Tracker should be owned by a central team",
+        "updated": "2018-11-29T10:09:18"
       },
       {
         "author": {
@@ -1674,7 +1905,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 20
+    "totalResults": 23
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "items": [
@@ -2905,7 +3136,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/984414433",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "1",
+          "last_visit_days_ago": "0",
           "name": "nzolghadr@chromium.org"
         },
         "blocking": [
@@ -3364,7 +3595,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/984414433",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "1",
+            "last_visit_days_ago": "0",
             "name": "nzolghadr@chromium.org"
           },
           {
