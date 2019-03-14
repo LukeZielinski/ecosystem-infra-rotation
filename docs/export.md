@@ -1,4 +1,4 @@
-The [automatic export process](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_platform_tests.md#automatic-export-process) tries to continuously export changes from [LayoutTests/external/wpt](https://cs.chromium.org/chromium/src/third_party/WebKit/LayoutTests/external/wpt/) into [wpt](https://github.com/web-platform-tests/wpt).
+The [automatic export process](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_platform_tests.md#automatic-export-process) tries to continuously export changes from [blink/web_tests/external/wpt](https://cs.chromium.org/chromium/src/third_party/blink/web_tests/external/wpt/) into [wpt](https://github.com/web-platform-tests/wpt).
 
 If the exporter isn't running, please [file an exporter bug](https://bugs.chromium.org/p/chromium/issues/entry?components=Blink%3EInfra%3EEcosystem&cc=robertma@chromium.org&summary=[WPT%20Export]).
 
@@ -8,7 +8,7 @@ Very rarely there can also be conflicts with *upstream* changes. In this case th
 ```bash
 # show the list of affected files
 cd path/to/chromium/src
-git diff-tree --no-commit-id --name-only -r $COMMIT -- third_party/WebKit/LayoutTests/external/wpt | grep -vE '(-expected\.txt|/OWNERS)$' | xargs echo
+git diff-tree --no-commit-id --name-only -r $COMMIT -- third_party/blink/web_tests/external/wpt | grep -vE '(-expected\.txt|/OWNERS)$' | xargs echo
 # create the patch
 git format-patch -1 $COMMIT --stdout -- [list of affected files] > ~/wpt.patch
 # apply the patch to wpt
