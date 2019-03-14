@@ -6,15 +6,17 @@ When an export run has failed with "The following commit did not apply cleanly",
 
 Very rarely there can also be conflicts with *upstream* changes. In this case the exporter will not be able to even create a PR, and we must manually export it:
 ```bash
-# show the list of affected files
+# Show the list of affected files
 cd path/to/chromium/src
 git diff-tree --no-commit-id --name-only -r $COMMIT -- third_party/blink/web_tests/external/wpt | grep -vE '(-expected\.txt|/OWNERS)$' | xargs echo
-# create the patch
+# Create the patch
 git format-patch -1 $COMMIT --stdout -- [list of affected files] > ~/wpt.patch
-# apply the patch to wpt
+# Apply the patch to wpt
 cd path/to/web-platform-tests
 git am --3way -p6 ~/wpt.patch
-# if there are conflicts, resolve them before continuing
+# If there are conflicts, resolve them before continuing
 git am --continue
-# finally, create a GitHub PR, get it reviewed and merged
+# Create a new branch, commit the changes, and push to GitHub
 ```
+
+Finally, create a GitHub PR. Remember to include the full commit message from the CL in the PR you create, and add the **`chromium-export`** label to the PR.
