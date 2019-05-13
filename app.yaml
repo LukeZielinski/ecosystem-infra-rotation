@@ -1,0 +1,15 @@
+runtime: python37
+
+handlers:
+  - url: /
+    static_files: webapp/index.html
+    upload: webapp/index.html
+
+  - url: /bower_components
+    static_dir: webapp/bower_components
+
+  - url: /components
+    static_dir: webapp/components
+
+  - url: /docs
+    static_dir: docs
