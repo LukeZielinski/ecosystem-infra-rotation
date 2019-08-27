@@ -1,0 +1,17 @@
+on:
+  push:
+    branches:
+    - master
+name: master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - runs: ./build.sh
+    - uses: actions/gcloud/auth@master
+      env:
+        GCLOUD_AUTH: ${{ secrets.GCLOUD_AUTH }}
+    - uses: actions/gcloud/cli@master
+      with:
+        entrypoint: ./deploy.sh
