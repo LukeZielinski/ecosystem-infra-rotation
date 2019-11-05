@@ -5,9 +5,9 @@ on:
 name: master
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v1
     - run: ./build.sh
     - uses: actions/gcloud/auth@master
       env:
