@@ -8,10 +8,10 @@ require help from the author, so unflaking these can take some time. To avoid
 these PRs from piling up we aim to clear them from the queue and apply a fix in
 the background.
 
-Follow these steps (see [#23617](https://github.com/web-platform-tests/wpt/pull/23617) for a recent example:
+Follow these steps (see [#23617](https://github.com/web-platform-tests/wpt/pull/23617) for a recent example):
 - copy the "Unstable Results" from the TaskCluster log into the PR for easier
   viewing.
-- create a crbug to record the flake (point to the PR and assign to the CL author.
+- create a crbug to record the flake, which should point to the PR and be assigned to the CL author.
 - reference the new bug in the PR.
 - force merge the PR.
 
